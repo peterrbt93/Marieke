@@ -1,4 +1,12 @@
-.clear { 
-    clear: both; 
-    height: 100px; 
+@media (min-width: 982px) {
+    .clear { 
+        clear: both; 
+        height: 100px; 
+    }
+}
+@media only screen and (max-width: 981px) and (min-width: 292px)  {
+    .clear { 
+        clear: both; 
+        height: 250px; 
+    }
 }
