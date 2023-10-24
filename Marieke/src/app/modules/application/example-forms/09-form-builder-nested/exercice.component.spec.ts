@@ -3,7 +3,6 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { ExerciceComponent } from './exercice.component';
-import { PrettyJsonPipe } from './pretty-json.pipe';
 
 describe('ExampleFormsFormBuilderNestedComponent', () => {
   let component: ExerciceComponent;
@@ -16,8 +15,7 @@ describe('ExampleFormsFormBuilderNestedComponent', () => {
         FormsModule,
       ],
       declarations: [
-        ExerciceComponent,
-        PrettyJsonPipe
+        ExerciceComponent
       ]
     })
       .compileComponents();

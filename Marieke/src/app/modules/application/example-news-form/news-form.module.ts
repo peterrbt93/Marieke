@@ -6,12 +6,10 @@ import { ExerciceRoutingModule } from './news-form-routing.module';
 import { NewsFormComponent } from './news-form.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
-import { PrettyJsonPipe } from './pretty-json.pipe';
 
 @NgModule({
   declarations: [
-    NewsFormComponent,
-    PrettyJsonPipe
+    NewsFormComponent
   ],
   providers: [
   ],

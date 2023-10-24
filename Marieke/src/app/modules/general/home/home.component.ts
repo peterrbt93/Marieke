@@ -40,18 +40,6 @@ export class HomeComponent {
       link:'/news'
     },
     {
-      icon: "fa-solid fa-chart-simple",
-      name: "Boxoffice",
-      description: "Movies boxoffice",
-      link:'/boxoffice'
-    },
-    {
-      icon: "fa-brands fa-readme",
-      name: "CRUD",
-      description: "Create Read Update",
-      link:'/crud'
-    },
-    {
       icon: "fa-solid fa-blender-phone",
       name: "Services",
       description: "angular Services",
@@ -86,12 +74,6 @@ export class HomeComponent {
       name: "Prism",
       description: "Syntax highlighter",
       link:'/prism'
-    },
-    {
-      icon: "fa-regular fa-comment-dots",
-      name: "Prettyjson",
-      description: "JSON formatter",
-      link:'/prettyjson'
     },
     
   ]

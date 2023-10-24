@@ -13,15 +13,5 @@ export const environment = {
   /* urlNews: 'http://localhost:5004/trailers', */
   // url: 'https://api.ganatan.com/tutorials',
 
-  config: {
-    /* SELECT ONE OF THOSE CONFIGURATIONS */
 
-    /* LOCAL JSON (NO CRUD) */
-    api: false,
-    url: './assets/params/json/crud/',
-
-    /* LOCAL REST API CRUD WITH POSTGRESQL */
-    /* api: true,
-    url: 'http://localhost:5004/', */
-  },
 };

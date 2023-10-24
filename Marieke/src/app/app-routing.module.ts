@@ -12,11 +12,6 @@ const routes: Routes = [
       .then(mod => mod.TutorialModule)
   },
   {
-    path: 'crud',
-    loadChildren: () => import('./modules/application/example-crud/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
     path: 'news',
     loadChildren: () => import('./modules/application/example-news/news.module')
       .then(mod => mod.NewsModule)
@@ -27,16 +22,6 @@ const routes: Routes = [
       .then(mod => mod.NewsFormModule)
   },
   {
-    path: 'boxoffice',
-    loadChildren: () => import('./modules/application/example-boxoffice/boxoffice.module')
-      .then(mod => mod.BoxofficeModule)
-  },
-  {
-    path: 'boxoffice/:id',
-    loadChildren: () => import('./modules/application/example-boxoffice-form/boxoffice-form.module')
-      .then(mod => mod.BoxofficeFormModule)
-  },
-  {
     path: 'modal',
     loadChildren: () => import('./modules/application/example-modal/tutorial.module')
       .then(mod => mod.TutorialModule)
@@ -44,11 +29,6 @@ const routes: Routes = [
   {
     path: 'prism',
     loadChildren: () => import('./modules/application/example-prism/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'prettyjson',
-    loadChildren: () => import('./modules/application/example-prettyjson/tutorial.module')
       .then(mod => mod.TutorialModule)
   },
   {
@@ -88,20 +68,11 @@ const routes: Routes = [
       .then(mod => mod.ContactModule)
   },
   {
-    path: 'about',
-    loadChildren: () => import('./modules/general/about/about.module')
-      .then(mod => mod.AboutModule)
+    path: 'contact2',
+    loadChildren: () => import('./modules/general/contact2/contact2.module')
+      .then(mod => mod.contact2Module)
   },
-  {
-    path: 'login',
-    loadChildren: () => import('./modules/general/login/login.module')
-      .then(mod => mod.LoginModule)
-  },
-  {
-    path: 'signup',
-    loadChildren: () => import('./modules/general/signup/signup.module')
-      .then(mod => mod.SignupModule)
-  },
+
   { path: '**', component: NotFoundComponent }
 ];
 

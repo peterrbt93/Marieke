@@ -40,15 +40,6 @@
           <button type="submit" (click)="resetControls()" class="btn btn-primary mr-2">Reset Controls</button>
           <button type="submit" (click)="updateControls()" class="btn btn-primary mr-2">Update Controls</button>
         </form>
-      </div>
-      <div class="col-5">
-        <h5 class="card-title text-center text-primary">FormArray Result</h5>
-        <strong>Valid</strong> : {{ exampleForm.valid }}<br>
-        <strong>Form Value</strong>
-        <div [innerHTML]="exampleForm.value | prettyjson"></div>
-        <strong>Array Value</strong>
-        <div [innerHTML]="exampleForm.value.characters | prettyjson"></div>
-      </div>
     </div>
   </div>
 </div>

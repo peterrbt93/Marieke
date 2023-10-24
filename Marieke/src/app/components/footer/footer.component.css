@@ -1,6 +1,8 @@
 .nga-footer {
-  background-color: #212121;
-  color: white;
+  position:fixed;
+  bottom:0px;
+  background-color:rgb(131, 141, 233);
+  width:100%;
 }
 
 .nga-footer a {

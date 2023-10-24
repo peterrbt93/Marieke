@@ -26,12 +26,6 @@ export class TutorialComponent implements OnInit {
     this.features =
       [
         {
-          type: 'CRUD',
-          description: 'CRUD , API Rest, Components, Pages, Extends',
-          image: 'demo-responsive-images-list.png',
-          link: 'crud'
-        },
-        {
           type: 'Services',
           description: 'Use services to view a playlist and a youtube player',
           image: 'demo-services-playlist-youtube.png',

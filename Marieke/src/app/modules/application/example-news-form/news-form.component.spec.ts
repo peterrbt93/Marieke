@@ -2,7 +2,6 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { NewsFormComponent } from './news-form.component';
-import { PrettyJsonPipe } from './pretty-json.pipe';
 
 describe('NewsFormComponent', () => {
   let component: NewsFormComponent;
@@ -15,8 +14,7 @@ describe('NewsFormComponent', () => {
         FormsModule,
       ],
       declarations: [
-        NewsFormComponent,
-        PrettyJsonPipe
+        NewsFormComponent
       ]
     })
       .compileComponents();

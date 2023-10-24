@@ -1,4 +1,8 @@
 body {
   padding-top: 3.5rem;
+  padding-bottom: 7rem;
   font-family: "Roboto", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
 }

@@ -53,13 +53,6 @@
           <button type="submit" (click)="updateControls()" class="btn btn-info mr-2">Update Controls</button>
         </form>
       </div>
-      <div class="col-5">
-        <h5 class="card-title text-center text-info">Nested FormBuilder Results</h5>
-        <strong>Form Value</strong>
-        <div [innerHTML]="exampleForm.value | prettyjson"></div>
-        <strong>Nested Controls Value</strong>
-        <div [innerHTML]="exampleForm.value.boxoffice | prettyjson"></div>
-      </div>
     </div>
   </div>
 </div>
