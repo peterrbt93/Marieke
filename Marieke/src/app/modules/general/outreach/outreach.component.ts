@@ -10,8 +10,8 @@ export class outreachComponent {
 
   constructor(private seoService: SeoService) {
 
-    const content = 'angular-starter - Description - outreach Page';
-    const title = 'angular-starter - Title - outreach Page';
+    const content = 'Marieke - Outreach';
+    const title = 'Marieke - Outreach';
 
     this.seoService.setMetaDescription(content);
     this.seoService.setMetaTitle(title);

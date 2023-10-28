@@ -10,8 +10,8 @@ export class talksComponent {
 
   constructor(private seoService: SeoService) {
 
-    const content = 'angular-starter - Description - talks Page';
-    const title = 'angular-starter - Title - talks Page';
+    const content = 'Marieke - Talks';
+    const title = 'Marieke - Talks';
 
     this.seoService.setMetaDescription(content);
     this.seoService.setMetaTitle(title);
