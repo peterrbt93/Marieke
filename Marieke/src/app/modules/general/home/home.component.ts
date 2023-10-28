@@ -69,12 +69,6 @@ export class HomeComponent {
       description: "Modal with bootstrap",
       link:'/modal'
     },
-    {
-      icon: "fa-solid fa-spell-check",
-      name: "Prism",
-      description: "Syntax highlighter",
-      link:'/prism'
-    },
     
   ]
 
@@ -87,7 +81,7 @@ export class HomeComponent {
       'This application was developed with ' + this.angular + ' and ' + this.bootstrap +
       ' It applies Routing, Lazy loading and Progressive Web App (PWA)';
 
-    const title = 'angular-starter Title : Home Page';
+    const title = 'Marieke van Beest';
 
     this.seoService.setMetaDescription(content);
     this.seoService.setMetaTitle(title);

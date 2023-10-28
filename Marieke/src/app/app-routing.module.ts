@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './modules/general/home/home.component';
-import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, },
@@ -24,11 +23,6 @@ const routes: Routes = [
   {
     path: 'modal',
     loadChildren: () => import('./modules/application/example-modal/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'prism',
-    loadChildren: () => import('./modules/application/example-prism/tutorial.module')
       .then(mod => mod.TutorialModule)
   },
   {
@@ -61,19 +55,32 @@ const routes: Routes = [
       .then(mod => mod.TutorialModule)
   },
 
-
   {
-    path: 'contact',
-    loadChildren: () => import('./modules/general/contact/contact.module')
-      .then(mod => mod.ContactModule)
+    path: 'about',
+    loadChildren: () => import('./modules/general/aboutme/aboutme.module')
+      .then(mod => mod.AboutmeModule)
   },
   {
-    path: 'contact2',
-    loadChildren: () => import('./modules/general/contact2/contact2.module')
-      .then(mod => mod.contact2Module)
+    path: 'publications',
+    loadChildren: () => import('./modules/general/publications/publications.module')
+      .then(mod => mod.PublicationsModule)
   },
+  {
+    path: 'talks',
+    loadChildren: () => import('./modules/general/talks/talks.module')
+      .then(mod => mod.TalksModule)
+  },
+  {
+    path: 'teaching',
+    loadChildren: () => import('./modules/general/teaching/teaching.module')
+      .then(mod => mod.TeachingModule)
+  },
+  {
+    path: 'outreach',
+    loadChildren: () => import('./modules/general/outreach/outreach.module')
+      .then(mod => mod.OutreachModule)
+  }
 
-  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
