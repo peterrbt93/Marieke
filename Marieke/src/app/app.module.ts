@@ -13,6 +13,7 @@ import { FooterModule } from './components/footer/footer.module';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { InstagramDOMService } from './instagram-dom.service';
 
 
 @NgModule({
@@ -36,7 +37,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule
   ],
   exports: [MatToolbarModule],
-  providers: [],
+  providers: [InstagramDOMService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
