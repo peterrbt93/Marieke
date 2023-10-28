@@ -63,8 +63,8 @@
   color: black;
 }
 
-.nga-btn-github {
-  background-color: #333;
+.nga-btn-orcid {
+  background-color: #5c5b5b;
 }
 
 .nga-btn-gitlab {
@@ -75,7 +75,20 @@
   background-color: #0082ca;
 }
 
-.nga-btn-twitter {
-  background-color: #55acee;
+.nga-btn-inspire {
+  background-color: rgb(112,156,203);
 }
+
+.inspire {
+  width: 1.8em;
+  margin-top: 5px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%)
+}
+
+.orcid {
+  width: 1.8em;
+  margin-top: 5px;
+  filter: invert(77%) sepia(18%) saturate(1589%) hue-rotate(30deg) brightness(102%) contrast(80%);
+}
+
 

@@ -11,6 +11,10 @@ import { HomeComponent } from './modules/general/home/home.component';
 import { HeaderModule } from './components/header/header.module';
 import { FooterModule } from './components/footer/footer.module';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +32,10 @@ import { FooterModule } from './components/footer/footer.module';
     HttpClientModule,
     HeaderModule,
     FooterModule,
+    MatToolbarModule,
+    BrowserAnimationsModule
   ],
+  exports: [MatToolbarModule],
   providers: [],
   bootstrap: [AppComponent]
 })
