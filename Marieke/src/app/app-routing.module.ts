@@ -6,9 +6,9 @@ import { HomeComponent } from './modules/general/home/home.component';
 const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
-    path: 'landing-page',
-    loadChildren: () => import('./modules/application/example-landing-page/tutorial.module')
-      .then(mod => mod.TutorialModule)
+    path: 'outreach',
+    loadChildren: () => import('./modules/general/outreach/outreach.module')
+      .then(mod => mod.OutreachModule)
   },
   {
     path: 'news',
@@ -74,11 +74,6 @@ const routes: Routes = [
     path: 'teaching',
     loadChildren: () => import('./modules/general/teaching/teaching.module')
       .then(mod => mod.TeachingModule)
-  },
-  {
-    path: 'outreach',
-    loadChildren: () => import('./modules/general/outreach/outreach.module')
-      .then(mod => mod.OutreachModule)
   }
 
 ];

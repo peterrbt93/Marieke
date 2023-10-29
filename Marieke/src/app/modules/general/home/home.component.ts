@@ -16,12 +16,6 @@ export class HomeComponent {
 
   items = [
     {
-      icon: "fa-solid fa-file-lines",
-      name: "Landing Page",
-      description: "Css linear-gradient",
-      link:'/landing-page'
-    },
-    {
       icon: "fa-solid fa-address-card",
       name: "Images Cards",
       description: "Cascade Cards",
