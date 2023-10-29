@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { FooterRoutingModule } from './footer-routing.module';
 import { FooterComponent } from './footer.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -15,8 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     CommonModule,
     FooterRoutingModule,
-    MatToolbarModule,
-    BrowserAnimationsModule
+    MatToolbarModule
   ],
   exports: [
     FooterComponent
