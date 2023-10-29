@@ -2,33 +2,21 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { outreachComponent } from './outreach.component';
+import { instagramComponent } from './instagram/instagram.component';
 
 const routes: Routes = [
   {
     path: '', component: outreachComponent, children: [
-      {
-        path: '',
-        loadChildren: () => import(`./instagram/instagram.module`)
-          .then(mod => mod.InstagramModule)
-      },
-      {
-        path: 'instagram',
-        loadChildren: () => import(`./instagram/instagram.module`)
-          .then(mod => mod.InstagramModule)
-      },
+      //{ path: '', component: instagramComponent },
+      { path: 'instagram', component: instagramComponent, },
+      { path: '', component: instagramComponent, },
       {
         path: 'mapping',
-        loadChildren: () => import(`./mapping/mapping.module`)
+        loadChildren: () => import(`../outreach/mapping/mapping.module`)
           .then(mod => mod.MappingModule)
       },
-      {
-        path: '**',
-        loadChildren: () => import(`./instagram/instagram.module`)
-          .then(mod => mod.InstagramModule)
-      },
-
     ]
-  },
+  }
 ];
 
 @NgModule({

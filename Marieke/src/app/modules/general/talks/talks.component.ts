@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 import { SeoService } from '../../../services/seo/seo.service';
+import { fade } from '../../../animations';
 
 @Component({
   selector: 'app-talks',
   templateUrl: './talks.component.html',
-  styleUrls: ['./talks.component.css']
+  styleUrls: ['./talks.component.css'],
+  animations: [
+    fade
+  ]
 })
 export class talksComponent {
 

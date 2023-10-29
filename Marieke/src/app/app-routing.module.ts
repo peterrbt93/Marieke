@@ -2,14 +2,18 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './modules/general/home/home.component';
+import { aboutmeComponent } from './modules/general/aboutme/aboutme.component';
+import { outreachComponent } from './modules/general/outreach/outreach.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent, },
-  {
-    path: 'outreach',
-    loadChildren: () => import('./modules/general/outreach/outreach.module')
-      .then(mod => mod.OutreachModule)
-  },
+  { path: 'about', component: aboutmeComponent, },
+  { path: 'outreach', 
+        // component: outreachComponent, 
+        loadChildren: () => import('./modules/general/outreach/outreach.module')
+        .then(mod => mod.OutreachModule) 
+      },
   {
     path: 'news',
     loadChildren: () => import('./modules/application/example-news/news.module')
@@ -53,12 +57,6 @@ const routes: Routes = [
     path: 'services',
     loadChildren: () => import('./modules/application/example-services/tutorial.module')
       .then(mod => mod.TutorialModule)
-  },
-
-  {
-    path: 'about',
-    loadChildren: () => import('./modules/general/aboutme/aboutme.module')
-      .then(mod => mod.AboutmeModule)
   },
   {
     path: 'publications',

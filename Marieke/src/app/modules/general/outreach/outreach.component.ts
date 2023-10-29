@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 import { SeoService } from '../../../services/seo/seo.service';
+import { fade } from '../../../animations';
+
 
 @Component({
   selector: 'app-outreach',
   templateUrl: './outreach.component.html',
-  styleUrls: ['./outreach.component.css']
+  styleUrls: ['./outreach.component.css'],
+  animations: [
+    fade
+  ]
 })
 export class outreachComponent {
 

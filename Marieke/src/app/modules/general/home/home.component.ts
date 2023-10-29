@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 import { SeoService } from '../../../services/seo/seo.service';
+import { fade } from '../../../animations';
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  animations: [
+      fade
+    ]
 })
 export class HomeComponent {
 

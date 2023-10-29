@@ -14,12 +14,17 @@ import { FooterModule } from './components/footer/footer.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { InstagramDOMService } from './instagram-dom.service';
+import { RouterModule } from '@angular/router';
+import { OutreachModule } from './modules/general/outreach/outreach.module';
+import { TalksModule } from './modules/general/talks/talks.module';
+import { TeachingModule } from './modules/general/teaching/teaching.module';
+import { PublicationsModule } from './modules/general/publications/publications.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +39,12 @@ import { InstagramDOMService } from './instagram-dom.service';
     HeaderModule,
     FooterModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule,
+    OutreachModule,
+    TalksModule,
+    TeachingModule,
+    PublicationsModule
   ],
   exports: [MatToolbarModule],
   providers: [InstagramDOMService],
