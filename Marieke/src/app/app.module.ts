@@ -19,6 +19,7 @@ import { OutreachModule } from './modules/general/outreach/outreach.module';
 import { TalksModule } from './modules/general/talks/talks.module';
 import { TeachingModule } from './modules/general/teaching/teaching.module';
 import { PublicationsModule } from './modules/general/publications/publications.module';
+import { InstagramModule } from './modules/general/outreach/instagram/instagram.module';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { PublicationsModule } from './modules/general/publications/publications.
     OutreachModule,
     TalksModule,
     TeachingModule,
-    PublicationsModule
+    PublicationsModule,
+    InstagramModule
   ],
   exports: [MatToolbarModule],
   providers: [InstagramDOMService],
