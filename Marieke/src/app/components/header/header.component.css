@@ -38,33 +38,33 @@
 }
 
 .nga-nav-link {
-  color: rgb(235, 94, 75);
-  border-top: 1px solid rgb(235, 94, 75);
-  border-bottom: 1px solid rgb(235, 94, 75);
+  color: rgb(238, 238, 238);
+  border-top: 1px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
   font-weight: 500;
 }
 
 .nga-nav-link:hover {
-  color: rgb(0, 255, 242);
-  border-top: 1px solid rgb(0, 255, 242);
-  border-bottom: 1px solid rgb(0, 255, 242);
+  color: rgb(138, 138, 138);
+  border-top: 1px solid rgb(138, 138, 138);
+  border-bottom: 1px solid rgb(138, 138, 138);
 }
 
 
 .nga-navbar {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: rgb(40,45,78);
+  background-color: rgb(37, 37, 37);
 }
 
 .nga-logo {
   font-weight: 500;
   font-family: 'FontAwesome';
-  color: rgba(211, 33, 33, 0.75);
+  color: rgb(238, 238, 238);
 }
 
 .nga-logo:hover {
-  color: rgba(0, 255, 242, 0.479);
+  color: rgb(138, 138, 138);
 }
 
 .nga-btn-navbar {

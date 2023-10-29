@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698552007207,
+  "timestamp": 1698620323510,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -37,12 +37,12 @@
         "/95.6122fa04f2797d74.js",
         "/favicon.ico",
         "/index.html",
-        "/main.9d2a1e6eb3f42937.js",
+        "/main.d9de550e313447e7.js",
         "/manifest.webmanifest",
         "/polyfills.21265a3594082680.js",
         "/runtime.8283ec9bf8b1c209.js",
         "/scripts.3e75d50128144df1.js",
-        "/styles.d202ffe15571e2cd.css"
+        "/styles.89886f8e836e082b.css"
       ],
       "patterns": []
     },
@@ -392,6 +392,8 @@
         "/assets/params/images/icons/play2.png",
         "/assets/params/images/logo/ganatan-logo.png",
         "/assets/params/images/logo/ganatan-logo@2x.png",
+        "/assets/params/images/logo/simonsCenter.png",
+        "/assets/params/images/logo/stonyBrook.png",
         "/assets/params/images/studio/2560px-Valve_old_logo.svg.png",
         "/assets/params/images/studio/Bioware-logo.png",
         "/assets/params/images/studio/Electronic_Arts-Logo.wine.png",
@@ -779,6 +781,8 @@
     "/assets/params/images/icons/play2.png": "76147d37775922fe676d41e1eb1242d7946deff9",
     "/assets/params/images/logo/ganatan-logo.png": "2cd77419507b67ed8fef831f64121bceda0ae9f1",
     "/assets/params/images/logo/ganatan-logo@2x.png": "29e4bb0048c3a0c5e35660d7f4ef8a78bcc94170",
+    "/assets/params/images/logo/simonsCenter.png": "4038a2d2bd35e36041fc055d9d89f133cbc3f01a",
+    "/assets/params/images/logo/stonyBrook.png": "6460b1e58bece14c856c8aaa00b46bad13bebe7c",
     "/assets/params/images/studio/2560px-Valve_old_logo.svg.png": "b29de111c878e9c18c165ff2aab4b365d9be0dd3",
     "/assets/params/images/studio/Bioware-logo.png": "6f8f534fe533c5ffe97f89483980767a7fecd6e9",
     "/assets/params/images/studio/Electronic_Arts-Logo.wine.png": "2b2d567db3ea6b00fc0b6707148053a357866345",
@@ -799,13 +803,13 @@
     "/fa-v4compatibility.65fc685fbd13fc85.woff2": "35794892fa2b4aede41ec686df49a1283ab2b2b3",
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
-    "/index.html": "3613e6eb605c1a8ab6021aa430cc93d983f29991",
-    "/main.9d2a1e6eb3f42937.js": "2939652a65e759f77423a284713bcc68fb870227",
+    "/index.html": "15650273ea33a13509ffa105a7a78158099c3a63",
+    "/main.d9de550e313447e7.js": "3600d76202b59e59c9c109153e307b351fb4ec69",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.21265a3594082680.js": "97fc1f32e888b327cb989e660884551f49149666",
     "/runtime.8283ec9bf8b1c209.js": "9b05863a1b91d8fabd12ab01b3c8dfedfb0c30ea",
     "/scripts.3e75d50128144df1.js": "d72da9ade03467f91c011aebc90808b70f6e9dbb",
-    "/styles.d202ffe15571e2cd.css": "121cb6363c355f630cdd2cf567bf90c44e069b33"
+    "/styles.89886f8e836e082b.css": "3a65c969506d8245b5c340166dfd4d962cf466cf"
   },
   "navigationUrls": [
     {
