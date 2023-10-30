@@ -52,26 +52,15 @@
 .nga-btn-social i {
   display: inline-block;
   width: inherit;
-  color: white;
+  color: rgb(229,226,219);
   text-align: center
 }
 
-/* .nga-btn-social:hover {
-  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
 
-.nga-btn-social i:hover {
-  color: black;
-} */
-
-.nga-btn-orcid {
-  background-color: #5c5b5b;
-}
 
 /* Linkedin */
 .nga-btn-linkedin {
-  background-color: #ebebeb;
+  background-color: rgb(229,226,219);
 }
 
 .nga-btn-social i {
@@ -83,11 +72,15 @@
 }
 
 .nga-btn-social i:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(229,226,219);
 }
 
-
+/* Inspire */
 .nga-btn-inspire {
+  background-color: rgb(229,226,219);
+}
+
+.nga-btn-inspire:hover {
   background-color: rgb(112,156,203);
 }
 
@@ -95,22 +88,31 @@
   width: 1.5em;
   margin-top: 5px;
   margin-left: 8px;
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);
 }
 
 .inspire:hover {
-  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+/* Orcid */
+.nga-btn-orcid {
+  background-color: rgb(229,226,219);
+}
+
+.nga-btn-orcid:hover {
+  background-color: #5c5b5b;
 }
 
 .orcid {
   width: 1.5em;
   margin-top: 5px;
   margin-left: 8px;
-  filter: invert(77%) sepia(18%) saturate(1589%) hue-rotate(30deg) brightness(102%) contrast(80%);
+  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);
 }
 
 .orcid:hover {
-  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);
+  filter: invert(77%) sepia(18%) saturate(1589%) hue-rotate(30deg) brightness(102%) contrast(80%);
 }
 
 .simons {
