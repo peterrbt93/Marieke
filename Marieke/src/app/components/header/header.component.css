@@ -39,8 +39,8 @@
 
 .nga-nav-link {
   color: rgb(37, 37, 37);
-  border-top: 1px solid rgb(229,226,219);
-  border-bottom: 1px solid rgb(229,226,219);
+  border-top: 1px solid rgb(245,245,245);
+  border-bottom: 1px solid rgb(245,245,245);
   font-weight: 500;
 }
 
@@ -54,13 +54,15 @@
 .nga-navbar {
   /* -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12); */
   /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12); */
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-logo {
-  font-weight: 500;
-  font-family: 'FontAwesome';
+  font-weight: 800;
+  font-family: 'DatalegreyaThin';
   color: rgb(37, 37, 37);
+  font-style: normal; 
+  font-size: xx-large;
 }
 
 .nga-logo:hover {
@@ -129,7 +131,7 @@
 .nga-btn-social i {
   display: inline-block;
   width: inherit;
-  color: rgb(229,226,219);
+  color: rgb(245,245,245);
   text-align: center
 }
 
@@ -144,7 +146,7 @@
 
 /* Linkedin */
 .nga-btn-linkedin {
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-btn-social i {
@@ -156,12 +158,12 @@
 }
 
 .nga-btn-social i:hover {
-  color: rgb(229,226,219);
+  color: rgb(245,245,245);
 }
 
 /* Inspire */
 .nga-btn-inspire {
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-btn-inspire:hover {
@@ -181,7 +183,7 @@
 
 /* Orcid */
 .nga-btn-orcid {
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-btn-orcid:hover {

@@ -52,7 +52,7 @@
 .nga-btn-social i {
   display: inline-block;
   width: inherit;
-  color: rgb(229,226,219);
+  color: rgb(245,245,245);
   text-align: center
 }
 
@@ -60,7 +60,7 @@
 
 /* Linkedin */
 .nga-btn-linkedin {
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-btn-social i {
@@ -72,12 +72,12 @@
 }
 
 .nga-btn-social i:hover {
-  color: rgb(229,226,219);
+  color: rgb(245,245,245);
 }
 
 /* Inspire */
 .nga-btn-inspire {
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-btn-inspire:hover {
@@ -97,7 +97,7 @@
 
 /* Orcid */
 .nga-btn-orcid {
-  background-color: rgb(229,226,219);
+  background-color: rgb(245,245,245);
 }
 
 .nga-btn-orcid:hover {
