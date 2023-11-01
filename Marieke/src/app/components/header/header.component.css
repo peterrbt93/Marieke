@@ -3,25 +3,43 @@
 }
 @media (max-width: 991px) {
   .nga-btn-linkedin {
-    margin-left: 40vw !important;
+    margin-left: 34vw !important;
   }
 }
 
 @media (max-width: 710px) {
   .nga-btn-linkedin {
-    margin-left: 36vw !important;
+    margin-left: 30vw !important;
+  }
+
+  .nga-logo {
+    font-size: 55px !important;
   }
 }
 
 @media (max-width: 600px) {
   .nga-btn-linkedin {
-    margin-left: 33vw !important;
+    margin-left: 30vw !important;
+  }
+
+  .nga-logo {
+    font-size: 50px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .nga-btn-linkedin {
+    margin-left: 28vw !important;
+  }
+
+  .nga-logo {
+    font-size: 45px !important;
   }
 }
 
 @media (max-width: 500px) {
   .nga-btn-linkedin {
-    margin-left: 31vw !important;
+    margin-left: 28vw !important;
   }
 }
 
@@ -39,9 +57,10 @@
 
 .nga-nav-link {
   color: rgb(37, 37, 37);
-  border-top: 1px solid rgb(245,245,245);
-  border-bottom: 1px solid rgb(245,245,245);
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
   font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nga-nav-link:hover {
@@ -50,19 +69,26 @@
   transition: border 0.8s ease-in-out;
 }
 
+.titleMarieke {
+  height: 80px;
+}
+
+.nav-item {
+  padding-inline: 1.6vw;
+}
 
 .nga-navbar {
   /* -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12); */
   /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12); */
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-logo {
-  font-weight: 800;
+  font-weight: 500;
   font-family: 'DatalegreyaThin';
   color: rgb(37, 37, 37);
   font-style: normal; 
-  font-size: xx-large;
+  font-size: 60px;
 }
 
 .nga-logo:hover {
@@ -131,7 +157,7 @@
 .nga-btn-social i {
   display: inline-block;
   width: inherit;
-  color: rgb(245,245,245);
+  color: rgb(255, 255, 255);
   text-align: center
 }
 
@@ -146,7 +172,7 @@
 
 /* Linkedin */
 .nga-btn-linkedin {
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-btn-social i {
@@ -158,12 +184,12 @@
 }
 
 .nga-btn-social i:hover {
-  color: rgb(245,245,245);
+  color: rgb(255, 255, 255);
 }
 
 /* Inspire */
 .nga-btn-inspire {
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-btn-inspire:hover {
@@ -183,7 +209,7 @@
 
 /* Orcid */
 .nga-btn-orcid {
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-btn-orcid:hover {
@@ -207,31 +233,54 @@
   }
 
   .navbar-collapse {
-    transform: translate(90px);
+    transform: translate(100px);
   }
 }
 
 @media (min-width: 1600px) {
   .links {
-    transform: translate(20vw);
+    transform: translate(12vw);
   }
 } 
 
-@media only screen and (max-width: 1600px) and (min-width: 1350px) {
+@media only screen and (max-width: 1800px) and (min-width: 1600px) {
   .links {
-    transform: translate(15vw);
+    transform: translate(9vw);
   }
 }
 
-@media only screen and (max-width: 1350px) and (min-width: 1150px) {
+@media only screen and (max-width: 1600px) and (min-width: 1380px) {
   .links {
-    transform: translate(10vw);
+    transform: translate(7vw);
   }
+}
+
+@media only screen and (max-width: 1380px) and (min-width: 1150px) {
+  .links {
+    transform: translate(3vw);
+  }
+
+  .nav-item {
+    padding-inline: 1vw;
+  }
+
 }
 
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
   .links {
-    transform: translate(5vw);
+    transform: translate(1vw);
+  }
+  .nav-item {
+    padding-inline: 0.5vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 991px) {
+  .links {
+    transform: translate(1vw);
+  }
+  .nav-item {
+    padding-inline: 0vw;
   }
 }
 

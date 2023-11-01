@@ -52,7 +52,7 @@
 .nga-btn-social i {
   display: inline-block;
   width: inherit;
-  color: rgb(245,245,245);
+  color: rgb(255, 255, 255);
   text-align: center
 }
 
@@ -60,7 +60,7 @@
 
 /* Linkedin */
 .nga-btn-linkedin {
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-btn-social i {
@@ -72,12 +72,12 @@
 }
 
 .nga-btn-social i:hover {
-  color: rgb(245,245,245);
+  color: rgb(255, 255, 255);
 }
 
 /* Inspire */
 .nga-btn-inspire {
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-btn-inspire:hover {
@@ -97,7 +97,7 @@
 
 /* Orcid */
 .nga-btn-orcid {
-  background-color: rgb(245,245,245);
+  background-color: rgb(255, 255, 255);
 }
 
 .nga-btn-orcid:hover {
@@ -124,3 +124,54 @@
   margin-left: 25%;
   margin-right: 10%;
 }
+
+
+
+
+@media (min-width: 1600px) {
+  .stonyBrook {
+    width: 7vw;
+  }
+  .simons {
+    width: 14vw;
+  }
+} 
+
+@media only screen and (max-width: 1600px) and (min-width: 1350px) {
+  .stonyBrook {
+    width: 7vw;
+  }
+  .simons {
+    width: 14vw;
+  }
+}
+
+@media only screen and (max-width: 1350px) and (min-width: 1150px) {
+  .stonyBrook {
+    width: 7vw;
+  }
+  .simons {
+    width: 14vw;
+  }
+
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 1000px) {
+  .stonyBrook {
+    width: 7vw;
+  }
+  .simons {
+    width: 14vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 991px) {
+  .stonyBrook {
+    width: 7vw;
+  }
+  .simons {
+    width: 14vw;
+  }
+}
+
+
