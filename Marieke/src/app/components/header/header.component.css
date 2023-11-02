@@ -1,3 +1,9 @@
+@font-face {
+  font-family: titleFont;
+  src: url(../../../assets/params/css/Queensila.ttf);
+}
+
+
 .container {
   max-width: 1600px;
 }
@@ -75,7 +81,7 @@
 
 @media (max-width: 400px) {
   .nga-btn-linkedin {
-    margin-left: 22vw !important;
+    margin-left: 21vw !important;
   }
 
   .nga-logo {
@@ -92,7 +98,8 @@
   border-top: 1px solid rgb(255, 255, 255);
   border-bottom: 1px solid rgb(255, 255, 255);
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-family: titleFont;
 }
 
 .nga-nav-link:hover {

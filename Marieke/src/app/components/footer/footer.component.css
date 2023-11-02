@@ -126,9 +126,7 @@
 }
 
 
-.footlinks {
-  padding-right: 6%;
-}
+
 
 @media (min-width: 1600px) {
   .stonyBrook {
@@ -146,6 +144,10 @@
   footer {
     flex-direction: row;
   }
+
+  .footlinks {
+    padding-right: 6%;
+  }
 }
 
 @media only screen and (max-width: 680px) and (min-width: 100px) {
@@ -155,13 +157,18 @@
   .stonyBrook {
     margin-left: 0%;
     margin-bottom: 35px;
-    width: 100px;
+    width: 80px;
   }
   .simons {
     margin-bottom: 35px;
-    width: 200px;
+    width: 140px;
   }
 
+  .footlinks {
+    padding-right: 0%;
+  }
 }
+
+
 
 

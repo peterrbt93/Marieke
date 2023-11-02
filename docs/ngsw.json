@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698891756551,
+  "timestamp": 1698892741851,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -37,7 +37,7 @@
         "/95.6122fa04f2797d74.js",
         "/favicon.ico",
         "/index.html",
-        "/main.b120a3f81fcf53a5.js",
+        "/main.41b40b26f8c11b32.js",
         "/manifest.webmanifest",
         "/polyfills.21265a3594082680.js",
         "/runtime.8283ec9bf8b1c209.js",
@@ -54,6 +54,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "/Queensila.1b3fb90c4c19fc9d.ttf",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -66,6 +67,7 @@
         "/assets/icons/inspire.svg",
         "/assets/icons/orcid-square.svg",
         "/assets/icons/orcid.svg",
+        "/assets/params/css/Queensila.ttf",
         "/assets/params/css/fonts.googleapis.css",
         "/assets/params/css/fonts.googleapis.min.css",
         "/assets/params/images/about/einstein-theorie-pratique.png",
@@ -443,6 +445,7 @@
     "/88.1b3d4813abacc3aa.js": "bac3719d314f370bca67bdd03602f6bc295857af",
     "/883.6f883847a6ad4384.js": "4dd806e00bab0d33201627e19f31c0fb5c4b647b",
     "/95.6122fa04f2797d74.js": "562e3a404903c222ed66804e7a862558a456ea6f",
+    "/Queensila.1b3fb90c4c19fc9d.ttf": "970f05b586bb7aed625025d56078c662777d735d",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -455,6 +458,7 @@
     "/assets/icons/inspire.svg": "1801347047318ffbca3523a64b656f34005be2cf",
     "/assets/icons/orcid-square.svg": "9d70df955a79d21beb4cf0a8d5d2413f2bd29bd6",
     "/assets/icons/orcid.svg": "fb30502626c441b35a9b426c925e18ce2ae4065e",
+    "/assets/params/css/Queensila.ttf": "970f05b586bb7aed625025d56078c662777d735d",
     "/assets/params/css/fonts.googleapis.css": "fe9652f536a2e6b6ae94f583552c766367d9fd22",
     "/assets/params/css/fonts.googleapis.min.css": "5581ad4af9bcd2472867f400f4629cdfb8865851",
     "/assets/params/images/about/einstein-theorie-pratique.png": "57fc36c1fc037f02ec299be3869b05804267d585",
@@ -803,8 +807,8 @@
     "/fa-v4compatibility.65fc685fbd13fc85.woff2": "35794892fa2b4aede41ec686df49a1283ab2b2b3",
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
-    "/index.html": "f6fed108fa96372b4dc89b1480f25b07d1782bea",
-    "/main.b120a3f81fcf53a5.js": "866db42dc3c84fae6c2403a6b058db1adf9faf51",
+    "/index.html": "3ae7f4fc742af0e5845f822f68d687f105d220e9",
+    "/main.41b40b26f8c11b32.js": "2f7a2a58aed07ede8a237b8cc67281a9fbed12af",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.21265a3594082680.js": "97fc1f32e888b327cb989e660884551f49149666",
     "/runtime.8283ec9bf8b1c209.js": "9b05863a1b91d8fabd12ab01b3c8dfedfb0c30ea",
