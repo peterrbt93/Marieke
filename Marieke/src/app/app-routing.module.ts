@@ -25,40 +25,6 @@ const routes: Routes = [
       .then(mod => mod.NewsFormModule)
   },
   {
-    path: 'modal',
-    loadChildren: () => import('./modules/application/example-modal/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'cards',
-    loadChildren: () => import('./modules/application/example-cards/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'httpclient',
-    loadChildren: () => import('./modules/application/example-httpclient/items.module')
-      .then(mod => mod.ItemsModule)
-  },  {
-    path: 'bootstrap',
-    loadChildren: () => import('./modules/application/example-bootstrap/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'components',
-    loadChildren: () => import('./modules/application/example-components/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'forms',
-    loadChildren: () => import('./modules/application/example-forms/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
-    path: 'services',
-    loadChildren: () => import('./modules/application/example-services/tutorial.module')
-      .then(mod => mod.TutorialModule)
-  },
-  {
     path: 'publications',
     loadChildren: () => import('./modules/general/publications/publications.module')
       .then(mod => mod.PublicationsModule)

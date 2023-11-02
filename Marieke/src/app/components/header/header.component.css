@@ -1,6 +1,6 @@
 @font-face {
   font-family: titleFont;
-  src: url(../../../assets/params/css/Queensila.ttf);
+  src: url(../../../assets/params/css/Mediga.otf);
 }
 
 
@@ -98,20 +98,37 @@
   border-top: 1px solid rgb(255, 255, 255);
   border-bottom: 1px solid rgb(255, 255, 255);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 23px;
   font-family: titleFont;
 }
 
-.nga-nav-link:hover {
+/* Sorte streger */
+/* .nga-nav-link:hover {
   border-top: 1px solid rgb(37, 37, 37);
   border-bottom: 1px solid rgb(37, 37, 37);
   transition: border 0.8s ease-in-out;
+} */
+
+.nga-nav-link:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.8s ease, background-color 0.8s ease;
+}
+.nga-nav-link:hover:after {
+  width: 100%;
+  background: rgb(0, 0, 0);
 }
 
 
 
 .nav-item {
-  padding-inline: 1.6vw;
+  margin-inline: 1vw;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .nga-navbar {
@@ -280,20 +297,20 @@
 
 @media (min-width: 1600px) {
   .links {
-    transform: translate(12vw);
+    transform: translate(8vw);
   }
   
 } 
 
 @media only screen and (max-width: 1800px) and (min-width: 1600px) {
   .links {
-    transform: translate(9vw);
+    transform: translate(4vw);
   }
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1380px) {
   .links {
-    transform: translate(7vw);
+    transform: translate(3vw);
   }
 }
 
@@ -326,4 +343,11 @@
   }
 }
 
+/* Icon view hide if no space*/
+
+@media only screen and (max-width: 1450px) and (min-width: 991px) {
+  .links {
+    visibility: hidden;
+  }
+}
 
