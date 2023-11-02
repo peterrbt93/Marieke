@@ -116,17 +116,19 @@
 }
 
 .simons {
-  width: 14vw;
+  width: 200px;
 }
 
 .stonyBrook {
-  width: 7vw;
+  width: 100px;
   margin-left: 25%;
   margin-right: 10%;
 }
 
 
-
+.footlinks {
+  padding-right: 6%;
+}
 
 @media (min-width: 1600px) {
   .stonyBrook {
@@ -137,41 +139,27 @@
   }
 } 
 
-@media only screen and (max-width: 1600px) and (min-width: 1350px) {
-  .stonyBrook {
-    width: 7vw;
-  }
-  .simons {
-    width: 14vw;
+
+
+
+@media only screen and (max-width: 2400px) and (min-width: 680px) {
+  footer {
+    flex-direction: row;
   }
 }
 
-@media only screen and (max-width: 1350px) and (min-width: 1150px) {
+@media only screen and (max-width: 680px) and (min-width: 100px) {
+  footer {
+    flex-direction: column;
+  }
   .stonyBrook {
-    width: 7vw;
+    margin-left: 0%;
+    margin-bottom: 35px;
   }
   .simons {
-    width: 14vw;
+    margin-bottom: 35px;
   }
 
-}
-
-@media only screen and (max-width: 1150px) and (min-width: 1000px) {
-  .stonyBrook {
-    width: 7vw;
-  }
-  .simons {
-    width: 14vw;
-  }
-}
-
-@media only screen and (max-width: 1000px) and (min-width: 991px) {
-  .stonyBrook {
-    width: 7vw;
-  }
-  .simons {
-    width: 14vw;
-  }
 }
 
 
