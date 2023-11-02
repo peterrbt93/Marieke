@@ -155,9 +155,9 @@
     flex-direction: column;
   }
   .stonyBrook {
-    margin-left: 0%;
+    margin-left: -15px;
     margin-bottom: 35px;
-    width: 80px;
+    width: 70px;
   }
   .simons {
     margin-bottom: 35px;
