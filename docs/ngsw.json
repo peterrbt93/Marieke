@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698895330775,
+  "timestamp": 1698895703701,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/95.2b82434d8a307128.js",
         "/favicon.ico",
         "/index.html",
-        "/main.1a603d910166af1b.js",
+        "/main.b80941c1d7434071.js",
         "/manifest.webmanifest",
         "/polyfills.21265a3594082680.js",
         "/runtime.6a45a19504ba5fc4.js",
@@ -34,7 +34,7 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Mediga.83ac2caf1edde55b.otf",
+        "/Mediga.7a4c8259a47c569a.woff",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -48,6 +48,7 @@
         "/assets/icons/orcid-square.svg",
         "/assets/icons/orcid.svg",
         "/assets/params/css/Mediga.otf",
+        "/assets/params/css/Mediga.woff",
         "/assets/params/css/Queensila.ttf",
         "/assets/params/css/fonts.googleapis.css",
         "/assets/params/css/fonts.googleapis.min.css",
@@ -406,7 +407,7 @@
     "/539.29c424b21b6b9251.js": "e012c7056a4b584a38fd050de7646a8d1d1107c2",
     "/766.a6c77be7ca33e967.js": "f2a6d3d29469353d3bb4241e4b2687b5755c55b0",
     "/95.2b82434d8a307128.js": "0032c1f963b3fe3ad9753b5163f0263a2aaf7002",
-    "/Mediga.83ac2caf1edde55b.otf": "8f0a5fd1925d00a0f854ec2dbd536dece9616f6a",
+    "/Mediga.7a4c8259a47c569a.woff": "fef1e542148ef93ff13f7cc00e325219ff9aaa3e",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -420,6 +421,7 @@
     "/assets/icons/orcid-square.svg": "9d70df955a79d21beb4cf0a8d5d2413f2bd29bd6",
     "/assets/icons/orcid.svg": "fb30502626c441b35a9b426c925e18ce2ae4065e",
     "/assets/params/css/Mediga.otf": "8f0a5fd1925d00a0f854ec2dbd536dece9616f6a",
+    "/assets/params/css/Mediga.woff": "fef1e542148ef93ff13f7cc00e325219ff9aaa3e",
     "/assets/params/css/Queensila.ttf": "970f05b586bb7aed625025d56078c662777d735d",
     "/assets/params/css/fonts.googleapis.css": "fe9652f536a2e6b6ae94f583552c766367d9fd22",
     "/assets/params/css/fonts.googleapis.min.css": "5581ad4af9bcd2472867f400f4629cdfb8865851",
@@ -769,8 +771,8 @@
     "/fa-v4compatibility.65fc685fbd13fc85.woff2": "35794892fa2b4aede41ec686df49a1283ab2b2b3",
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
-    "/index.html": "69401f32d5c14da5a1c8b64127664c316ac949fb",
-    "/main.1a603d910166af1b.js": "ed7074fd07b90f69f2f9f21e978646e0139c5a75",
+    "/index.html": "91a0d721bcc62bbd922e0673cb0747f9c1084e46",
+    "/main.b80941c1d7434071.js": "999827479a07e54ab80f4467bc98dba3157c031f",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.21265a3594082680.js": "97fc1f32e888b327cb989e660884551f49149666",
     "/runtime.6a45a19504ba5fc4.js": "681b117a844846cd280165cb2ef20c1b5e7d953b",
