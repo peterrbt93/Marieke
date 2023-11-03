@@ -1,6 +1,6 @@
 .nga-footer {
   position:relative;
-  bottom:-120px;
+  bottom:-115px;
   background-color:rgb(37, 37, 37);
   width:100%;
   padding-top: 25px;
@@ -86,8 +86,8 @@
 
 .inspire {
   width: 1.5em;
-  margin-top: 5px;
-  margin-left: 8px;
+  margin-top: 6px;
+  margin-left: 8.5px;
   filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);
 }
 
@@ -106,8 +106,8 @@
 
 .orcid {
   width: 1.5em;
-  margin-top: 5px;
-  margin-left: 8px;
+  margin-top: 6px;
+  margin-left: 8.5px;
   filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);
 }
 

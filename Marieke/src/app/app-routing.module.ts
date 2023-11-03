@@ -15,16 +15,6 @@ const routes: Routes = [
         .then(mod => mod.OutreachModule) 
       },
   {
-    path: 'news',
-    loadChildren: () => import('./modules/application/example-news/news.module')
-      .then(mod => mod.NewsModule)
-  },
-  {
-    path: 'news/:id',
-    loadChildren: () => import('./modules/application/example-news-form/news-form.module')
-      .then(mod => mod.NewsFormModule)
-  },
-  {
     path: 'publications',
     loadChildren: () => import('./modules/general/publications/publications.module')
       .then(mod => mod.PublicationsModule)

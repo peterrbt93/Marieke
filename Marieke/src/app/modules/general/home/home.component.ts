@@ -19,15 +19,7 @@ export class HomeComponent {
   bootstrap = environment.application.bootstrap;
   fontawesome = environment.application.fontawesome;
 
-  items = [
-    {
-      icon: "fa-sharp fa-solid fa-newspaper",
-      name: "News",
-      description: "Trailers and youtube",
-      link:'/news'
-    },
-    
-  ]
+
 
   constructor(private seoService: SeoService) {
 

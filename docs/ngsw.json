@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698896089065,
+  "timestamp": 1698979017050,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,15 +12,12 @@
       },
       "urls": [
         "/524.9e2d2f117b95eb9b.js",
-        "/539.29c424b21b6b9251.js",
-        "/766.a6c77be7ca33e967.js",
-        "/95.2b82434d8a307128.js",
         "/favicon.ico",
         "/index.html",
-        "/main.dde7212bb3fa3dd6.js",
+        "/main.70938ae6f949407f.js",
         "/manifest.webmanifest",
         "/polyfills.21265a3594082680.js",
-        "/runtime.6a45a19504ba5fc4.js",
+        "/runtime.35872379b0d2cd51.js",
         "/scripts.3e75d50128144df1.js",
         "/styles.222dc4e6696996c0.css"
       ],
@@ -363,11 +360,8 @@
         "/assets/params/images/demo/demo-smartphone-components.png",
         "/assets/params/images/demo/demo-template-driven-forms.png",
         "/assets/params/images/example-bootstrap/movie-screen.jpg",
-        "/assets/params/images/home/demarrer-avec-angular.001.png",
-        "/assets/params/images/home/demarrer-avec-angular.png",
-        "/assets/params/images/home/demarrer-avec-angular@2x.001.png",
-        "/assets/params/images/home/demarrer-avec-angular@2x.002.png",
-        "/assets/params/images/home/demarrer-avec-angular@2x.png",
+        "/assets/params/images/home/galaxy.jpg",
+        "/assets/params/images/home/marieke.jpg",
         "/assets/params/images/icons/favicon.ico",
         "/assets/params/images/icons/play-50-50.png",
         "/assets/params/images/icons/play-60-60.png",
@@ -396,7 +390,8 @@
         "/fa-solid-900.6a8db53d80e9da0c.ttf",
         "/fa-solid-900.fd0b155cd663a8fa.woff2",
         "/fa-v4compatibility.65fc685fbd13fc85.woff2",
-        "/fa-v4compatibility.e4efb16c858fae78.ttf"
+        "/fa-v4compatibility.e4efb16c858fae78.ttf",
+        "/galaxy.594040f47a4ccf44.jpg"
       ],
       "patterns": []
     }
@@ -404,9 +399,6 @@
   "dataGroups": [],
   "hashTable": {
     "/524.9e2d2f117b95eb9b.js": "01fea7032927693df783033e64e84d8f1a1272f0",
-    "/539.29c424b21b6b9251.js": "e012c7056a4b584a38fd050de7646a8d1d1107c2",
-    "/766.a6c77be7ca33e967.js": "f2a6d3d29469353d3bb4241e4b2687b5755c55b0",
-    "/95.2b82434d8a307128.js": "0032c1f963b3fe3ad9753b5163f0263a2aaf7002",
     "/Mediga.7a4c8259a47c569a.woff": "fef1e542148ef93ff13f7cc00e325219ff9aaa3e",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -736,11 +728,8 @@
     "/assets/params/images/demo/demo-smartphone-components.png": "e9650711b93281342101e2126f73c50bb13205ec",
     "/assets/params/images/demo/demo-template-driven-forms.png": "cd8106e3c6474a3a46735eb3142aadef6d49d712",
     "/assets/params/images/example-bootstrap/movie-screen.jpg": "bf895d24b84be4f16863f2294be8a48404275f96",
-    "/assets/params/images/home/demarrer-avec-angular.001.png": "c180fc55de18c21fec089489e184a06ef6422b13",
-    "/assets/params/images/home/demarrer-avec-angular.png": "00e28180c643f61cf597d6e108fed82118a23a62",
-    "/assets/params/images/home/demarrer-avec-angular@2x.001.png": "80bfdb791689a023f436f65774bb0590ec38dcb1",
-    "/assets/params/images/home/demarrer-avec-angular@2x.002.png": "d1537449050b5c8a18c1343ee539da7fc2f61ec6",
-    "/assets/params/images/home/demarrer-avec-angular@2x.png": "ad17d3ebaa294d80c6b15c655dd7ed0a04a48125",
+    "/assets/params/images/home/galaxy.jpg": "dbcbb33b83d69e56f115a97d980671e3ab8b8276",
+    "/assets/params/images/home/marieke.jpg": "e64d6ee2c73b8bfe6499f9f21d7ec43bd87031f8",
     "/assets/params/images/icons/favicon.ico": "b03261f7f1a940cc221af641abc6397d13636ecd",
     "/assets/params/images/icons/play-50-50.png": "375bf57055223fe88bb82131caf7883aa4091a6e",
     "/assets/params/images/icons/play-60-60.png": "2eaf642e78d9b648479cd07f2ed9947adb0a09d8",
@@ -771,11 +760,12 @@
     "/fa-v4compatibility.65fc685fbd13fc85.woff2": "35794892fa2b4aede41ec686df49a1283ab2b2b3",
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
-    "/index.html": "f8e862b2ac42bf734f95b0be82ef013b19f594ba",
-    "/main.dde7212bb3fa3dd6.js": "5f317b11efe9f4930ae7009cd5a70311e842a34c",
+    "/galaxy.594040f47a4ccf44.jpg": "dbcbb33b83d69e56f115a97d980671e3ab8b8276",
+    "/index.html": "dc105b6b93bcb47d512c62e86f93393e0f022e25",
+    "/main.70938ae6f949407f.js": "537c52e5d37c16b7d7678daadcd3680845baa852",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.21265a3594082680.js": "97fc1f32e888b327cb989e660884551f49149666",
-    "/runtime.6a45a19504ba5fc4.js": "681b117a844846cd280165cb2ef20c1b5e7d953b",
+    "/runtime.35872379b0d2cd51.js": "2426debdaf326d7f512c2a6fc1bc074a591c9275",
     "/scripts.3e75d50128144df1.js": "d72da9ade03467f91c011aebc90808b70f6e9dbb",
     "/styles.222dc4e6696996c0.css": "aba3a6c1a658b8650b0f6255b3997e8004e798f4"
   },

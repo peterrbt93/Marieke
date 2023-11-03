@@ -1,7 +1,17 @@
-import { Component } from '@angular/core';
+
 import { SeoService } from '../../../services/seo/seo.service';
 import { fade } from '../../../animations';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { FormBuilder } from '@angular/forms';
+import { Item } from './items/item';
+import { Badge } from './badge';
+import { ItemsService } from './items/items.service';
+import { environment } from '../../../../environments/environment';
 
+
+// eslint-disable-next-line
+declare const bootstrap: any;
 @Component({
   selector: 'app-talks',
   templateUrl: './talks.component.html',
@@ -12,7 +22,33 @@ import { fade } from '../../../animations';
 })
 export class talksComponent {
 
-  constructor(private seoService: SeoService) {
+  itemsLoaded: boolean;
+  items: Item[];
+  badges: Badge[];
+  searchField: string;
+  player: string;
+  playerLoaded: boolean;
+  // eslint-disable-next-line
+  modalPlayer: any;
+  loaded: boolean;
+  filtersEnabled: boolean;
+  resultsFound: boolean;
+
+  formFilters = this.fb.group({
+    dateType: [1],
+    fromDate: [''],
+    toDate: [''],
+    sortType: [1],
+    show: [false],
+    movie: [false],
+    clip: [false],
+    game: [false],
+    elementsCount: [0],
+  });
+
+  constructor(private seoService: SeoService, public router: Router,
+    private itemsService: ItemsService,
+    private fb: FormBuilder) {
 
     const content = 'Marieke - Talks';
     const title = 'Marieke - Talks';
@@ -20,6 +56,79 @@ export class talksComponent {
     this.seoService.setMetaDescription(content);
     this.seoService.setMetaTitle(title);
 
+    this.loaded = false;
+    this.items = [];
+    this.badges = [];
+    this.itemsLoaded = false;
+    this.searchField = ''
+    this.player = '';
+    this.playerLoaded = false;
+    this.filtersEnabled = false;
+    this.resultsFound = false;
+
+    this.formFilters.setValue({
+      dateType: 1,
+      fromDate: '',
+      toDate: '',
+      sortType: 1,
+      show: false,
+      movie: false,
+      clip: false,
+      game: false,
+      elementsCount: 20,
+    });
+
+  }
+
+
+
+
+
+
+  ngOnInit(): void {
+    this.getItems();
+  }
+
+  getItems() {
+    this.loaded = false;
+    const url = environment.urlNews;
+    this.itemsService.getItems(url)
+      .subscribe(
+        items => {
+          this.items = items;
+          this.loaded = true;
+        }
+      );
+  }
+
+  openTrailer(item: any) {
+    this.player = item.youtubeLink;
+    this.playerLoaded = true;
+    if (this.modalPlayer === undefined) {
+      this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
+        keyboard: true
+      })
+      const selectPlayer = document.getElementById('newsModal')
+      selectPlayer?.addEventListener('hidden.bs.modal', this.onCloseModal.bind(this));
+    }
+    this.modalPlayer?.show();
+  }
+
+  onCloseModal() {
+    this.player = '';
+    this.playerLoaded = false;
+  }
+
+  onHandleKeyDown(event: any) {
+    if (event.keyCode === 13) {
+      this.onSearch();
+    }
+  }
+
+  onSearch() {
+    this.getItems();
   }
 
 }
+
+
