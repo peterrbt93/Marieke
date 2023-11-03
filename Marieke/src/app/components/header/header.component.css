@@ -11,6 +11,9 @@
   .nga-btn-linkedin {
     margin-left: 34vw !important;
   }
+  .nga-nav-link {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -98,7 +101,6 @@
   border-top: 1px solid rgb(255, 255, 255);
   border-bottom: 1px solid rgb(255, 255, 255);
   font-weight: 500;
-  font-size: 21px;
   font-family: titleFont;
 }
 
@@ -286,6 +288,7 @@
     flex-direction: column;
   }
 
+
   .navbar-collapse {
     transform: translate(100px);
   }
@@ -350,4 +353,18 @@
     visibility: hidden;
   }
 }
+
+@media only screen and (max-width: 2450px) and (min-width: 800px) {
+  .nga-nav-link {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 0px) {
+  .nga-nav-link {
+    font-size: 18px;
+  }
+}
+
+
 
