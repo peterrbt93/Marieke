@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1699322431991,
+  "timestamp": 1699815142455,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/524.9e2d2f117b95eb9b.js",
         "/favicon.ico",
         "/index.html",
-        "/main.e55aa3f8ac2fc181.js",
+        "/main.9ece6b841a361dcf.js",
         "/manifest.webmanifest",
         "/polyfills.21265a3594082680.js",
         "/runtime.35872379b0d2cd51.js",
@@ -32,6 +32,8 @@
       },
       "urls": [
         "/Mediga.7a4c8259a47c569a.woff",
+        "/assets/icons/arxiv-square.svg",
+        "/assets/icons/arxiv.svg",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -400,6 +402,8 @@
   "hashTable": {
     "/524.9e2d2f117b95eb9b.js": "01fea7032927693df783033e64e84d8f1a1272f0",
     "/Mediga.7a4c8259a47c569a.woff": "fef1e542148ef93ff13f7cc00e325219ff9aaa3e",
+    "/assets/icons/arxiv-square.svg": "f5b2c6eb1d8cc23d3cf170b6ebf8dd6553289896",
+    "/assets/icons/arxiv.svg": "7979e53b89aa3535b50b8169bb4ebb9acaa97058",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -761,8 +765,8 @@
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
     "/galaxy.594040f47a4ccf44.jpg": "dbcbb33b83d69e56f115a97d980671e3ab8b8276",
-    "/index.html": "df297f72b38e576acbf275a721660493003eca09",
-    "/main.e55aa3f8ac2fc181.js": "afbbdbbf82f0d2913b12a3fe96c73cf1aacd8ed2",
+    "/index.html": "94c60f4154e999b5f9d17cf3fd133c73424989d4",
+    "/main.9ece6b841a361dcf.js": "07945d54abd076ac6e2007e0475cbe550020fa26",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.21265a3594082680.js": "97fc1f32e888b327cb989e660884551f49149666",
     "/runtime.35872379b0d2cd51.js": "2426debdaf326d7f512c2a6fc1bc074a591c9275",
