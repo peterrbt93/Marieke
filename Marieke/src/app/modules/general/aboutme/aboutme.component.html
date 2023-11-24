@@ -1,11 +1,25 @@
 <div class="container py-2" @fade>
-  <p>
-    Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit
-    Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit
-  </p>
-  <p>
-    Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit
-    Every day is taco ipsum tuesday. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. BARBACOA!! 50 cent tacos! I’ll take 30. It’s taco time all the time. Give me tacos, or give me death. Ooh, with diced onions and a pinch of cilantro. Shrimp tacos are tasty tacos! BARBACOA!! I’ve been following that taco truck around all day. These tacos are lit
-  </p>
+  <div class="row">
+      <div class="col-1">
 
+      </div>
+      <div class="col-8">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div *ngFor="let about of abouts; let i=index;" class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                          <a role="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i">
+                              {{about.title}}
+                          </a>
+                      </h4>
+                  </div>
+                  <div [attr.id]="'panelsStayOpen-collapse'+i" class="panel-collapse collapse in" role="tabpanel" >
+                      <div class="panel-body">
+                          <p>{{about.text}}</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>

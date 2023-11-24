@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { SeoService } from '../../../services/seo/seo.service';
 import { fade } from '../../../animations';
+import { About } from '../models/about';
 
 
 @Component({
@@ -13,6 +14,8 @@ import { fade } from '../../../animations';
 })
 export class aboutmeComponent {
 
+  abouts: About[];
+
   constructor(private seoService: SeoService) {
 
     const content = 'Marieke - About me';
@@ -21,6 +24,27 @@ export class aboutmeComponent {
     this.seoService.setMetaDescription(content);
     this.seoService.setMetaTitle(title);
 
+    this.abouts = [];
+
   }
 
+
+  ngOnInit(): void {
+    this.abouts = [
+      new About(
+        "First title",
+        "first body text"
+      ),
+
+      new About(
+        "Second title",
+        "second body text"
+      ),
+
+      new About(
+        "Third title",
+        "third body text"
+      )
+    ]
+  }
 }
