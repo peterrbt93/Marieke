@@ -32,8 +32,8 @@ export class aboutmeComponent {
   ngOnInit(): void {
     this.abouts = [
       new About(
-        "First title",
-        "first body text"
+        "About me",
+        "My name is Marieke."
       ),
 
       new About(
