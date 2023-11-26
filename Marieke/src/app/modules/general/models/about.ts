@@ -1,9 +1,9 @@
 export class About {
     title: string;
-    text: string;
+    html: string;
   
-    constructor(title: string, text: string) {
+    constructor(title: string, html: string) {
       this.title = title;
-      this.text = text;
+      this.html = html;
     }
   }
