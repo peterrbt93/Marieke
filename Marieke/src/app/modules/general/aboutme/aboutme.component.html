@@ -1,24 +1,36 @@
 <div class="container py-2" @fade>
   <div class="row">
-      <div class="col-1">
+    <div class="col-1">
 
-      </div>
-      <div class="col-10">
-          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div *ngFor="let about of abouts; let i=index;" class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingOne">
-                      <h4 class="panel-title">
-                          <a role="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i">
-                              {{about.title}}
-                          </a>
-                      </h4>
-                  </div>
-                  <div [attr.id]="'panelsStayOpen-collapse'+i" class="panel-collapse in" role="tabpanel" >
-                      <div class="panel-body" [innerHTML]="about.html">
-                      </div>
-                  </div>
-              </div>
+    </div>
+    <div class="col-10">
+        <div class="accordion-wrap">
+            <a *ngFor="let about of abouts; let i=index;" class="accordion collapsed" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i" role="button" aria-expanded="false" >
+            <div class="teaser">
+                <div class="time">
+                    <h5>10:15 – 11:00 Uhr</h5>
+                </div>
+            
+                <div class="title">
+                    <h3>{{about.title}}</h3>
+                    <h6 class="theme">Themenblock 4</h6>
+                </div>
+            </div>
+                
+                <div class="collapse"  [attr.id]="'panelsStayOpen-collapse'+i">
+          <div class="content" [innerHTML]="about.html">
+            
           </div>
-      </div>
-  </div>
+        </div>
+                
+                <div class="accordion-toggle">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
+</div>
+
+
