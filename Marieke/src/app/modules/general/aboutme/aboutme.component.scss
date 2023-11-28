@@ -11,6 +11,11 @@
     }
 }
 
+.dateTitle {
+	text-align: right; 
+	transform: translate(38px, 40px);
+}
+
 a:hover,a:focus{
     text-decoration: none;
     outline: none;
@@ -209,3 +214,4 @@ h6 {
 		}
 	}
 }
+

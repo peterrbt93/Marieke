@@ -18,7 +18,7 @@
             </div>
                 
                 <div class="collapse"  [attr.id]="'panelsStayOpen-collapse'+i">
-          <div class="content" [innerHTML]="about.html">
+          <div class="content" [innerHTML]="about.html | sanitizedHtml">
             
           </div>
         </div>
