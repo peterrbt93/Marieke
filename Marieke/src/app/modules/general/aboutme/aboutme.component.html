@@ -1,19 +1,11 @@
-<div class="container py-2" @fade>
+<div class="container py-5" @fade>
   <div class="row">
-    <div class="col-1">
-
-    </div>
-    <div class="col-10">
+    <div class="col-7">
         <div class="accordion-wrap">
             <a *ngFor="let about of abouts; let i=index;" class="accordion collapsed" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i" role="button" aria-expanded="false" >
             <div class="teaser">
-                <div class="time">
-                    <h5>10:15 – 11:00 Uhr</h5>
-                </div>
-            
                 <div class="title">
                     <h3>{{about.title}}</h3>
-                    <h6 class="theme">Themenblock 4</h6>
                 </div>
             </div>
                 
@@ -29,6 +21,10 @@
                 </div>
             </a>
         </div>
+    </div>
+    <div class="col-5 pic">
+        <img src="../../../../assets/params/images/aboutMe/About_me_dummy_billede.jpg" class="marieke">
+        <div class='box'></div>
     </div>
 </div>
 </div>

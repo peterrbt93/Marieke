@@ -50,36 +50,36 @@ export class aboutmeComponent {
       new About(
         "Education",
         ` 
-        <p class="dateTitle">09/2022 -- current</p>
+        <p class="dateTitle">09/2022 &mdash; current</p>
           <p>
             <b>Research Assistant Professor</b><br>
             <i>SCGP, Stony Brook U.</i> | <i>Stony Brook, NY, USA</i><br>
           <\p>
-          <p class="dateTitle">10/2018 -- 09/2022</p>
+          <p class="dateTitle">10/2018 &mdash; 09/2022</p>
           <p>
             <b>DPhil in Mathematics, Mathematical Physics</b><br>
             <i>Mathematical Institute, University of Oxford</i> | <i>Oxford, UK</i><br>
             Advisor: Prof. Sakura Schafer-Nameki. Thesis title: Strongly coupled quantum field theories from string theory.
           <\p>
-          <p class="dateTitle">02/2016 -- 04/2018</p>
+          <p class="dateTitle">02/2016 &mdash; 04/2018</p>
           <p>
             <b>MSc in Quantum Physics</b> <br>
             <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i><br>
             Thesis advisor: Prof. Niels Obers. Thesis title: Newton-Cartan gravity and 3D Chern-Simons theory.
           <\p>
-          <p class="dateTitle">06/2016 -- 09/2016</p>
+          <p class="dateTitle">06/2016 &mdash; 09/2016</p>
           <p>
             <b>Summer Student</b> <br>
             <i>CERN Summer School, CERN</i> | <i>Geneva, CH</i><br>
             Project: The Information Paradox and Firewalls. Project advisor: Kyriakos Papadodimas.
           <\p>
-          <p class="dateTitle"> 09/2014 -- 06/2015</p>
+          <p class="dateTitle"> 09/2014 &mdash; 06/2015</p>
           <p>
             <b>Full Year Undergraduate Exchange Programme</b><br>
             <i>Caltech, California Institute of Technology</i> | <i>Pasadena, CA, USA</i><br>
             Independent project: Dark matter study. Project supervisors: Clifford Cheung and Maria Spiropulu.
           <\p>
-          <p class="dateTitle"> 09/2012 -- 11/2015</p>
+          <p class="dateTitle"> 09/2012 &mdash; 11/2015</p>
           <p>
             <b>BA in Physics</b> <br>
             <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i><br>
