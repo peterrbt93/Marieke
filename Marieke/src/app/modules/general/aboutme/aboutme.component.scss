@@ -33,11 +33,12 @@ h3 {
 
 .marieke {
 	position: absolute;
-	width: 370px;
+	width: 31vw;
+	max-width: inherit;
 	opacity: 100%;
-	
 	z-index: 1;
-  }
+	transform: translate(-35%);
+}
 
   .box {
 	height: 460px;
@@ -48,8 +49,8 @@ h3 {
 
 
   .pic {
-	padding-left: 95px;
-	padding-top: 25px;
+	padding-left: 0px;
+	padding-top: 0px;
   }
 
 

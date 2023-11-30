@@ -1,15 +1,32 @@
 <div class="container py-5" @fade>
   <div class="row">
-    <div class="col-7">
-        <div class="accordion-wrap">
-            <a *ngFor="let about of abouts; let i=index;" class="accordion collapsed" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i" role="button" aria-expanded="false" >
+    <div class="col-3 pic">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9">
+                <h3>FAQ</h3>
+                <p>Quality is at the heart of everything we do</p>
+
+            </div>
+            
+        </div>
+        <div class="row">
+            <img src="../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg" class="marieke">
+        <!-- <div class='box'></div> -->
+        </div>
+        
+    </div>
+    <div class="col-1"></div>
+    <div class="col-8">
+        <div class="accordion-wrap" id="accordionAbout" >
+            <a *ngFor="let about of abouts; let i=index;"  class="accordion collapsed" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i" role="button" aria-expanded="false" >
             <div class="teaser">
                 <div class="title">
                     <h3>{{about.title}}</h3>
                 </div>
             </div>
                 
-                <div class="collapse"  [attr.id]="'panelsStayOpen-collapse'+i">
+                <div class="collapse" data-bs-parent="#accordionAbout"  [attr.id]="'panelsStayOpen-collapse'+i">
           <div class="content" [innerHTML]="about.html | sanitizedHtml">
             
           </div>
@@ -21,10 +38,6 @@
                 </div>
             </a>
         </div>
-    </div>
-    <div class="col-5 pic">
-        <img src="../../../../assets/params/images/aboutMe/About_me_dummy_billede.jpg" class="marieke">
-        <div class='box'></div>
     </div>
 </div>
 </div>

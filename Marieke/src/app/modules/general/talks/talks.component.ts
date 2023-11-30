@@ -15,7 +15,7 @@ declare const bootstrap: any;
 @Component({
   selector: 'app-talks',
   templateUrl: './talks.component.html',
-  styleUrls: ['./talks.component.css'],
+  styleUrls: ['./talks.component.scss'],
   animations: [
     fade
   ]
@@ -34,17 +34,6 @@ export class talksComponent {
   filtersEnabled: boolean;
   resultsFound: boolean;
 
-  formFilters = this.fb.group({
-    dateType: [1],
-    fromDate: [''],
-    toDate: [''],
-    sortType: [1],
-    show: [false],
-    movie: [false],
-    clip: [false],
-    game: [false],
-    elementsCount: [0],
-  });
 
   constructor(private seoService: SeoService, public router: Router,
     private itemsService: ItemsService,
@@ -66,22 +55,7 @@ export class talksComponent {
     this.filtersEnabled = false;
     this.resultsFound = false;
 
-    this.formFilters.setValue({
-      dateType: 1,
-      fromDate: '',
-      toDate: '',
-      sortType: 1,
-      show: false,
-      movie: false,
-      clip: false,
-      game: false,
-      elementsCount: 20,
-    });
-
   }
-
-
-
 
 
 
@@ -91,7 +65,7 @@ export class talksComponent {
 
   getItems() {
     this.loaded = false;
-    const url = environment.urlNews;
+    const url = environment.urlMovies;
     this.itemsService.getItems(url)
       .subscribe(
         items => {

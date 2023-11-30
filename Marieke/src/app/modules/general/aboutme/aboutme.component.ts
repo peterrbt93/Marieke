@@ -31,10 +31,25 @@ export class aboutmeComponent {
   }
 
 
+
   ngOnInit(): void {
     this.abouts = [
       new About(
         "About me",
+        ` <p>
+            My field of research is high energy theory, more specifically quantum field theory and string theory. 
+            I am interested in nonperturbative physics, phase structures, and defects, which I study using generalized symmetries and their 't Hooft anomalies.
+            My work in string theory centers on constructions of supersymmetric quantum field theories,
+            where I bring in tools from geometry and algebraic topology to understand strongly-coupled fixed points, defects, and dualities.
+          </p>
+          <p>
+            I am currently employed as a <i>Research Assistant Professor</i> at the <i>Simons Center for Geometry and Physics</i>.
+          </p> 
+        `
+      ),
+
+      new About(
+        "About me 2",
         ` <p>
             My field of research is high energy theory, more specifically quantum field theory and string theory. 
             I am interested in nonperturbative physics, phase structures, and defects, which I study using generalized symmetries and their 't Hooft anomalies.

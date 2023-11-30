@@ -109,7 +109,7 @@
   position: absolute;
   left: 0px;
   height: 1000px;
-  padding: 16% 18% 0% 8%;
+  padding: 14% 18% 0% 8%;
   color: #fff;
 }
 
@@ -179,7 +179,7 @@ h2 {
   .left {
     width: 100%;
     text-align: center;
-    padding: 16% 18% 0% 18%;
+    padding: 14% 18% 0% 18%;
     height: 1000px;
   }
   .right {
