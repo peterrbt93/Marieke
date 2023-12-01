@@ -300,26 +300,26 @@
 
 @media (min-width: 1600px) {
   .links {
-    transform: translate(8vw);
+    transform: translate(8vw, -60px);
   }
   
 } 
 
 @media only screen and (max-width: 1800px) and (min-width: 1600px) {
   .links {
-    transform: translate(4vw);
+    transform: translate(4vw , -60px);
   }
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1380px) {
   .links {
-    transform: translate(3vw);
+    transform: translate(3vw, -60px);
   }
 }
 
 @media only screen and (max-width: 1380px) and (min-width: 1150px) {
   .links {
-    transform: translate(3vw);
+    transform: translate(3vw, -60px);
   }
 
   .nav-item {
@@ -330,7 +330,7 @@
 
 @media only screen and (max-width: 1150px) and (min-width: 1000px) {
   .links {
-    transform: translate(1vw);
+    transform: translate(1vw, -60px);
   }
   .nav-item {
     padding-inline: 0.5vw;
@@ -339,7 +339,7 @@
 
 @media only screen and (max-width: 1000px) and (min-width: 991px) {
   .links {
-    transform: translate(1vw);
+    transform: translate(1vw, -60px);
   }
   .nav-item {
     padding-inline: 0vw;

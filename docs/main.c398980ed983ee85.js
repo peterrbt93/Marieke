@@ -468,7 +468,7 @@ class HeaderComponent {
       }
     },
     dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLink],
-    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n\n\n.container[_ngcontent-%COMP%] {\n  max-width: 1600px;\n}\n@media (max-width: 991px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 34vw !important;\n  }\n  .nga-nav-link[_ngcontent-%COMP%] {\n    font-size: 10px;\n  }\n}\n\n@media (max-width: 710px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 30vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 52px !important;\n  }\n}\n\n@media (max-width: 600px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 30vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 50px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 80px;\n  }\n}\n\n@media (max-width: 540px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 26vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 45px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 65px;\n  }\n}\n\n@media (max-width: 500px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 26vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 40px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 60px;\n  }\n}\n\n@media (max-width: 460px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 24vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 35px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 55px;\n  }\n}\n\n@media (max-width: 400px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 21vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 30px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 50px;\n  }\n}\n\n.nga-nav-link[_ngcontent-%COMP%] {\n  color: rgb(37, 37, 37);\n  border-top: 1px solid rgb(255, 255, 255);\n  border-bottom: 1px solid rgb(255, 255, 255);\n  font-weight: 500;\n  font-family: titleFont;\n}\n\n\n\n\n\n\n\n\n\n\n.nga-nav-link[_ngcontent-%COMP%]:after {\n  content: '';\n  display: block;\n  margin: auto;\n  height: 0.1px;\n  width: 0px;\n  background: transparent;\n  transition: width 0.8s ease, background-color 0.8s ease;\n}\n.nga-nav-link[_ngcontent-%COMP%]:hover:after {\n  width: 100%;\n  background: rgb(0, 0, 0);\n}\n\n\n\n.nav-item[_ngcontent-%COMP%] {\n  margin-inline: 1vw;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n\n.nga-navbar[_ngcontent-%COMP%] {\n  \n\n  \n\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-logo[_ngcontent-%COMP%] {\n  font-weight: 500;\n  font-family: 'DatalegreyaThin';\n  color: rgb(37, 37, 37);\n  font-style: normal; \n  font-size: 52px;\n}\n\n.nga-logo[_ngcontent-%COMP%]:hover {\n  color: rgb(138, 138, 138);\n}\n\n.nga-btn-navbar[_ngcontent-%COMP%] {\n  --bs-btn-color: #fff;\n  --bs-btn-bg: #1976d2;\n  --bs-btn-border-color: #1976d2;\n  --bs-btn-hover-color: #fff;\n  --bs-btn-hover-bg: #0b5ed7;\n  --bs-btn-hover-border-color: #0a58ca;\n}\n\n\n.nga-footer[_ngcontent-%COMP%] {\n  position:fixed;\n  bottom:0px;\n  background-color:rgb(40,45,78);\n  width:100%;\n}\n\n.nga-footer[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: white;\n  text-decoration: none\n}\n\n.nga-footer[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover, .nga-footer[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:focus {\n  color: white;\n  text-decoration: underline;\n}\n\n.nga-footer[_ngcontent-%COMP%]   .nga-hint[_ngcontent-%COMP%] {\n  background-color: #1976d2;\n}\n\n.nga-footer[_ngcontent-%COMP%]   .nga-hint[_ngcontent-%COMP%]:hover {\n  opacity: 0.8;\n}\n\n.nga-btn-social[_ngcontent-%COMP%] {\n  position: relative;\n  z-index: 1;\n  display: inline-block;\n  padding: 0;\n  margin: 15px;\n  overflow: hidden;\n  vertical-align: middle;\n  cursor: pointer;\n  border-radius: 50%;\n  \n\n\n  transition: all 0.4s ease-in-out;\n  width: 45px;\n  height: 45px\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 1.25rem;\n  line-height: 47px\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: inherit;\n  color: rgb(255, 255, 255);\n  text-align: center\n}\n\n.nga-btn-social[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n\n\n.nga-btn-linkedin[_ngcontent-%COMP%] {\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: rgb(37, 37, 37);\n}\n\n.nga-btn-linkedin[_ngcontent-%COMP%]:hover {\n  background-color: #0082ca;\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%]:hover {\n  color: rgb(255, 255, 255);\n}\n\n\n\n.nga-btn-inspire[_ngcontent-%COMP%] {\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-btn-inspire[_ngcontent-%COMP%]:hover {\n  background-color: rgb(112,156,203);\n}\n\n.inspire[_ngcontent-%COMP%] {\n  width: 1.5em;\n  margin-top: 8px;\n  margin-left: 11px;\n  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);\n}\n\n.inspire[_ngcontent-%COMP%]:hover {\n  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);\n}\n\n\n\n.nga-btn-orcid[_ngcontent-%COMP%] {\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-btn-orcid[_ngcontent-%COMP%]:hover {\n  background-color: #5c5b5b;\n}\n\n.orcid[_ngcontent-%COMP%] {\n  width: 1.5em;\n  margin-top: 8px;\n  margin-left: 11px;\n  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);\n}\n\n.orcid[_ngcontent-%COMP%]:hover {\n  filter: invert(77%) sepia(18%) saturate(1589%) hue-rotate(30deg) brightness(102%) contrast(80%);\n}\n\n@media (min-width: 991px) {\n  .navbar[_ngcontent-%COMP%] > .container[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n\n\n  .navbar-collapse[_ngcontent-%COMP%] {\n    transform: translate(100px);\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 70px;\n  }\n}\n\n@media (min-width: 1600px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(8vw);\n  }\n  \n} \n\n@media only screen and (max-width: 1800px) and (min-width: 1600px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(4vw);\n  }\n}\n\n@media only screen and (max-width: 1600px) and (min-width: 1380px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(3vw);\n  }\n}\n\n@media only screen and (max-width: 1380px) and (min-width: 1150px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(3vw);\n  }\n\n  .nav-item[_ngcontent-%COMP%] {\n    padding-inline: 1vw;\n  }\n\n}\n\n@media only screen and (max-width: 1150px) and (min-width: 1000px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(1vw);\n  }\n  .nav-item[_ngcontent-%COMP%] {\n    padding-inline: 0.5vw;\n  }\n}\n\n@media only screen and (max-width: 1000px) and (min-width: 991px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(1vw);\n  }\n  .nav-item[_ngcontent-%COMP%] {\n    padding-inline: 0vw;\n  }\n}\n\n\n\n\n@media only screen and (max-width: 1450px) and (min-width: 991px) {\n  .links[_ngcontent-%COMP%] {\n    visibility: hidden;\n  }\n}\n\n@media only screen and (max-width: 2450px) and (min-width: 800px) {\n  .nga-nav-link[_ngcontent-%COMP%] {\n    font-size: 21px;\n  }\n}\n\n@media only screen and (max-width: 850px) and (min-width: 0px) {\n  .nga-nav-link[_ngcontent-%COMP%] {\n    font-size: 18px;\n  }\n}"]
+    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n\n\n.container[_ngcontent-%COMP%] {\n  max-width: 1600px;\n}\n@media (max-width: 991px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 34vw !important;\n  }\n  .nga-nav-link[_ngcontent-%COMP%] {\n    font-size: 10px;\n  }\n}\n\n@media (max-width: 710px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 30vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 52px !important;\n  }\n}\n\n@media (max-width: 600px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 30vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 50px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 80px;\n  }\n}\n\n@media (max-width: 540px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 26vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 45px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 65px;\n  }\n}\n\n@media (max-width: 500px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 26vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 40px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 60px;\n  }\n}\n\n@media (max-width: 460px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 24vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 35px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 55px;\n  }\n}\n\n@media (max-width: 400px) {\n  .nga-btn-linkedin[_ngcontent-%COMP%] {\n    margin-left: 21vw !important;\n  }\n\n  .nga-logo[_ngcontent-%COMP%] {\n    font-size: 30px !important;\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 50px;\n  }\n}\n\n.nga-nav-link[_ngcontent-%COMP%] {\n  color: rgb(37, 37, 37);\n  border-top: 1px solid rgb(255, 255, 255);\n  border-bottom: 1px solid rgb(255, 255, 255);\n  font-weight: 500;\n  font-family: titleFont;\n}\n\n\n\n\n\n\n\n\n\n\n.nga-nav-link[_ngcontent-%COMP%]:after {\n  content: '';\n  display: block;\n  margin: auto;\n  height: 0.1px;\n  width: 0px;\n  background: transparent;\n  transition: width 0.8s ease, background-color 0.8s ease;\n}\n.nga-nav-link[_ngcontent-%COMP%]:hover:after {\n  width: 100%;\n  background: rgb(0, 0, 0);\n}\n\n\n\n.nav-item[_ngcontent-%COMP%] {\n  margin-inline: 1vw;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n\n.nga-navbar[_ngcontent-%COMP%] {\n  \n\n  \n\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-logo[_ngcontent-%COMP%] {\n  font-weight: 500;\n  font-family: 'DatalegreyaThin';\n  color: rgb(37, 37, 37);\n  font-style: normal; \n  font-size: 52px;\n}\n\n.nga-logo[_ngcontent-%COMP%]:hover {\n  color: rgb(138, 138, 138);\n}\n\n.nga-btn-navbar[_ngcontent-%COMP%] {\n  --bs-btn-color: #fff;\n  --bs-btn-bg: #1976d2;\n  --bs-btn-border-color: #1976d2;\n  --bs-btn-hover-color: #fff;\n  --bs-btn-hover-bg: #0b5ed7;\n  --bs-btn-hover-border-color: #0a58ca;\n}\n\n\n.nga-footer[_ngcontent-%COMP%] {\n  position:fixed;\n  bottom:0px;\n  background-color:rgb(40,45,78);\n  width:100%;\n}\n\n.nga-footer[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: white;\n  text-decoration: none\n}\n\n.nga-footer[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover, .nga-footer[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:focus {\n  color: white;\n  text-decoration: underline;\n}\n\n.nga-footer[_ngcontent-%COMP%]   .nga-hint[_ngcontent-%COMP%] {\n  background-color: #1976d2;\n}\n\n.nga-footer[_ngcontent-%COMP%]   .nga-hint[_ngcontent-%COMP%]:hover {\n  opacity: 0.8;\n}\n\n.nga-btn-social[_ngcontent-%COMP%] {\n  position: relative;\n  z-index: 1;\n  display: inline-block;\n  padding: 0;\n  margin: 15px;\n  overflow: hidden;\n  vertical-align: middle;\n  cursor: pointer;\n  border-radius: 50%;\n  \n\n\n  transition: all 0.4s ease-in-out;\n  width: 45px;\n  height: 45px\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 1.25rem;\n  line-height: 47px\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: inherit;\n  color: rgb(255, 255, 255);\n  text-align: center\n}\n\n.nga-btn-social[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n\n\n.nga-btn-linkedin[_ngcontent-%COMP%] {\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: rgb(37, 37, 37);\n}\n\n.nga-btn-linkedin[_ngcontent-%COMP%]:hover {\n  background-color: #0082ca;\n}\n\n.nga-btn-social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%]:hover {\n  color: rgb(255, 255, 255);\n}\n\n\n\n.nga-btn-inspire[_ngcontent-%COMP%] {\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-btn-inspire[_ngcontent-%COMP%]:hover {\n  background-color: rgb(112,156,203);\n}\n\n.inspire[_ngcontent-%COMP%] {\n  width: 1.5em;\n  margin-top: 8px;\n  margin-left: 11px;\n  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);\n}\n\n.inspire[_ngcontent-%COMP%]:hover {\n  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);\n}\n\n\n\n.nga-btn-orcid[_ngcontent-%COMP%] {\n  background-color: rgb(255, 255, 255);\n}\n\n.nga-btn-orcid[_ngcontent-%COMP%]:hover {\n  background-color: #5c5b5b;\n}\n\n.orcid[_ngcontent-%COMP%] {\n  width: 1.5em;\n  margin-top: 8px;\n  margin-left: 11px;\n  filter: invert(0%) sepia(1%) saturate(7470%) hue-rotate(330deg) brightness(95%) contrast(100%);\n}\n\n.orcid[_ngcontent-%COMP%]:hover {\n  filter: invert(77%) sepia(18%) saturate(1589%) hue-rotate(30deg) brightness(102%) contrast(80%);\n}\n\n@media (min-width: 991px) {\n  .navbar[_ngcontent-%COMP%] > .container[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n\n\n  .navbar-collapse[_ngcontent-%COMP%] {\n    transform: translate(100px);\n  }\n\n  .titleMarieke[_ngcontent-%COMP%] {\n    height: 70px;\n  }\n}\n\n@media (min-width: 1600px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(8vw, -60px);\n  }\n  \n} \n\n@media only screen and (max-width: 1800px) and (min-width: 1600px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(4vw , -60px);\n  }\n}\n\n@media only screen and (max-width: 1600px) and (min-width: 1380px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(3vw, -60px);\n  }\n}\n\n@media only screen and (max-width: 1380px) and (min-width: 1150px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(3vw, -60px);\n  }\n\n  .nav-item[_ngcontent-%COMP%] {\n    padding-inline: 1vw;\n  }\n\n}\n\n@media only screen and (max-width: 1150px) and (min-width: 1000px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(1vw, -60px);\n  }\n  .nav-item[_ngcontent-%COMP%] {\n    padding-inline: 0.5vw;\n  }\n}\n\n@media only screen and (max-width: 1000px) and (min-width: 991px) {\n  .links[_ngcontent-%COMP%] {\n    transform: translate(1vw, -60px);\n  }\n  .nav-item[_ngcontent-%COMP%] {\n    padding-inline: 0vw;\n  }\n}\n\n\n\n\n@media only screen and (max-width: 1450px) and (min-width: 991px) {\n  .links[_ngcontent-%COMP%] {\n    visibility: hidden;\n  }\n}\n\n@media only screen and (max-width: 2450px) and (min-width: 800px) {\n  .nga-nav-link[_ngcontent-%COMP%] {\n    font-size: 21px;\n  }\n}\n\n@media only screen and (max-width: 850px) and (min-width: 0px) {\n  .nga-nav-link[_ngcontent-%COMP%] {\n    font-size: 18px;\n  }\n}"]
   });
 }
 
@@ -655,38 +655,38 @@ class aboutmeComponent {
           <p>
             <b>Research Assistant Professor</b><br>
             <i>SCGP, Stony Brook U.</i> | <i>Stony Brook, NY, USA</i><br>
-          <\p>
+          </p>
         `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Education", ` 
           <p class="dateTitle">10/2018 &mdash; 09/2022</p>
           <p>
-            <b>DPhil in Mathematics, Mathematical Physics</b><br>
+            <b>DPhil in Mathematical Physics</b><br>
             <i>Mathematical Institute, University of Oxford</i> | <i>Oxford, UK</i><br>
             Advisor: Prof. Sakura Schafer-Nameki. Thesis title: Strongly coupled quantum field theories from string theory.
-          <\p>
+          </p>
           <p class="dateTitle">02/2016 &mdash; 04/2018</p>
           <p>
             <b>MSc in Quantum Physics</b> <br>
             <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i><br>
             Thesis advisor: Prof. Niels Obers. Thesis title: Newton-Cartan gravity and 3D Chern-Simons theory.
-          <\p>
+          </p>
           <p class="dateTitle">06/2016 &mdash; 09/2016</p>
           <p>
             <b>Summer Student</b> <br>
             <i>CERN Summer School, CERN</i> | <i>Geneva, CH</i><br>
             Project: The Information Paradox and Firewalls. Project advisor: Kyriakos Papadodimas.
-          <\p>
+          </p>
           <p class="dateTitle"> 09/2014 &mdash; 06/2015</p>
           <p>
-            <b>Full Year Undergraduate Exchange Programme</b><br>
+            <b>Undergraduate Exchange Programme</b><br>
             <i>Caltech, California Institute of Technology</i> | <i>Pasadena, CA, USA</i><br>
             Independent project: Dark matter study. Project supervisors: Clifford Cheung and Maria Spiropulu.
-          <\p>
+          </p>
           <p class="dateTitle"> 09/2012 &mdash; 11/2015</p>
           <p>
             <b>BA in Physics</b> <br>
             <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i><br>
             Thesis advisor: Prof. Jens Paaske. Thesis title: Fock-Darwin states for an elliptical spin-orbit coupled quantum well.
-          <\p>   
+          </p>   
         `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Awards and Scholarships", `<p>
         <b>Awards</b>
       <ul>
@@ -696,7 +696,7 @@ class aboutmeComponent {
           <li><i>Lorup Honorary Graduate Award</i>, 2017. Awarded by the Lorup Foundation, Niels Bohr Institute, University of Copenhagen 
           for <i>academic excellence, as well as original and advanced level of MSc thesis work</i>.</li>
       </ul>
-      <\p>
+      </p>
       <p>
       <b>Scholarships</b><br>
       <ul>
@@ -705,61 +705,60 @@ class aboutmeComponent {
           <li><i>Oxford-Wolfson Marriott Graduate Scholarship</i>, Sep 2018-Apr 2022. Awarded by the University of Oxford and the EPSRC 
           for the full-time DPhil in Mathematics.</li>
       </ul>
-      <\p> 
+      </p> 
         `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Organization", `
-        <p>
           <p>
             <b>Organization of Conferences and Workshops</b>
-          <\p>
+          </p>
           <p class="dateTitle">10/2021</p>
           <p>
             Annual Mathematical Physics Student Conference, 2nd edition<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">03/2021</p>
           <p>
             Oxford Meets the Hologram, online group workshop on Holography with student, <br>
             postdoc and faculty engagement<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">07/2020</p>
           <p>
             Annual Mathematical Physics Student Conference, co-founder<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">09/2019</p>
           <p>
             Geometry and Strings Conference 2019<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p>
           <b>Professional Responsibilities and Contributions</b>
-          <\p>
+          </p>
           <p class="dateTitle">2021 &mdash; current</p>
           <p>
             Referee for Journal of High Energy Physics (JHEP)
-          <\p>
+          </p>
           <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
             Co-organizer of the weekly Oxford String Theory Journal Club<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
             Student Representative for the Mathematical Physics DPhil students<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">12/2020, 12/2021</p>
           <p>
             Undergraduate Admissions interviewer, respectively as junior interviewer<br>
             with James Sparks, subsequently as senior interviewer<br>
             <i>Oriel College, University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">09/2016</p>
           <p>
           Co-organizer of the Physics MSc social and academic introduction program<br>
           <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
-          <\p>
+          </p>
           <p class="dateTitle">09/2013</p>
           <p>
           Co-organizer of the Physics BA social and academic introduction program<br>
@@ -775,7 +774,7 @@ class aboutmeComponent {
     selectors: [["app-aboutme"]],
     decls: 16,
     vars: 2,
-    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-3", "pic"], [1, "col-3"], [1, "col-9"], ["src", "../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg", 1, "marieke"], [1, "col-1"], [1, "col-8"], ["id", "accordionAbout", 1, "accordion-wrap"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass", 4, "ngFor", "ngForOf"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass"], [1, "teaser"], [1, "title"], ["data-bs-parent", "#accordionAbout", 3, "ngClass"], [1, "content", 3, "innerHTML"], [1, "accordion-toggle"], [1, "one"], [1, "two"]],
+    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-0", "col-md-3", "pic"], [1, "col-md-3"], [1, "col-md-9", "textBox"], ["src", "../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg", 1, "marieke"], [1, "col-0", "col-md-1"], [1, "col-12", "col-md-8"], ["id", "accordionAbout", 1, "accordion-wrap"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass", 4, "ngFor", "ngForOf"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass"], [1, "teaser"], [1, "title"], ["data-bs-parent", "#accordionAbout", 3, "ngClass"], [1, "content", 3, "innerHTML"], [1, "accordion-toggle"], [1, "one"], [1, "two"]],
     template: function aboutmeComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 1);
@@ -801,7 +800,7 @@ class aboutmeComponent {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _sanitized_html_pipe__WEBPACK_IMPORTED_MODULE_3__.SanitizedHtmlPipe],
-    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n@media (min-width: 982px) {\n  .clear {\n    clear: both;\n    height: 0px;\n  }\n  .container {\n    max-width: 80%;\n  }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px) {\n  .clear {\n    clear: both;\n    height: 250px;\n  }\n}\n.dateTitle {\n  text-align: right;\n  transform: translate(-3px, 40px);\n  margin-top: -35px;\n}\n\nh3 {\n  font-family: titleFont;\n  font-size: 22px;\n}\n\n.marieke {\n  position: absolute;\n  width: 31vw;\n  max-width: inherit;\n  opacity: 100%;\n  z-index: 1;\n  transform: translate(-35%);\n}\n\n.box {\n  height: 460px;\n  width: 295px;\n  transform: translate(148px, 100px);\n  background-color: rgb(37, 37, 37);\n}\n\n.pic {\n  padding-left: 0px;\n  padding-top: 0px;\n}\n\n.accordion-wrap {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.accordion-wrap a {\n  color: #000000;\n  text-decoration: none;\n}\n.accordion-wrap a:hover {\n  text-decoration: none;\n}\n.accordion-wrap .accordion {\n  position: relative;\n  border-top: 1px solid #000000;\n}\n.accordion-wrap .accordion:last-child {\n  border-bottom: 1px solid rgb(0, 0, 0);\n}\n.accordion-wrap .accordion .teaser {\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n  width: 100%;\n  padding: 24px 100px 13px 0;\n  position: relative;\n}\n.accordion-wrap .accordion .teaser:last-child {\n  border-bottom: 1px solid #000000;\n}\n.accordion-wrap .accordion .teaser .time {\n  margin-top: 5px;\n  width: 200px;\n}\n.accordion-wrap .accordion .teaser .title .theme {\n  opacity: 0.4;\n}\n@media (max-width: 990px) {\n  .accordion-wrap .accordion .teaser {\n    flex-direction: column;\n  }\n}\n.accordion-wrap .accordion .content {\n  padding: 0 80px 30px 20px;\n}\n@media (max-width: 1200px) {\n  .accordion-wrap .accordion .content {\n    padding: 0 120px 30px 0;\n  }\n}\n.accordion-wrap .accordion .accordion-toggle {\n  width: 60px;\n  height: 100%;\n  position: absolute;\n  background-color: rgba(192, 192, 192, 0.253);\n  right: 0;\n  top: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span {\n  background-color: #000000;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span.one {\n  height: 1px;\n  width: 20px;\n  position: absolute;\n  top: 50%;\n}\n.accordion-wrap .accordion .accordion-toggle span.two {\n  width: 1px;\n  height: 20px;\n  position: absolute;\n  left: 50%;\n  opacity: 1;\n  transform: rotate(90deg);\n}\n.accordion-wrap .accordion.collapsed .accordion-toggle span.two {\n  opacity: 1;\n  transform: rotate(0deg);\n}"],
+    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n@media (min-width: 982px) {\n  .clear {\n    clear: both;\n    height: 0px;\n  }\n  .container {\n    max-width: 80%;\n  }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px) {\n  .clear {\n    clear: both;\n    height: 250px;\n  }\n}\n@media only screen and (max-width: 470px) and (min-width: 0px) {\n  .marieke {\n    visibility: hidden;\n  }\n  .textBox {\n    padding-left: 30px;\n  }\n  .dateTitle {\n    text-align: right;\n    transform: translate(88px, 36px);\n    margin-top: -35px;\n    font-size: 10px;\n  }\n  .accordion-toggle {\n    width: 30px;\n  }\n}\n@media only screen and (max-width: 768px) and (min-width: 470px) {\n  .marieke {\n    visibility: hidden;\n  }\n  .textBox {\n    padding-left: 30px;\n  }\n  .dateTitle {\n    text-align: right;\n    transform: translate(75px, 36px);\n    margin-top: -35px;\n    font-size: 10px;\n  }\n  .accordion-toggle {\n    width: 40px;\n  }\n}\n@media only screen and (max-width: 1000px) and (min-width: 768px) {\n  .dateTitle {\n    text-align: right;\n    transform: translate(58px, 38px);\n    margin-top: -35px;\n    font-size: 10px;\n  }\n  .accordion-toggle {\n    width: 35px;\n  }\n}\n@media only screen and (max-width: 1160px) and (min-width: 1000px) {\n  .dateTitle {\n    text-align: right;\n    transform: translate(35px, 38px);\n    margin-top: -35px;\n    font-size: 12px;\n  }\n  .accordion-toggle {\n    width: 40px;\n  }\n}\n@media only screen and (max-width: 3000px) and (min-width: 1160px) {\n  .dateTitle {\n    text-align: right;\n    transform: translate(-3px, 40px);\n    margin-top: -35px;\n  }\n  .accordion-toggle {\n    width: 60px;\n  }\n}\nh3 {\n  font-family: titleFont;\n  font-size: 22px;\n}\n\n.marieke {\n  position: absolute;\n  width: 31vw;\n  max-width: inherit;\n  opacity: 100%;\n  z-index: 1;\n  transform: translate(-35%);\n}\n\n.box {\n  height: 460px;\n  width: 295px;\n  transform: translate(148px, 100px);\n  background-color: rgb(37, 37, 37);\n}\n\n.pic {\n  padding-left: 0px;\n  padding-top: 0px;\n}\n\n.accordion-wrap {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.accordion-wrap a {\n  color: #000000;\n  text-decoration: none;\n}\n.accordion-wrap a:hover {\n  text-decoration: none;\n}\n.accordion-wrap .accordion {\n  position: relative;\n  border-top: 1px solid #000000;\n}\n.accordion-wrap .accordion:last-child {\n  border-bottom: 1px solid rgb(0, 0, 0);\n}\n.accordion-wrap .accordion .teaser {\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n  width: 100%;\n  padding: 24px 100px 13px 0;\n  position: relative;\n}\n.accordion-wrap .accordion .teaser:last-child {\n  border-bottom: 1px solid #000000;\n}\n.accordion-wrap .accordion .teaser .time {\n  margin-top: 5px;\n  width: 200px;\n}\n.accordion-wrap .accordion .teaser .title .theme {\n  opacity: 0.4;\n}\n@media (max-width: 990px) {\n  .accordion-wrap .accordion .teaser {\n    flex-direction: column;\n  }\n}\n.accordion-wrap .accordion .content {\n  padding: 0 80px 30px 20px;\n}\n@media (max-width: 1200px) {\n  .accordion-wrap .accordion .content {\n    padding: 0 120px 30px 0;\n  }\n}\n.accordion-wrap .accordion .accordion-toggle {\n  height: 100%;\n  position: absolute;\n  background-color: rgba(192, 192, 192, 0.253);\n  right: 0;\n  top: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span {\n  background-color: #000000;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span.one {\n  height: 1px;\n  width: 20px;\n  position: absolute;\n  top: 50%;\n}\n.accordion-wrap .accordion .accordion-toggle span.two {\n  width: 1px;\n  height: 20px;\n  position: absolute;\n  left: 50%;\n  opacity: 1;\n  transform: rotate(90deg);\n}\n.accordion-wrap .accordion.collapsed .accordion-toggle span.two {\n  opacity: 1;\n  transform: rotate(0deg);\n}"],
     encapsulation: 2,
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
@@ -1562,18 +1561,21 @@ function publicationsComponent_div_15_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "div", 13)(6, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](8, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](10, "div", 14)(11, "div", 15)(12, "div", 2)(13, "div", 16)(14, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](15, " Abstract: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](16, "br")(17, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](8, "div", 2)(9, "div", 14)(10, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](18, "div", 3)(19, "a", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](20, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "div", 15)(13, "p", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](15, "div", 17)(16, "div", 18)(17, "div", 2)(18, "div", 19)(19, "p", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](20, " Abstract: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](21, "br")(22, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](23, "div", 3)(24, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](25, "img", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](21, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](26, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](27);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -1585,8 +1587,10 @@ function publicationsComponent_div_15_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", pub_r1.title, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate2"](" ", pub_r1.authors, " ", pub_r1.date, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", pub_r1.addInfo, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", "#" + (i_r2 + 1), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵattribute"]("id", "panelsStayOpen-collapse" + i_r2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](9);
@@ -1622,7 +1626,7 @@ class publicationsComponent {
     selectors: [["app-publications"]],
     decls: 16,
     vars: 2,
-    consts: [[1, "container", "py-2"], [1, "container"], [1, "row"], [1, "col-1"], [1, "col-10"], [1, "col-1", "col-md-1"], [1, "col-12", "col-md-10"], ["id", "accordion", "role", "tablist", 1, "panel-group", "accordion"], ["class", "panel panel-default", 4, "ngFor", "ngForOf"], [1, "panel", "panel-default"], ["role", "tab", 1, "panel-heading"], ["id", "collapse", "type", "button", "data-bs-toggle", "collapse", 1, "collapsed"], [1, "panel-title"], [1, "authors"], ["role", "tabpanel", 1, "panel-collapse", "collapse", "in"], [1, "panel-body"], [1, "col-9", "col-md-11"], [2, "margin-top", "20px"], ["target", "_blank", "type", "button", 1, "nga-btn-arxiv"], ["src", "../../../../assets/icons/arxiv.svg", 1, "arxiv"]],
+    consts: [[1, "container", "py-2"], [1, "container"], [1, "row"], [1, "col-1"], [1, "col-10"], [1, "col-1", "col-md-1"], [1, "col-12", "col-md-10"], ["id", "accordion", "role", "tablist", 1, "panel-group", "accordion"], ["class", "panel panel-default", 4, "ngFor", "ngForOf"], [1, "panel", "panel-default"], ["role", "tab", 1, "panel-heading"], ["id", "collapse", "type", "button", "data-bs-toggle", "collapse", 1, "collapsed"], [1, "panel-title"], [1, "authors"], [1, "col-9"], [1, "col-3"], [1, "number"], ["role", "tabpanel", 1, "panel-collapse", "collapse", "in"], [1, "panel-body"], [1, "col-9", "col-md-11"], [2, "margin-top", "20px"], ["target", "_blank", "type", "button", 1, "nga-btn-arxiv"], ["src", "../../../../assets/icons/arxiv.svg", 1, "arxiv"]],
     template: function publicationsComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div")(2, "div", 1)(3, "div", 2);
@@ -1637,7 +1641,7 @@ class publicationsComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](11, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](12, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](13, "div", 6)(14, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](15, publicationsComponent_div_15_Template, 23, 8, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](15, publicationsComponent_div_15_Template, 28, 9, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()();
       }
       if (rf & 2) {
@@ -1647,7 +1651,7 @@ class publicationsComponent {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf],
-    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n#accordion[_ngcontent-%COMP%]   .panel[_ngcontent-%COMP%]{\n    border: none;\n    border-radius: 5px;\n    box-shadow: none;\n    margin-bottom: 10px;\n    background: transparent;\n}\n#accordion[_ngcontent-%COMP%]   .panel-heading[_ngcontent-%COMP%]{\n    padding: 0;\n    border: none;\n    border-radius: 5px;\n    background: transparent;\n    position: relative;\n}\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]{\n    display: block;\n    padding: 15px 45px 0.5px 25px;\n    margin-bottom: 0px;\n    margin-top: 18px;\n    background: rgba(0,0,0,0.15);\n    color: rgba(0,0,0,1);\n    letter-spacing: 1px;\n    border: none;\n    border-radius: 3px;\n    position: relative;\n    text-decoration: none;\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]{ border: none; }\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]:before, .panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    content: \"\\f107\";\n    width: 30px;\n    height: 30px;\n    line-height: 27px;\n    text-align: center;\n    position: absolute;\n    top: 15px;\n    right: 30px;\n    transform: rotate(180deg);\n    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 30px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    color: rgba(255,255,255,0.5);\n    transform: rotate(0deg);\n}\n\n#accordion[_ngcontent-%COMP%]   .panel-title[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-size: 18px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n#accordion[_ngcontent-%COMP%]   .panel-body[_ngcontent-%COMP%]{\n    padding: 20px 30px;\n    background: rgba(0,0,0,0.6);\n    font-size: 15px;\n    color: #fff;\n    line-height: 28px;\n    letter-spacing: 1px;\n    border-top: none;\n    border-radius: 3px;\n}\n\n.authors[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 500;\n    font-size: 14px;\n    \n\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%] {\n    background-color: rgb(217,217,217);\n    position: relative;\n    z-index: 1;\n    display: inline-block;\n    padding: 0;\n    margin: 10px;\n    overflow: hidden;\n    vertical-align: middle;\n    cursor: pointer;\n    border-radius: 50%;\n    \n\n\n    transition: all 0.4s ease-in-out;\n    width: 45px;\n    height: 45px\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%]:hover {\nbackground-color: rgb(112,0,0);\n}\n\n.arxiv[_ngcontent-%COMP%] {\n    width: 1.5em;\n    margin-top: 9px;\n    margin-left: 11.5px;\n    filter: invert(12%) sepia(48%) saturate(4591%) hue-rotate(350deg) brightness(84%) contrast(119%);\n}\n\n.arxiv[_ngcontent-%COMP%]:hover {\nfilter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);\n}"],
+    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n#accordion[_ngcontent-%COMP%]   .panel[_ngcontent-%COMP%]{\n    border: none;\n    border-radius: 5px;\n    box-shadow: none;\n    margin-bottom: 10px;\n    background: transparent;\n}\n#accordion[_ngcontent-%COMP%]   .panel-heading[_ngcontent-%COMP%]{\n    padding: 0;\n    border: none;\n    border-radius: 5px;\n    background: transparent;\n    position: relative;\n}\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]{\n    display: block;\n    padding: 15px 45px 0.5px 25px;\n    margin-bottom: 0px;\n    margin-top: 18px;\n    background: rgba(0,0,0,0.15);\n    color: rgba(0,0,0,1);\n    letter-spacing: 1px;\n    border: none;\n    border-radius: 3px;\n    position: relative;\n    text-decoration: none;\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]{ border: none; }\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]:before, .panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    content: \"\\f107\";\n    width: 30px;\n    height: 30px;\n    line-height: 27px;\n    text-align: center;\n    position: absolute;\n    top: 15px;\n    right: 30px;\n    transform: rotate(180deg);\n    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 30px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    color: rgba(255,255,255,0.5);\n    transform: rotate(0deg);\n}\n\n#accordion[_ngcontent-%COMP%]   .panel-title[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-size: 18px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n#accordion[_ngcontent-%COMP%]   .panel-body[_ngcontent-%COMP%]{\n    padding: 20px 30px;\n    background: rgba(0,0,0,0.6);\n    font-size: 15px;\n    color: #fff;\n    line-height: 28px;\n    letter-spacing: 1px;\n    border-top: none;\n    border-radius: 3px;\n}\n\n.authors[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 500;\n    font-size: 14px;\n    \n\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%] {\n    background-color: rgb(217,217,217);\n    position: relative;\n    z-index: 1;\n    display: inline-block;\n    padding: 0;\n    margin: 10px;\n    overflow: hidden;\n    vertical-align: middle;\n    cursor: pointer;\n    border-radius: 50%;\n    \n\n\n    transition: all 0.4s ease-in-out;\n    width: 45px;\n    height: 45px\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%]:hover {\nbackground-color: rgb(112,0,0);\n}\n\n.arxiv[_ngcontent-%COMP%] {\n    width: 1.5em;\n    margin-top: 9px;\n    margin-left: 11.5px;\n    filter: invert(12%) sepia(48%) saturate(4591%) hue-rotate(350deg) brightness(84%) contrast(119%);\n}\n\n.arxiv[_ngcontent-%COMP%]:hover {\nfilter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);\n}\n\n.number[_ngcontent-%COMP%]{\n    bottom: -3px;\n    right: 28px;\n    position: absolute;\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -1907,20 +1911,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function talksComponent_div_211_div_1_Template(rf, ctx) {
+function talksComponent_div_202_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 53)(1, "div", 54)(2, "div", 55)(3, "div", 40)(4, "div", 56)(5, "a", 57);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function talksComponent_div_211_div_1_Template_a_click_5_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 27)(1, "div", 28)(2, "div", 13)(3, "div", 14)(4, "div", 29)(5, "a", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function talksComponent_div_202_div_1_Template_a_click_5_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r6);
       const item_r3 = restoredCtx.$implicit;
       const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r5.openTrailer(item_r3));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](6, "img", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](6, "img", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "div", 55)(8, "div", 40)(9, "div", 59)(10, "a", 60);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function talksComponent_div_211_div_1_Template_a_click_10_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "div", 13)(8, "div", 14)(9, "div", 32)(10, "a", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function talksComponent_div_202_div_1_Template_a_click_10_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r6);
       const item_r3 = restoredCtx.$implicit;
       const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
@@ -1942,10 +1946,10 @@ function talksComponent_div_211_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](item_r3.name);
   }
 }
-function talksComponent_div_211_Template(rf, ctx) {
+function talksComponent_div_202_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 51);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, talksComponent_div_211_div_1_Template, 15, 7, "div", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, talksComponent_div_202_div_1_Template, 15, 7, "div", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -1954,10 +1958,10 @@ function talksComponent_div_211_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx_r0.items);
   }
 }
-function talksComponent_div_221_Template(rf, ctx) {
+function talksComponent_div_212_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "iframe", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "iframe", 35);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "safe");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
@@ -2028,248 +2032,278 @@ class talksComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
     type: talksComponent,
     selectors: [["app-talks"]],
-    decls: 226,
+    decls: 217,
     vars: 3,
-    consts: [[1, "container", "py-0"], [1, "light"], ["id", "pageHeaderTitle", 1, "h1", "text-center"], [1, "postcard", "dark", "blue"], ["href", "#", 1, "postcard__img_link"], ["src", "https://picsum.photos/1000/1000", "alt", "Image Title", 1, "postcard__img"], [1, "postcard__text"], [1, "postcard__title", "blue"], ["href", "#"], [1, "postcard__subtitle", "small"], ["datetime", "2020-05-25 12:00:00"], [1, "fas", "fa-calendar-alt", "mr-2"], [1, "postcard__bar"], [1, "postcard__preview-txt"], [1, "postcard__tagbox"], [1, "tag__item"], [1, "fas", "fa-tag", "mr-2"], [1, "fas", "fa-clock", "mr-2"], [1, "tag__item", "play", "blue"], [1, "fas", "fa-play", "mr-2"], [1, "postcard", "dark", "red"], ["src", "https://picsum.photos/501/500", "alt", "Image Title", 1, "postcard__img"], [1, "postcard__title", "red"], [1, "tag__item", "play", "red"], [1, "postcard", "dark", "green"], ["src", "https://picsum.photos/500/501", "alt", "Image Title", 1, "postcard__img"], [1, "postcard__title", "green"], [1, "tag__item", "play", "green"], [1, "postcard", "dark", "yellow"], ["src", "https://picsum.photos/501/501", "alt", "Image Title", 1, "postcard__img"], [1, "postcard__title", "yellow"], [1, "tag__item", "play", "yellow"], [1, "container", "py-2"], ["id", "pageHeaderTitle", 1, "h1", "text-center", "text-dark"], [1, "postcard", "light", "blue"], [1, "postcard__text", "t-dark"], [1, "postcard", "light", "red"], [1, "postcard", "light", "green"], [1, "postcard", "light", "yellow"], [1, "row", "justify-content-center"], [1, "col"], ["class", "row pt-4", 4, "ngIf"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "row", "pt-4"], ["class", "col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 px-2 mb-3", 4, "ngFor", "ngForOf"], [1, "col-6", "col-sm-6", "col-md-4", "col-lg-3", "col-xl-3", "px-2", "mb-3"], [1, "nga-card-movie"], [1, "row"], [1, "card-movie-img"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", 3, "src"], [1, "card-movie-text"], [1, "waves-effect", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], [1, "card-columns"], [1, "card", "profile-card-5"], [1, "card-img-block"], ["src", "https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg", "alt", "Card Image", 1, "card-img-top"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], ["href", "#", 1, "btn", "btn-primary", "mt-auto", "align-self-start"], [1, "card"], ["src", "https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg", "alt", "Card Image", 1, "card-img-top"], ["src", "https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg", "alt", "Card Image", 1, "card-img-top"], [1, "dateTitle"], [1, "row"], [1, "col"], ["class", "row pt-4", 4, "ngIf"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "row", "pt-4"], ["class", "col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 px-2 mb-3", 4, "ngFor", "ngForOf"], [1, "col-6", "col-sm-6", "col-md-4", "col-lg-3", "col-xl-3", "px-2", "mb-3"], [1, "nga-card-movie"], [1, "card-movie-img"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", 3, "src"], [1, "card-movie-text"], [1, "waves-effect", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0)(1, "section", 1)(2, "div", 0)(3, "h1", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4, "My Cards Dark");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0)(1, "section")(2, "div", 1)(3, "div", 2)(4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](5, "img", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "article", 3)(6, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](7, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 5)(7, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8, "Porto Timoni Double Beach");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div", 6)(9, "h1", 7)(10, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](11, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "div", 9)(13, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](14, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](15, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](16, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](18, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "ul", 14)(20, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](21, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](22, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](24, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](25, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "li", 18)(27, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](28, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](29, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "article", 20)(31, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "img", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "div", 6)(34, "h1", 22)(35, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](36, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](37, "div", 9)(38, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](39, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](40, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](41, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](43, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](44, "ul", 14)(45, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](46, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](47, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](48, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](49, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](50, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "li", 23)(52, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](53, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](54, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](55, "article", 24)(56, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](57, "img", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](58, "div", 6)(59, "h1", 26)(60, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](61, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](62, "div", 9)(63, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](64, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](65, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](66, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](67, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](68, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](69, "ul", 14)(70, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](71, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](72, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](73, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](74, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](75, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](76, "li", 27)(77, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](78, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](79, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](80, "article", 28)(81, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](82, "img", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](83, "div", 6)(84, "h1", 30)(85, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](86, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](87, "div", 9)(88, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](89, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](90, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](91, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](92, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](93, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](94, "ul", 14)(95, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](96, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](97, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](98, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](99, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](100, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](101, "li", 31)(102, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](103, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](104, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](105, "section", 1)(106, "div", 32)(107, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](108, "My Cards Light");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](109, "article", 34)(110, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](111, "img", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](112, "div", 35)(113, "h1", 7)(114, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](115, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](116, "div", 9)(117, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](118, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](119, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](120, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](121, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](122, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](123, "ul", 14)(124, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](125, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](126, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](127, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](128, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](129, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](130, "li", 18)(131, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](132, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](133, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](134, "article", 36)(135, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](136, "img", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](137, "div", 35)(138, "h1", 22)(139, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](140, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](141, "div", 9)(142, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](143, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](144, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](145, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](146, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](147, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](148, "ul", 14)(149, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](150, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](151, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](152, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](153, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](154, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](155, "li", 23)(156, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](157, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](158, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](159, "article", 37)(160, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](161, "img", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](162, "div", 35)(163, "h1", 26)(164, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](165, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](166, "div", 9)(167, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](168, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](169, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](170, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](171, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](172, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](173, "ul", 14)(174, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](175, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](176, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](177, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](178, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](179, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](180, "li", 27)(181, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](182, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](183, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](184, "article", 38)(185, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](186, "img", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](187, "div", 35)(188, "h1", 30)(189, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](190, "Podcast Title");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](191, "div", 9)(192, "time", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](193, "i", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](194, "Mon, May 25th 2020 ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](195, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](196, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](197, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](198, "ul", 14)(199, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](200, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](201, "Podcast");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](202, "li", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](203, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](204, "55 mins.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](205, "li", 31)(206, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](207, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](208, "Play Episode");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](209, "div", 39)(210, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](211, talksComponent_div_211_Template, 2, 1, "div", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](212, "section")(213, "div", 42)(214, "div", 43)(215, "div", 44)(216, "div", 45)(217, "button", 46)(218, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](219, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](12, "Book now");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](220, "div", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](221, talksComponent_div_221_Template, 3, 3, "div", 48);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](14, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "div", 5)(16, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, "Tritons Fountain");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](222, "div", 49)(223, "button", 50)(224, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](225, "Close");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](18, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](19, "Located just outside the City Gate of Valletta,Located just outside the City Gate of Valletta, Malta. It consists of three bronze Trito Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](21, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](23, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "div", 5)(25, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](26, "D\u014Dtonbori Canal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](28, "Is a manmade waterway dug in the early 1600's and now displays many landmark commercial locals and vivid neon signs.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](30, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](31, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "div", 5)(34, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](35, "Porto Timoni Double Beach");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](37, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](39, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](41, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 5)(43, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44, "Tritons Fountain");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](46, "Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](48, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](49, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](50, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "div", 5)(52, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](53, "Porto Timoni Double Beach");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](54, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](55, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](56, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](57, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](58, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](59, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](60, "div", 5)(61, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](62, "Tritons Fountain");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](63, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](64, "Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](65, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](66, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](67, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](68, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](69, "div", 5)(70, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](71, "D\u014Dtonbori Canal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](72, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](73, "Is a manmade waterway dug in the early 1600's and now displays many landmark commercial locals and vivid neon signs.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](74, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](75, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](76, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](77, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](78, "div", 5)(79, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](80, "Porto Timoni Double Beach");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](81, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](82, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](83, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](84, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](85, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](86, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](87, "div", 5)(88, "h5", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](89, "Tritons Fountain");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](90, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](91, "Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](92, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](93, "Book now");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](94, "section")(95, "p")(96, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](97, "Organization of Conferences and Workshops");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](98, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](99, "10/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](100, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](101, " Annual Mathematical Physics Student Conference, 2nd edition");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](102, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](103, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](104, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](105, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](106, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](107, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](108, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](109, "03/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](110, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](111, " Oxford Meets the Hologram, online group workshop on Holography with student, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](112, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](113, " postdoc and faculty engagement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](114, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](115, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](116, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](117, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](118, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](119, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](120, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](121, "07/2020");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](122, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](123, " Annual Mathematical Physics Student Conference, co-founder");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](124, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](125, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](126, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](127, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](128, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](129, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](130, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](131, "09/2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](132, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](133, " Geometry and Strings Conference 2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](134, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](135, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](136, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](137, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](138, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](139, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](140, "p")(141, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](142, "Professional Responsibilities and Contributions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](143, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](144, "2021 \u2014 current");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](145, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](146, " Referee for Journal of High Energy Physics (JHEP) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](147, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](148, "2020 \u2014 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](149, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](150, " Co-organizer of the weekly Oxford String Theory Journal Club");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](151, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](152, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](153, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](154, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](155, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](156, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](157, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](158, "2020 \u2014 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](159, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](160, " Student Representative for the Mathematical Physics DPhil students");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](161, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](162, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](163, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](164, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](165, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](166, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](167, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](168, "12/2020, 12/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](169, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](170, " Undergraduate Admissions interviewer, respectively as junior interviewer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](171, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](172, " with James Sparks, subsequently as senior interviewer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](173, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](174, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](175, "Oriel College, University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](176, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](177, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](178, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](179, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](180, "09/2016");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](181, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](182, " Co-organizer of the Physics MSc social and academic introduction program");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](183, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](184, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](185, "Niels Bohr Institute, University of Copenhagen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](186, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](187, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](188, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](189, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](190, "09/2013");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](191, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](192, " Co-organizer of the Physics BA social and academic introduction program");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](193, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](194, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](195, "Niels Bohr Institute, University of Copenhagen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](196, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](197, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](198, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](199, "section")(200, "div", 13)(201, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](202, talksComponent_div_202_Template, 2, 1, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](203, "section")(204, "div", 16)(205, "div", 17)(206, "div", 18)(207, "div", 19)(208, "button", 20)(209, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](210, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](211, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](212, talksComponent_div_212_Template, 3, 3, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](213, "div", 23)(214, "button", 24)(215, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](216, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("@fade", undefined);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](211);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](202);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.loaded);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.playerLoaded);
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _category_pipe__WEBPACK_IMPORTED_MODULE_4__.CategoryPipe, _safe_pipe__WEBPACK_IMPORTED_MODULE_5__.SafePipe],
-    styles: ["@import url(https://fonts.googleapis.com/css2?family=Baloo+2&display=swap);.nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.9;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n\n\nbody[_ngcontent-%COMP%] {\n  font-family: \"Baloo 2\", cursive;\n  font-size: 16px;\n  color: #ffffff;\n  text-rendering: optimizeLegibility;\n  font-weight: initial;\n}\n\n.dark[_ngcontent-%COMP%] {\n  background: #110f16;\n}\n\n.light[_ngcontent-%COMP%] {\n  background: #ffffff;\n}\n\na[_ngcontent-%COMP%], a[_ngcontent-%COMP%]:hover {\n  text-decoration: none;\n  transition: color 0.3s ease-in-out;\n}\n\n#pageHeaderTitle[_ngcontent-%COMP%] {\n  margin: 2rem 0;\n  text-transform: uppercase;\n  text-align: center;\n  font-size: 2.5rem;\n}\n\n\n\n.postcard[_ngcontent-%COMP%] {\n  flex-wrap: wrap;\n  display: flex;\n  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);\n  border-radius: 10px;\n  margin: 0 0 2rem 0;\n  overflow: hidden;\n  position: relative;\n  color: #ffffff;\n}\n.postcard.dark[_ngcontent-%COMP%] {\n  background-color: #18151f;\n}\n.postcard.light[_ngcontent-%COMP%] {\n  background-color: #e1e5ea;\n}\n.postcard[_ngcontent-%COMP%]   .t-dark[_ngcontent-%COMP%] {\n  color: #18151f;\n}\n.postcard[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: inherit;\n}\n.postcard[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], .postcard[_ngcontent-%COMP%]   .h1[_ngcontent-%COMP%] {\n  margin-bottom: 0.5rem;\n  font-weight: 500;\n  line-height: 1.2;\n}\n.postcard[_ngcontent-%COMP%]   .small[_ngcontent-%COMP%] {\n  font-size: 80%;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__title[_ngcontent-%COMP%] {\n  font-size: 1.75rem;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__img[_ngcontent-%COMP%] {\n  max-height: 180px;\n  width: 100%;\n  object-fit: cover;\n  position: relative;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__img_link[_ngcontent-%COMP%] {\n  display: contents;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__bar[_ngcontent-%COMP%] {\n  width: 50px;\n  height: 10px;\n  margin: 10px 0;\n  border-radius: 5px;\n  background-color: #424242;\n  transition: width 0.2s ease;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__text[_ngcontent-%COMP%] {\n  padding: 1.5rem;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__preview-txt[_ngcontent-%COMP%] {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-align: justify;\n  height: 100%;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%] {\n  display: flex;\n  flex-flow: row wrap;\n  font-size: 14px;\n  margin: 20px 0 0 0;\n  padding: 0;\n  justify-content: center;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%]   .tag__item[_ngcontent-%COMP%] {\n  display: inline-block;\n  background: rgba(83, 83, 83, 0.4);\n  border-radius: 3px;\n  padding: 2.5px 10px;\n  margin: 0 5px 5px 0;\n  cursor: default;\n  -webkit-user-select: none;\n          user-select: none;\n  transition: background-color 0.3s;\n}\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%]   .tag__item[_ngcontent-%COMP%]:hover {\n  background: rgba(83, 83, 83, 0.8);\n}\n.postcard[_ngcontent-%COMP%]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background-image: linear-gradient(-70deg, #424242, transparent 50%);\n  opacity: 1;\n  border-radius: 10px;\n}\n.postcard[_ngcontent-%COMP%]:hover   .postcard__bar[_ngcontent-%COMP%] {\n  width: 100px;\n}\n\n@media screen and (min-width: 769px) {\n  .postcard[_ngcontent-%COMP%] {\n    flex-wrap: inherit;\n  }\n  .postcard[_ngcontent-%COMP%]   .postcard__title[_ngcontent-%COMP%] {\n    font-size: 2rem;\n  }\n  .postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%] {\n    justify-content: start;\n  }\n  .postcard[_ngcontent-%COMP%]   .postcard__img[_ngcontent-%COMP%] {\n    max-width: 300px;\n    max-height: 100%;\n    transition: transform 0.3s ease;\n  }\n  .postcard[_ngcontent-%COMP%]   .postcard__text[_ngcontent-%COMP%] {\n    padding: 3rem;\n    width: 100%;\n  }\n  .postcard[_ngcontent-%COMP%]   .media.postcard__text[_ngcontent-%COMP%]:before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    background: #18151f;\n    top: -20%;\n    height: 130%;\n    width: 55px;\n  }\n  .postcard[_ngcontent-%COMP%]:hover   .postcard__img[_ngcontent-%COMP%] {\n    transform: scale(1.1);\n  }\n  .postcard[_ngcontent-%COMP%]:nth-child(2n+1) {\n    flex-direction: row;\n  }\n  .postcard[_ngcontent-%COMP%]:nth-child(2n+0) {\n    flex-direction: row-reverse;\n  }\n  .postcard[_ngcontent-%COMP%]:nth-child(2n+1)   .postcard__text[_ngcontent-%COMP%]::before {\n    left: -12px !important;\n    transform: rotate(4deg);\n  }\n  .postcard[_ngcontent-%COMP%]:nth-child(2n+0)   .postcard__text[_ngcontent-%COMP%]::before {\n    right: -12px !important;\n    transform: rotate(-4deg);\n  }\n}\n@media screen and (min-width: 1024px) {\n  .postcard__text[_ngcontent-%COMP%] {\n    padding: 2rem 3.5rem;\n  }\n  .postcard__text[_ngcontent-%COMP%]:before {\n    content: \"\";\n    position: absolute;\n    display: block;\n    top: -20%;\n    height: 130%;\n    width: 55px;\n  }\n  .postcard.dark[_ngcontent-%COMP%]   .postcard__text[_ngcontent-%COMP%]:before {\n    background: #18151f;\n  }\n  .postcard.light[_ngcontent-%COMP%]   .postcard__text[_ngcontent-%COMP%]:before {\n    background: #e1e5ea;\n  }\n}\n\n\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%]   .green.play[_ngcontent-%COMP%]:hover {\n  background: #79dd09;\n  color: black;\n}\n\n.green[_ngcontent-%COMP%]   .postcard__title[_ngcontent-%COMP%]:hover {\n  color: #79dd09;\n}\n\n.green[_ngcontent-%COMP%]   .postcard__bar[_ngcontent-%COMP%] {\n  background-color: #79dd09;\n}\n\n.green[_ngcontent-%COMP%]::before {\n  background-image: linear-gradient(-30deg, rgba(121, 221, 9, 0.1), transparent 50%);\n}\n\n.green[_ngcontent-%COMP%]:nth-child(2n)::before {\n  background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);\n}\n\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%]   .blue.play[_ngcontent-%COMP%]:hover {\n  background: #0076bd;\n}\n\n.blue[_ngcontent-%COMP%]   .postcard__title[_ngcontent-%COMP%]:hover {\n  color: #0076bd;\n}\n\n.blue[_ngcontent-%COMP%]   .postcard__bar[_ngcontent-%COMP%] {\n  background-color: #0076bd;\n}\n\n.blue[_ngcontent-%COMP%]::before {\n  background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);\n}\n\n.blue[_ngcontent-%COMP%]:nth-child(2n)::before {\n  background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);\n}\n\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%]   .red.play[_ngcontent-%COMP%]:hover {\n  background: #bd150b;\n}\n\n.red[_ngcontent-%COMP%]   .postcard__title[_ngcontent-%COMP%]:hover {\n  color: #bd150b;\n}\n\n.red[_ngcontent-%COMP%]   .postcard__bar[_ngcontent-%COMP%] {\n  background-color: #bd150b;\n}\n\n.red[_ngcontent-%COMP%]::before {\n  background-image: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);\n}\n\n.red[_ngcontent-%COMP%]:nth-child(2n)::before {\n  background-image: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);\n}\n\n.postcard[_ngcontent-%COMP%]   .postcard__tagbox[_ngcontent-%COMP%]   .yellow.play[_ngcontent-%COMP%]:hover {\n  background: #bdbb49;\n  color: black;\n}\n\n.yellow[_ngcontent-%COMP%]   .postcard__title[_ngcontent-%COMP%]:hover {\n  color: #bdbb49;\n}\n\n.yellow[_ngcontent-%COMP%]   .postcard__bar[_ngcontent-%COMP%] {\n  background-color: #bdbb49;\n}\n\n.yellow[_ngcontent-%COMP%]::before {\n  background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);\n}\n\n.yellow[_ngcontent-%COMP%]:nth-child(2n)::before {\n  background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);\n}\n\n@media screen and (min-width: 769px) {\n  .green[_ngcontent-%COMP%]::before {\n    background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);\n  }\n  .green[_ngcontent-%COMP%]:nth-child(2n)::before {\n    background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);\n  }\n  .blue[_ngcontent-%COMP%]::before {\n    background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);\n  }\n  .blue[_ngcontent-%COMP%]:nth-child(2n)::before {\n    background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);\n  }\n  .red[_ngcontent-%COMP%]::before {\n    background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);\n  }\n  .red[_ngcontent-%COMP%]:nth-child(2n)::before {\n    background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);\n  }\n  .yellow[_ngcontent-%COMP%]::before {\n    background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);\n  }\n  .yellow[_ngcontent-%COMP%]:nth-child(2n)::before {\n    background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);\n  }\n}"],
+    styles: [".nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.9;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 4;\n  }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -6482,7 +6516,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵPRE_STYLE": () => (/* binding */ ɵPRE_STYLE)
 /* harmony export */ });
 /**
- * @license Angular v16.2.12
+ * @license Angular v16.2.9
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7736,7 +7770,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/animations */ 6825);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 5879);
 /**
- * @license Angular v16.2.12
+ * @license Angular v16.2.9
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -11771,14 +11805,7 @@ class WebAnimationsPlayer {
     // @ts-expect-error overwriting a readonly property
     this.domPlayer = this._triggerWebAnimation(this.element, keyframes, this.options);
     this._finalKeyframe = keyframes.length ? keyframes[keyframes.length - 1] : new Map();
-    const onFinish = () => this._onFinish();
-    this.domPlayer.addEventListener('finish', onFinish);
-    this.onDestroy(() => {
-      // We must remove the `finish` event listener once an animation has completed all its
-      // iterations. This action is necessary to prevent a memory leak since the listener captures
-      // `this`, creating a closure that prevents `this` from being garbage collected.
-      this.domPlayer.removeEventListener('finish', onFinish);
-    });
+    this.domPlayer.addEventListener('finish', () => this._onFinish());
   }
   _preparePlayerBeforeStart() {
     // this is required so that the player doesn't start to animate right away
@@ -13567,11 +13594,13 @@ class ConfigurableFocusTrapFactory {
 /** Gets whether an event could be a faked `mousedown` event dispatched by a screen reader. */
 function isFakeMousedownFromScreenReader(event) {
   // Some screen readers will dispatch a fake `mousedown` event when pressing enter or space on
-  // a clickable element. We can distinguish these events when `event.buttons` is zero, or
-  // `event.detail` is zero depending on the browser:
+  // a clickable element. We can distinguish these events when both `offsetX` and `offsetY` are
+  // zero or `event.buttons` is zero, depending on the browser:
   // - `event.buttons` works on Firefox, but fails on Chrome.
-  // - `detail` works on Chrome, but fails on Firefox.
-  return event.buttons === 0 || event.detail === 0;
+  // - `offsetX` and `offsetY` work on Chrome, but fail on Firefox.
+  // Note that there's an edge case where the user could click the 0x0 spot of the
+  // screen themselves, but that is unlikely to contain interactive elements.
+  return event.buttons === 0 || event.offsetX === 0 && event.offsetY === 0;
 }
 /** Gets whether an event could be a faked `touchstart` event dispatched by a screen reader. */
 function isFakeTouchstartFromScreenReader(event) {
@@ -14857,7 +14886,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /** Current version of the Angular Component Development Kit. */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
 
 //# sourceMappingURL=cdk.mjs.map
 
@@ -23489,7 +23518,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵHttpInterceptorHandler": () => (/* binding */ HttpInterceptorHandler),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
+/* harmony import */ var C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 5879);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 2096);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 5592);
@@ -24941,7 +24970,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -24995,7 +25024,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -66256,7 +66285,7 @@ function MatOption_span_6_Template(rf, ctx) {
 }
 const _c3 = [[["mat-icon"]], "*"];
 const _c4 = ["mat-icon", "*"];
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
 
 /** @docs-private */
 class AnimationCurves {

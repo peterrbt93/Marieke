@@ -119,6 +119,12 @@ background-color: rgb(112,0,0);
 filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);
 }
 
+.number{
+    bottom: -3px;
+    right: 28px;
+    position: absolute;
+}
+
 
 
 

@@ -31,9 +31,20 @@
                             <p>
                               {{pub.authors}} {{pub.date}}
                             </p>
-                            <p>
-                              {{pub.addInfo}}
-                            </p>
+                            <div class="row">
+                              <div class="col-9">
+                                <p>
+                                  {{pub.addInfo}}
+                                </p>
+                              </div>
+                              <div class="col-3">
+                                <p class="number">
+                                  {{"#"+ (i+1)}}
+                                </p>
+                              </div>
+                            </div>
+                            
+                            
                           </div>
                           
                         </a>

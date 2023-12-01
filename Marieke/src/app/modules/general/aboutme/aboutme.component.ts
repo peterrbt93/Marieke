@@ -55,7 +55,7 @@ export class aboutmeComponent {
           <p>
             <b>Research Assistant Professor</b><br>
             <i>SCGP, Stony Brook U.</i> | <i>Stony Brook, NY, USA</i><br>
-          <\p>
+          </p>
         `
       ),
 
@@ -64,34 +64,34 @@ export class aboutmeComponent {
         ` 
           <p class="dateTitle">10/2018 &mdash; 09/2022</p>
           <p>
-            <b>DPhil in Mathematics, Mathematical Physics</b><br>
+            <b>DPhil in Mathematical Physics</b><br>
             <i>Mathematical Institute, University of Oxford</i> | <i>Oxford, UK</i><br>
             Advisor: Prof. Sakura Schafer-Nameki. Thesis title: Strongly coupled quantum field theories from string theory.
-          <\p>
+          </p>
           <p class="dateTitle">02/2016 &mdash; 04/2018</p>
           <p>
             <b>MSc in Quantum Physics</b> <br>
             <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i><br>
             Thesis advisor: Prof. Niels Obers. Thesis title: Newton-Cartan gravity and 3D Chern-Simons theory.
-          <\p>
+          </p>
           <p class="dateTitle">06/2016 &mdash; 09/2016</p>
           <p>
             <b>Summer Student</b> <br>
             <i>CERN Summer School, CERN</i> | <i>Geneva, CH</i><br>
             Project: The Information Paradox and Firewalls. Project advisor: Kyriakos Papadodimas.
-          <\p>
+          </p>
           <p class="dateTitle"> 09/2014 &mdash; 06/2015</p>
           <p>
-            <b>Full Year Undergraduate Exchange Programme</b><br>
+            <b>Undergraduate Exchange Programme</b><br>
             <i>Caltech, California Institute of Technology</i> | <i>Pasadena, CA, USA</i><br>
             Independent project: Dark matter study. Project supervisors: Clifford Cheung and Maria Spiropulu.
-          <\p>
+          </p>
           <p class="dateTitle"> 09/2012 &mdash; 11/2015</p>
           <p>
             <b>BA in Physics</b> <br>
             <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i><br>
             Thesis advisor: Prof. Jens Paaske. Thesis title: Fock-Darwin states for an elliptical spin-orbit coupled quantum well.
-          <\p>   
+          </p>   
         `
       ),
 
@@ -106,7 +106,7 @@ export class aboutmeComponent {
           <li><i>Lorup Honorary Graduate Award</i>, 2017. Awarded by the Lorup Foundation, Niels Bohr Institute, University of Copenhagen 
           for <i>academic excellence, as well as original and advanced level of MSc thesis work</i>.</li>
       </ul>
-      <\p>
+      </p>
       <p>
       <b>Scholarships</b><br>
       <ul>
@@ -115,66 +115,65 @@ export class aboutmeComponent {
           <li><i>Oxford-Wolfson Marriott Graduate Scholarship</i>, Sep 2018-Apr 2022. Awarded by the University of Oxford and the EPSRC 
           for the full-time DPhil in Mathematics.</li>
       </ul>
-      <\p> 
+      </p> 
         `
       ),
 
       new About(
         "Organization",
         `
-        <p>
           <p>
             <b>Organization of Conferences and Workshops</b>
-          <\p>
+          </p>
           <p class="dateTitle">10/2021</p>
           <p>
             Annual Mathematical Physics Student Conference, 2nd edition<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">03/2021</p>
           <p>
             Oxford Meets the Hologram, online group workshop on Holography with student, <br>
             postdoc and faculty engagement<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">07/2020</p>
           <p>
             Annual Mathematical Physics Student Conference, co-founder<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">09/2019</p>
           <p>
             Geometry and Strings Conference 2019<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p>
           <b>Professional Responsibilities and Contributions</b>
-          <\p>
+          </p>
           <p class="dateTitle">2021 &mdash; current</p>
           <p>
             Referee for Journal of High Energy Physics (JHEP)
-          <\p>
+          </p>
           <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
             Co-organizer of the weekly Oxford String Theory Journal Club<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
             Student Representative for the Mathematical Physics DPhil students<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">12/2020, 12/2021</p>
           <p>
             Undergraduate Admissions interviewer, respectively as junior interviewer<br>
             with James Sparks, subsequently as senior interviewer<br>
             <i>Oriel College, University of Oxford</i> | <i>Oxford, UK</i>
-          <\p>
+          </p>
           <p class="dateTitle">09/2016</p>
           <p>
           Co-organizer of the Physics MSc social and academic introduction program<br>
           <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
-          <\p>
+          </p>
           <p class="dateTitle">09/2013</p>
           <p>
           Co-organizer of the Physics BA social and academic introduction program<br>
