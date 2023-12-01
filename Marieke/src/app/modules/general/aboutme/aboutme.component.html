@@ -19,14 +19,14 @@
     <div class="col-1"></div>
     <div class="col-8">
         <div class="accordion-wrap" id="accordionAbout" >
-            <a *ngFor="let about of abouts; let i=index;"  class="accordion collapsed" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i" role="button" aria-expanded="false" >
+            <a *ngFor="let about of abouts; let i=index;"  [ngClass]="(i==0?'accordion':'accordion collapsed')" data-bs-toggle="collapse" [attr.data-bs-target]="'#panelsStayOpen-collapse'+i" role="button" aria-expanded="false" >
             <div class="teaser">
                 <div class="title">
                     <h3>{{about.title}}</h3>
                 </div>
             </div>
                 
-                <div class="collapse" data-bs-parent="#accordionAbout"  [attr.id]="'panelsStayOpen-collapse'+i">
+                <div [ngClass]="(i==0?'show collapse':'collapse')" data-bs-parent="#accordionAbout"  [attr.id]="'panelsStayOpen-collapse'+i">
           <div class="content" [innerHTML]="about.html | sanitizedHtml">
             
           </div>
