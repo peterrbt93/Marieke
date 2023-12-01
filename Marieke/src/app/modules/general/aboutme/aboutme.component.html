@@ -25,8 +25,8 @@
                     <h3>{{about.title}}</h3>
                 </div>
             </div>
-                
-                <div [ngClass]="(i==0?'show collapse':'collapse')" data-bs-parent="#accordionAbout"  [attr.id]="'panelsStayOpen-collapse'+i">
+                <!-- <div [ngClass]="(i==0?'show collapse':'collapse')" data-bs-parent="#accordionAbout" [attr.id]="'panelsStayOpen-collapse'+i"> -->
+                <div [ngClass]="(i==0?'show collapse':'collapse')" [attr.id]="'panelsStayOpen-collapse'+i">
           <div class="content" [innerHTML]="about.html | sanitizedHtml">
             
           </div>

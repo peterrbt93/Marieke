@@ -774,7 +774,7 @@ class aboutmeComponent {
     selectors: [["app-aboutme"]],
     decls: 16,
     vars: 2,
-    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-0", "col-md-3", "pic"], [1, "col-md-3"], [1, "col-md-9", "textBox"], ["src", "../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg", 1, "marieke"], [1, "col-0", "col-md-1"], [1, "col-12", "col-md-8"], ["id", "accordionAbout", 1, "accordion-wrap"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass", 4, "ngFor", "ngForOf"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass"], [1, "teaser"], [1, "title"], ["data-bs-parent", "#accordionAbout", 3, "ngClass"], [1, "content", 3, "innerHTML"], [1, "accordion-toggle"], [1, "one"], [1, "two"]],
+    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-0", "col-md-3", "pic"], [1, "col-md-3"], [1, "col-md-9", "textBox"], ["src", "../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg", 1, "marieke"], [1, "col-0", "col-md-1"], [1, "col-12", "col-md-8"], ["id", "accordionAbout", 1, "accordion-wrap"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass", 4, "ngFor", "ngForOf"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass"], [1, "teaser"], [1, "title"], [3, "ngClass"], [1, "content", 3, "innerHTML"], [1, "accordion-toggle"], [1, "one"], [1, "two"]],
     template: function aboutmeComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 1);
