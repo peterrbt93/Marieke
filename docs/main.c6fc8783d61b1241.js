@@ -620,13 +620,15 @@ function aboutmeComponent_a_15_Template(rf, ctx) {
   if (rf & 2) {
     const about_r1 = ctx.$implicit;
     const i_r2 = ctx.index;
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", i_r2 == 0 ? "accordion" : "accordion collapsed");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵattribute"]("data-bs-target", "#panelsStayOpen-collapse" + i_r2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate"](about_r1.title);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngClass", i_r2 == 0 ? "show collapse" : "collapse");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵattribute"]("id", "panelsStayOpen-collapse" + i_r2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("innerHTML", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](7, 4, about_r1.html), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("innerHTML", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](7, 6, about_r1.html), _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsanitizeHtml"]);
   }
 }
 class aboutmeComponent {
@@ -648,21 +650,13 @@ class aboutmeComponent {
           <p>
             I am currently employed as a <i>Research Assistant Professor</i> at the <i>Simons Center for Geometry and Physics</i>.
           </p> 
-        `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("About me 2", ` <p>
-            My field of research is high energy theory, more specifically quantum field theory and string theory. 
-            I am interested in nonperturbative physics, phase structures, and defects, which I study using generalized symmetries and their 't Hooft anomalies.
-            My work in string theory centers on constructions of supersymmetric quantum field theories,
-            where I bring in tools from geometry and algebraic topology to understand strongly-coupled fixed points, defects, and dualities.
-          </p>
-          <p>
-            I am currently employed as a <i>Research Assistant Professor</i> at the <i>Simons Center for Geometry and Physics</i>.
-          </p> 
-        `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Education", ` 
+        `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Positions", ` 
         <p class="dateTitle">09/2022 &mdash; current</p>
           <p>
             <b>Research Assistant Professor</b><br>
             <i>SCGP, Stony Brook U.</i> | <i>Stony Brook, NY, USA</i><br>
           <\p>
+        `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Education", ` 
           <p class="dateTitle">10/2018 &mdash; 09/2022</p>
           <p>
             <b>DPhil in Mathematics, Mathematical Physics</b><br>
@@ -712,55 +706,64 @@ class aboutmeComponent {
           for the full-time DPhil in Mathematics.</li>
       </ul>
       <\p> 
-        `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Organization", `<p>
+        `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Organization", `
+        <p>
           <p>
-          <b>Organization of Conferences and Workshops</b>
+            <b>Organization of Conferences and Workshops</b>
           <\p>
+          <p class="dateTitle">10/2021</p>
           <p>
-          10/2021 Annual Mathematical Physics Student Conference, 2nd edition<br>
-          University of Oxford | Oxford, UK
+            Annual Mathematical Physics Student Conference, 2nd edition<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">03/2021</p>
           <p>
-          03/2021 Oxford Meets the Hologram, online group workshop on Holography with stu-
-          dent, postdoc and faculty engagement
-          University of Oxford | Oxford, UK
+            Oxford Meets the Hologram, online group workshop on Holography with student, <br>
+            postdoc and faculty engagement<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">07/2020</p>
           <p>
-          07/2020 Annual Mathematical Physics Student Conference, co-founder
-          University of Oxford | Oxford, UK
+            Annual Mathematical Physics Student Conference, co-founder<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">09/2019</p>
           <p>
-          09/2019 Geometry and Strings Conference 2019
-          University of Oxford | Oxford, UK
+            Geometry and Strings Conference 2019<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
           <p>
           <b>Professional Responsibilities and Contributions</b>
           <\p>
+          <p class="dateTitle">2021 &mdash; current</p>
           <p>
-          2020 -- 2022 Co-organizer of the weekly Oxford String Theory Journal Club
-          University of Oxford | Oxford, UK
+            Referee for Journal of High Energy Physics (JHEP)
           <\p>
+          <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
-          2020 -- 2022 Student Representative for the Mathematical Physics DPhil students
-          University of Oxford | Oxford, UK
+            Co-organizer of the weekly Oxford String Theory Journal Club<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
-          2021 Referee for Journal of High Energy Physics (JHEP)
+            Student Representative for the Mathematical Physics DPhil students<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">12/2020, 12/2021</p>
           <p>
-          Dec 2020,
-          Dec 2021
-          Undergraduate Admissions interviewer, respectively as junior interviewer with
-          James Sparks, subsequently as senior interviewer
-          Oriel College, University of Oxford | Oxford, UK
+            Undergraduate Admissions interviewer, respectively as junior interviewer<br>
+            with James Sparks, subsequently as senior interviewer<br>
+            <i>Oriel College, University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">09/2016</p>
           <p>
-          Sep 2016 Co-organizer of the Physics MSc social and academic introduction program
-          Niels Bohr Institute, University of Copenhagen | Copenhagen, DK
+          Co-organizer of the Physics MSc social and academic introduction program<br>
+          <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
           <\p>
+          <p class="dateTitle">09/2013</p>
           <p>
-          Sep 2013 Co-organizer of the Physics BA social and academic introduction program
-          Niels Bohr Institute, University of Copenhagen | Copenhagen, DK
+          Co-organizer of the Physics BA social and academic introduction program<br>
+          <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
           </p>
         `)];
   }
@@ -772,23 +775,23 @@ class aboutmeComponent {
     selectors: [["app-aboutme"]],
     decls: 16,
     vars: 2,
-    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-3", "pic"], [1, "col-3"], [1, "col-9"], ["src", "../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg", 1, "marieke"], [1, "col-1"], [1, "col-8"], ["id", "accordionAbout", 1, "accordion-wrap"], ["class", "accordion collapsed", "data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 4, "ngFor", "ngForOf"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 1, "accordion", "collapsed"], [1, "teaser"], [1, "title"], ["data-bs-parent", "#accordionAbout", 1, "collapse"], [1, "content", 3, "innerHTML"], [1, "accordion-toggle"], [1, "one"], [1, "two"]],
+    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-3", "pic"], [1, "col-3"], [1, "col-9"], ["src", "../../../../assets/params/images/aboutMe/About_me_dummy_billede2.jpg", 1, "marieke"], [1, "col-1"], [1, "col-8"], ["id", "accordionAbout", 1, "accordion-wrap"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass", 4, "ngFor", "ngForOf"], ["data-bs-toggle", "collapse", "role", "button", "aria-expanded", "false", 3, "ngClass"], [1, "teaser"], [1, "title"], ["data-bs-parent", "#accordionAbout", 3, "ngClass"], [1, "content", 3, "innerHTML"], [1, "accordion-toggle"], [1, "one"], [1, "two"]],
     template: function aboutmeComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](4, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "div", 4)(6, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7, "FAQ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7, "Welcome");
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](8, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](9, "Quality is at the heart of everything we do");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](9, "Here are a few notes about my experience and interests.");
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](10, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](11, "img", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](12, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](13, "div", 7)(14, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](15, aboutmeComponent_a_15_Template, 11, 6, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](15, aboutmeComponent_a_15_Template, 11, 8, "a", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
       }
       if (rf & 2) {
@@ -797,8 +800,8 @@ class aboutmeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx.abouts);
       }
     },
-    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _sanitized_html_pipe__WEBPACK_IMPORTED_MODULE_3__.SanitizedHtmlPipe],
-    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n@media (min-width: 982px) {\n  .clear {\n    clear: both;\n    height: 0px;\n  }\n  .container {\n    max-width: 80%;\n  }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px) {\n  .clear {\n    clear: both;\n    height: 250px;\n  }\n}\n.dateTitle {\n  text-align: right;\n  transform: translate(-3px, 40px);\n  margin-top: -35px;\n}\n\nh3 {\n  font-family: titleFont;\n  font-size: 30px;\n}\n\n.marieke {\n  position: absolute;\n  width: 31vw;\n  max-width: inherit;\n  opacity: 100%;\n  z-index: 1;\n  transform: translate(-35%);\n}\n\n.box {\n  height: 460px;\n  width: 295px;\n  transform: translate(148px, 100px);\n  background-color: rgb(37, 37, 37);\n}\n\n.pic {\n  padding-left: 0px;\n  padding-top: 0px;\n}\n\n.accordion-wrap {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.accordion-wrap a {\n  color: #000000;\n  text-decoration: none;\n}\n.accordion-wrap a:hover {\n  text-decoration: none;\n}\n.accordion-wrap .accordion {\n  position: relative;\n  border-top: 1px solid #000000;\n}\n.accordion-wrap .accordion:last-child {\n  border-bottom: 1px solid rgb(0, 0, 0);\n}\n.accordion-wrap .accordion .teaser {\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n  width: 100%;\n  padding: 24px 100px 24px 0;\n  position: relative;\n}\n.accordion-wrap .accordion .teaser:last-child {\n  border-bottom: 1px solid #000000;\n}\n.accordion-wrap .accordion .teaser .time {\n  margin-top: 5px;\n  width: 200px;\n}\n.accordion-wrap .accordion .teaser .title .theme {\n  opacity: 0.4;\n}\n@media (max-width: 990px) {\n  .accordion-wrap .accordion .teaser {\n    flex-direction: column;\n  }\n}\n.accordion-wrap .accordion .content {\n  padding: 0 80px 30px 20px;\n}\n@media (max-width: 1200px) {\n  .accordion-wrap .accordion .content {\n    padding: 0 120px 30px 0;\n  }\n}\n.accordion-wrap .accordion .accordion-toggle {\n  width: 60px;\n  height: 100%;\n  position: absolute;\n  background-color: rgba(192, 192, 192, 0.253);\n  right: 0;\n  top: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span {\n  background-color: #000000;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span.one {\n  height: 1px;\n  width: 20px;\n  position: absolute;\n  top: 50%;\n}\n.accordion-wrap .accordion .accordion-toggle span.two {\n  width: 1px;\n  height: 20px;\n  position: absolute;\n  left: 50%;\n  opacity: 1;\n  transform: rotate(90deg);\n}\n.accordion-wrap .accordion.collapsed .accordion-toggle span.two {\n  opacity: 1;\n  transform: rotate(0deg);\n}"],
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _sanitized_html_pipe__WEBPACK_IMPORTED_MODULE_3__.SanitizedHtmlPipe],
+    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n@media (min-width: 982px) {\n  .clear {\n    clear: both;\n    height: 0px;\n  }\n  .container {\n    max-width: 80%;\n  }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px) {\n  .clear {\n    clear: both;\n    height: 250px;\n  }\n}\n.dateTitle {\n  text-align: right;\n  transform: translate(-3px, 40px);\n  margin-top: -35px;\n}\n\nh3 {\n  font-family: titleFont;\n  font-size: 22px;\n}\n\n.marieke {\n  position: absolute;\n  width: 31vw;\n  max-width: inherit;\n  opacity: 100%;\n  z-index: 1;\n  transform: translate(-35%);\n}\n\n.box {\n  height: 460px;\n  width: 295px;\n  transform: translate(148px, 100px);\n  background-color: rgb(37, 37, 37);\n}\n\n.pic {\n  padding-left: 0px;\n  padding-top: 0px;\n}\n\n.accordion-wrap {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n.accordion-wrap a {\n  color: #000000;\n  text-decoration: none;\n}\n.accordion-wrap a:hover {\n  text-decoration: none;\n}\n.accordion-wrap .accordion {\n  position: relative;\n  border-top: 1px solid #000000;\n}\n.accordion-wrap .accordion:last-child {\n  border-bottom: 1px solid rgb(0, 0, 0);\n}\n.accordion-wrap .accordion .teaser {\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n  width: 100%;\n  padding: 24px 100px 13px 0;\n  position: relative;\n}\n.accordion-wrap .accordion .teaser:last-child {\n  border-bottom: 1px solid #000000;\n}\n.accordion-wrap .accordion .teaser .time {\n  margin-top: 5px;\n  width: 200px;\n}\n.accordion-wrap .accordion .teaser .title .theme {\n  opacity: 0.4;\n}\n@media (max-width: 990px) {\n  .accordion-wrap .accordion .teaser {\n    flex-direction: column;\n  }\n}\n.accordion-wrap .accordion .content {\n  padding: 0 80px 30px 20px;\n}\n@media (max-width: 1200px) {\n  .accordion-wrap .accordion .content {\n    padding: 0 120px 30px 0;\n  }\n}\n.accordion-wrap .accordion .accordion-toggle {\n  width: 60px;\n  height: 100%;\n  position: absolute;\n  background-color: rgba(192, 192, 192, 0.253);\n  right: 0;\n  top: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span {\n  background-color: #000000;\n  transition: 0.3s ease;\n}\n.accordion-wrap .accordion .accordion-toggle span.one {\n  height: 1px;\n  width: 20px;\n  position: absolute;\n  top: 50%;\n}\n.accordion-wrap .accordion .accordion-toggle span.two {\n  width: 1px;\n  height: 20px;\n  position: absolute;\n  left: 50%;\n  opacity: 1;\n  transform: rotate(90deg);\n}\n.accordion-wrap .accordion.collapsed .accordion-toggle span.two {\n  opacity: 1;\n  transform: rotate(0deg);\n}"],
     encapsulation: 2,
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
@@ -6479,7 +6482,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵPRE_STYLE": () => (/* binding */ ɵPRE_STYLE)
 /* harmony export */ });
 /**
- * @license Angular v16.2.9
+ * @license Angular v16.2.12
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7733,7 +7736,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/animations */ 6825);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 5879);
 /**
- * @license Angular v16.2.9
+ * @license Angular v16.2.12
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -11768,7 +11771,14 @@ class WebAnimationsPlayer {
     // @ts-expect-error overwriting a readonly property
     this.domPlayer = this._triggerWebAnimation(this.element, keyframes, this.options);
     this._finalKeyframe = keyframes.length ? keyframes[keyframes.length - 1] : new Map();
-    this.domPlayer.addEventListener('finish', () => this._onFinish());
+    const onFinish = () => this._onFinish();
+    this.domPlayer.addEventListener('finish', onFinish);
+    this.onDestroy(() => {
+      // We must remove the `finish` event listener once an animation has completed all its
+      // iterations. This action is necessary to prevent a memory leak since the listener captures
+      // `this`, creating a closure that prevents `this` from being garbage collected.
+      this.domPlayer.removeEventListener('finish', onFinish);
+    });
   }
   _preparePlayerBeforeStart() {
     // this is required so that the player doesn't start to animate right away
@@ -13557,13 +13567,11 @@ class ConfigurableFocusTrapFactory {
 /** Gets whether an event could be a faked `mousedown` event dispatched by a screen reader. */
 function isFakeMousedownFromScreenReader(event) {
   // Some screen readers will dispatch a fake `mousedown` event when pressing enter or space on
-  // a clickable element. We can distinguish these events when both `offsetX` and `offsetY` are
-  // zero or `event.buttons` is zero, depending on the browser:
+  // a clickable element. We can distinguish these events when `event.buttons` is zero, or
+  // `event.detail` is zero depending on the browser:
   // - `event.buttons` works on Firefox, but fails on Chrome.
-  // - `offsetX` and `offsetY` work on Chrome, but fail on Firefox.
-  // Note that there's an edge case where the user could click the 0x0 spot of the
-  // screen themselves, but that is unlikely to contain interactive elements.
-  return event.buttons === 0 || event.offsetX === 0 && event.offsetY === 0;
+  // - `detail` works on Chrome, but fails on Firefox.
+  return event.buttons === 0 || event.detail === 0;
 }
 /** Gets whether an event could be a faked `touchstart` event dispatched by a screen reader. */
 function isFakeTouchstartFromScreenReader(event) {
@@ -14849,7 +14857,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /** Current version of the Angular Component Development Kit. */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
 
 //# sourceMappingURL=cdk.mjs.map
 
@@ -23481,7 +23489,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵHttpInterceptorHandler": () => (/* binding */ HttpInterceptorHandler),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
+/* harmony import */ var C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 5879);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 2096);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 5592);
@@ -24933,7 +24941,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -24987,7 +24995,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -66248,7 +66256,7 @@ function MatOption_span_6_Template(rf, ctx) {
 }
 const _c3 = [[["mat-icon"]], "*"];
 const _c4 = ["mat-icon", "*"];
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
 
 /** @docs-private */
 class AnimationCurves {

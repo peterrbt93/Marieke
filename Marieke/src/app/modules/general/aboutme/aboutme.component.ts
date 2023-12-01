@@ -49,27 +49,19 @@ export class aboutmeComponent {
       ),
 
       new About(
-        "About me 2",
-        ` <p>
-            My field of research is high energy theory, more specifically quantum field theory and string theory. 
-            I am interested in nonperturbative physics, phase structures, and defects, which I study using generalized symmetries and their 't Hooft anomalies.
-            My work in string theory centers on constructions of supersymmetric quantum field theories,
-            where I bring in tools from geometry and algebraic topology to understand strongly-coupled fixed points, defects, and dualities.
-          </p>
-          <p>
-            I am currently employed as a <i>Research Assistant Professor</i> at the <i>Simons Center for Geometry and Physics</i>.
-          </p> 
-        `
-      ),
-
-      new About(
-        "Education",
+        "Positions",
         ` 
         <p class="dateTitle">09/2022 &mdash; current</p>
           <p>
             <b>Research Assistant Professor</b><br>
             <i>SCGP, Stony Brook U.</i> | <i>Stony Brook, NY, USA</i><br>
           <\p>
+        `
+      ),
+
+      new About(
+        "Education",
+        ` 
           <p class="dateTitle">10/2018 &mdash; 09/2022</p>
           <p>
             <b>DPhil in Mathematics, Mathematical Physics</b><br>
@@ -129,55 +121,64 @@ export class aboutmeComponent {
 
       new About(
         "Organization",
-        `<p>
+        `
+        <p>
           <p>
-          <b>Organization of Conferences and Workshops</b>
+            <b>Organization of Conferences and Workshops</b>
           <\p>
+          <p class="dateTitle">10/2021</p>
           <p>
-          10/2021 Annual Mathematical Physics Student Conference, 2nd edition<br>
-          University of Oxford | Oxford, UK
+            Annual Mathematical Physics Student Conference, 2nd edition<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">03/2021</p>
           <p>
-          03/2021 Oxford Meets the Hologram, online group workshop on Holography with stu-
-          dent, postdoc and faculty engagement
-          University of Oxford | Oxford, UK
+            Oxford Meets the Hologram, online group workshop on Holography with student, <br>
+            postdoc and faculty engagement<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">07/2020</p>
           <p>
-          07/2020 Annual Mathematical Physics Student Conference, co-founder
-          University of Oxford | Oxford, UK
+            Annual Mathematical Physics Student Conference, co-founder<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">09/2019</p>
           <p>
-          09/2019 Geometry and Strings Conference 2019
-          University of Oxford | Oxford, UK
+            Geometry and Strings Conference 2019<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
           <p>
           <b>Professional Responsibilities and Contributions</b>
           <\p>
+          <p class="dateTitle">2021 &mdash; current</p>
           <p>
-          2020 -- 2022 Co-organizer of the weekly Oxford String Theory Journal Club
-          University of Oxford | Oxford, UK
+            Referee for Journal of High Energy Physics (JHEP)
           <\p>
+          <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
-          2020 -- 2022 Student Representative for the Mathematical Physics DPhil students
-          University of Oxford | Oxford, UK
+            Co-organizer of the weekly Oxford String Theory Journal Club<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">2020 &mdash; 2022</p>
           <p>
-          2021 Referee for Journal of High Energy Physics (JHEP)
+            Student Representative for the Mathematical Physics DPhil students<br>
+            <i>University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">12/2020, 12/2021</p>
           <p>
-          Dec 2020,
-          Dec 2021
-          Undergraduate Admissions interviewer, respectively as junior interviewer with
-          James Sparks, subsequently as senior interviewer
-          Oriel College, University of Oxford | Oxford, UK
+            Undergraduate Admissions interviewer, respectively as junior interviewer<br>
+            with James Sparks, subsequently as senior interviewer<br>
+            <i>Oriel College, University of Oxford</i> | <i>Oxford, UK</i>
           <\p>
+          <p class="dateTitle">09/2016</p>
           <p>
-          Sep 2016 Co-organizer of the Physics MSc social and academic introduction program
-          Niels Bohr Institute, University of Copenhagen | Copenhagen, DK
+          Co-organizer of the Physics MSc social and academic introduction program<br>
+          <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
           <\p>
+          <p class="dateTitle">09/2013</p>
           <p>
-          Sep 2013 Co-organizer of the Physics BA social and academic introduction program
-          Niels Bohr Institute, University of Copenhagen | Copenhagen, DK
+          Co-organizer of the Physics BA social and academic introduction program<br>
+          <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
           </p>
         `
       )
