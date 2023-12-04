@@ -5,6 +5,7 @@ export class Item {
   youtubeLink: string;
   link: string;
   imagePath: string;
+  date: string;
 
   constructor() {
     this.id = 0;
@@ -13,5 +14,6 @@ export class Item {
     this.youtubeLink = '';
     this.link = '';
     this.imagePath = '';
+    this.date = ''
   }
 }
