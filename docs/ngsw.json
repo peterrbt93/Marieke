@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701710221608,
+  "timestamp": 1701712481741,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/806.d192c297f35f8216.js",
         "/favicon.ico",
         "/index.html",
-        "/main.6b1c0810d02eb557.js",
+        "/main.ba7ae58dfe214010.js",
         "/manifest.webmanifest",
         "/polyfills.0059e066db1327e3.js",
         "/runtime.8862461801724c54.js",
@@ -744,7 +744,7 @@
     "/assets/params/js/popovers.js": "50115a13cf9854ac39e7fe4d5caa332e1368fa7f",
     "/assets/params/js/toasts.js": "259f691cf7f3a3b8d73629e314d98da4b25feed6",
     "/assets/params/js/tooltips.js": "99bdb8880f6449bfa89a9fc9fd5b46edf54952d2",
-    "/assets/params/json/mock/talks.json": "faf8ded0ef72ad456c41123c7f21069a6c267f9b",
+    "/assets/params/json/mock/talks.json": "002e949391505e4b744744acf2dba880e6a04af8",
     "/fa-brands-400.9a905705860d0777.ttf": "d8b3568e9d8a1d3c01c85520eb9ca0b49b72815d",
     "/fa-brands-400.b6033b540dd66f84.woff2": "373361ed756b1fe68ce2f5968d467826b6973bb5",
     "/fa-regular-400.3580b4a95c9bb1d5.woff2": "07fc0ae14bb3187839082aed3bca11dfb1e04524",
@@ -755,8 +755,8 @@
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
     "/galaxy.594040f47a4ccf44.jpg": "dbcbb33b83d69e56f115a97d980671e3ab8b8276",
-    "/index.html": "97231c599c785b3e41357df9ff6f0ac43ba99ce9",
-    "/main.6b1c0810d02eb557.js": "1719f91444ad070540fdc00f743b7974230333f7",
+    "/index.html": "f33adbcc8c98982fd5772198907a5d0f0d06b97c",
+    "/main.ba7ae58dfe214010.js": "4f1fce2d83060c2d7cd41fa2c011cb6b61f11747",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.0059e066db1327e3.js": "1a9169700207f945648b7f3401814fd004b5c0fd",
     "/runtime.8862461801724c54.js": "a8d856d832ab188f8a974b3dcacc37793ef55330",

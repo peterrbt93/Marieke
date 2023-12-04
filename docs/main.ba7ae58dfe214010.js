@@ -1909,48 +1909,71 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+function talksComponent_div_2_div_1_img_3_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "img", 23);
+  }
+  if (rf & 2) {
+    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
+  }
+}
+function talksComponent_div_2_div_1_img_4_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "img", 23);
+  }
+  if (rf & 2) {
+    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate"]("src", item_r3.imagePath, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
+  }
+}
 function talksComponent_div_2_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 14)(1, "div", 15)(2, "a", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_2_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r6);
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r10);
       const item_r3 = restoredCtx.$implicit;
-      const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r5.openTrailer(item_r3));
+      const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r9.openTrailer(item_r3));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "img", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_img_3_Template, 1, 1, "img", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, talksComponent_div_2_div_1_img_4_Template, 1, 1, "img", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "div", 18)(5, "h5", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "div", 19)(6, "h5", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "p", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](8, "p", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_9_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "a", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_10_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r10);
       const item_r3 = restoredCtx.$implicit;
-      const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r7.openTrailer(item_r3));
+      const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r11.openTrailer(item_r3));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10, "Watch");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     const item_r3 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null)("ngIfAnd", item_r3.Link != null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.body);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.youtubeLink ? "Watch" : "Link");
   }
 }
 function talksComponent_div_2_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 11, 3, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 12, 6, "div", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -1961,8 +1984,8 @@ function talksComponent_div_2_Template(rf, ctx) {
 }
 function talksComponent_div_118_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "safe");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
@@ -2004,16 +2027,21 @@ class talksComponent {
     });
   }
   openTrailer(item) {
-    this.player = item.youtubeLink;
-    this.playerLoaded = true;
-    if (this.modalPlayer === undefined) {
-      this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
-        keyboard: true
-      });
-      const selectPlayer = document.getElementById('newsModal');
-      selectPlayer?.addEventListener('hidden.bs.modal', this.onCloseModal.bind(this));
+    if (item.youtubeLink != null) {
+      this.player = item.youtubeLink;
+      this.playerLoaded = true;
+      if (this.modalPlayer === undefined) {
+        this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
+          keyboard: true
+        });
+        const selectPlayer = document.getElementById('newsModal');
+        selectPlayer?.addEventListener('hidden.bs.modal', this.onCloseModal.bind(this));
+      }
+      this.modalPlayer?.show();
     }
-    this.modalPlayer?.show();
+    if (item.link != null) {
+      window.open(item.link, '_blank')?.focus();
+    }
   }
   onCloseModal() {
     this.player = '';
@@ -2035,7 +2063,7 @@ class talksComponent {
     selectors: [["app-talks"]],
     decls: 123,
     vars: 3,
-    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf", "ngIfAnd"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "section");

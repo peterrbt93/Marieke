@@ -76,16 +76,23 @@ export class talksComponent {
   }
 
   openTrailer(item: any) {
-    this.player = item.youtubeLink;
-    this.playerLoaded = true;
-    if (this.modalPlayer === undefined) {
-      this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
-        keyboard: true
-      })
-      const selectPlayer = document.getElementById('newsModal')
-      selectPlayer?.addEventListener('hidden.bs.modal', this.onCloseModal.bind(this));
+    if (item.youtubeLink != null) {
+      this.player = item.youtubeLink;
+      this.playerLoaded = true;
+      if (this.modalPlayer === undefined) {
+        this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
+          keyboard: true
+        })
+        const selectPlayer = document.getElementById('newsModal')
+        selectPlayer?.addEventListener('hidden.bs.modal', this.onCloseModal.bind(this));
+      }
+      this.modalPlayer?.show();
     }
-    this.modalPlayer?.show();
+
+    if (item.link != null) {
+      window.open(item.link, '_blank')?.focus();
+    }
+    
   }
 
   onCloseModal() {
