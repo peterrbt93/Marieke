@@ -943,7 +943,7 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("@fade", undefined);
       }
     },
-    styles: [".nga-container[_ngcontent-%COMP%] {\n  font-size: 1.2em;\n}\n\n@media (max-width: 992px) {\n  .nga-container[_ngcontent-%COMP%] {\n    font-size: 1em;\n  }\n}\n\n.nga-gradient[_ngcontent-%COMP%] {\n  padding: 3rem 0;\n  background: linear-gradient(225deg, #0d47a1, #42a5f5);\n}\n\n.nga-btn-home[_ngcontent-%COMP%] {\n  --bs-btn-color: #fff;\n  --bs-btn-border-color: white;\n  --bs-btn-hover-color: #fff;\n  --bs-btn-hover-bg: black;\n  --bs-btn-hover-border-color: #0a58ca;\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\n  --bs-btn-active-color: #fff;\n  --bs-btn-active-bg: #0a58ca;\n  --bs-btn-active-border-color: #0a53be;\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n  --bs-btn-disabled-color: #fff;\n  --bs-btn-disabled-bg: #0d6efd;\n  --bs-btn-disabled-border-color: #0d6efd;\n}\n\n.nga-text-primary[_ngcontent-%COMP%] {\n  color: #0d6efd;\n}\n\n.nga-card-step[_ngcontent-%COMP%] {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 1px solid rgba(0, 0, 0, 0.125);\n  border-radius: 0.25rem;\n}\n\n.nga-card-step[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  text-decoration: none;\n}\n\n.nga-card-step[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #0d6efd;\n}\n\n.nga-card-step[_ngcontent-%COMP%]:hover {\n  border: 1px solid #99ccff;\n  color: #0d6efd;\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;\n  transition: box-shadow 0.3s ease-in-out;\n}\n\n.nga-btn-guide[_ngcontent-%COMP%] {\n  border-radius: 10em;\n  font-size: .80rem;\n  font-weight: bold;\n  padding: .84rem 2.14rem;\n  text-transform: uppercase;\n  --bs-btn-color: #fff;\n  --bs-btn-bg: #1976d2;\n  --bs-btn-border-color: #1976d2;\n  --bs-btn-hover-color: white;\n  --bs-btn-hover-bg: #1976d2;\n  --bs-btn-hover-border-color: #1976d2;\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\n  --bs-btn-active-color: #fff;\n  --bs-btn-active-bg: #1976d2;\n  --bs-btn-active-border-color: #1976d2;\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n  --bs-btn-disabled-color: #fff;\n  --bs-btn-disabled-bg: #1976d2;\n  --bs-btn-disabled-border-color: #1976d2;\n}\n\n.nga-btn-guide[_ngcontent-%COMP%]:hover {\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;\n  transition: box-shadow 0.3s ease-in-out;\n}\n\n.nga-text-guide[_ngcontent-%COMP%] {\n  color: #1976d2;\n}\n\n.right[_ngcontent-%COMP%] {\n  background-image: url('galaxy.594040f47a4ccf44.jpg');\n  width: 2000px;\n  position: absolute;\n  right: 0px;\n  height: 1200px;\n  background-size: 100%;\n  background-repeat: no-repeat;\n  filter: grayscale(80%) brightness(100%);\n}\n\n\n.left[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.6);\n  position: absolute;\n  left: 0px;\n  height: 1000px;\n  padding: 14% 18% 0% 8%;\n  color: #fff;\n}\n\n.footCorrect[_ngcontent-%COMP%] {\n  height: 800px;\n}\n\n.marieke[_ngcontent-%COMP%] {\n  position: absolute;\n  width: 330px;\n  top: 60px;\n  opacity: 100%;\n  border: rgba(0, 0, 0, 0.25) solid 3px;\n}\n\n\n@media only screen and (max-width: 2400px) and (min-width: 1200px) {\n  .marieke[_ngcontent-%COMP%] {\n    right: -265px;\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 45%;\n  }\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 720px) {\n  .marieke[_ngcontent-%COMP%] {\n    right: -365px;\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 45%;\n  }\n}\n\n@media only screen and (max-width: 720px) and (min-width: 540px) {\n  .marieke[_ngcontent-%COMP%] {\n    width: 70%;\n    top: 30%;\n    transform: translate(-50%, 0px);\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 100%;\n    text-align: center;\n    padding: 16% 18% 0% 18%;\n    height: 1200px;\n  }\n  .footCorrect[_ngcontent-%COMP%] {\n    height: 1000px;\n  }\n}\n\n@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n\nh2[_ngcontent-%COMP%] {\n  font-family: titleFont;\n}\n\n@media only screen and (max-width: 540px) and (min-width: 300px) {\n  .marieke[_ngcontent-%COMP%] {\n    width: 70%;\n    top: 35%;\n    transform: translate(-50%, 0px);\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 100%;\n    text-align: center;\n    padding: 14% 18% 0% 18%;\n    height: 1000px;\n  }\n  .right[_ngcontent-%COMP%] {\n    height: 1000px;\n  }\n  .footCorrect[_ngcontent-%COMP%] {\n    height: 800px;\n  }\n}"],
+    styles: [".nga-container[_ngcontent-%COMP%] {\n  font-size: 1.2em;\n}\n\n@media (max-width: 992px) {\n  .nga-container[_ngcontent-%COMP%] {\n    font-size: 1em;\n  }\n}\n\n.nga-gradient[_ngcontent-%COMP%] {\n  padding: 3rem 0;\n  background: linear-gradient(225deg, #0d47a1, #42a5f5);\n}\n\n.nga-btn-home[_ngcontent-%COMP%] {\n  --bs-btn-color: #fff;\n  --bs-btn-border-color: white;\n  --bs-btn-hover-color: #fff;\n  --bs-btn-hover-bg: black;\n  --bs-btn-hover-border-color: #0a58ca;\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\n  --bs-btn-active-color: #fff;\n  --bs-btn-active-bg: #0a58ca;\n  --bs-btn-active-border-color: #0a53be;\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n  --bs-btn-disabled-color: #fff;\n  --bs-btn-disabled-bg: #0d6efd;\n  --bs-btn-disabled-border-color: #0d6efd;\n}\n\n.nga-text-primary[_ngcontent-%COMP%] {\n  color: #0d6efd;\n}\n\n.nga-card-step[_ngcontent-%COMP%] {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 1px solid rgba(0, 0, 0, 0.125);\n  border-radius: 0.25rem;\n}\n\n.nga-card-step[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  text-decoration: none;\n}\n\n.nga-card-step[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #0d6efd;\n}\n\n.nga-card-step[_ngcontent-%COMP%]:hover {\n  border: 1px solid #99ccff;\n  color: #0d6efd;\n  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;\n  transition: box-shadow 0.3s ease-in-out;\n}\n\n.nga-btn-guide[_ngcontent-%COMP%] {\n  border-radius: 10em;\n  font-size: .80rem;\n  font-weight: bold;\n  padding: .84rem 2.14rem;\n  text-transform: uppercase;\n  --bs-btn-color: #fff;\n  --bs-btn-bg: #1976d2;\n  --bs-btn-border-color: #1976d2;\n  --bs-btn-hover-color: white;\n  --bs-btn-hover-bg: #1976d2;\n  --bs-btn-hover-border-color: #1976d2;\n  --bs-btn-focus-shadow-rgb: 49, 132, 253;\n  --bs-btn-active-color: #fff;\n  --bs-btn-active-bg: #1976d2;\n  --bs-btn-active-border-color: #1976d2;\n  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n  --bs-btn-disabled-color: #fff;\n  --bs-btn-disabled-bg: #1976d2;\n  --bs-btn-disabled-border-color: #1976d2;\n}\n\n.nga-btn-guide[_ngcontent-%COMP%]:hover {\n  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;\n  transition: box-shadow 0.3s ease-in-out;\n}\n\n.nga-text-guide[_ngcontent-%COMP%] {\n  color: #1976d2;\n}\n\n.right[_ngcontent-%COMP%] {\n  background-image: url('galaxy.594040f47a4ccf44.jpg');\n  width: 795px;\n  position: absolute;\n  right: 0%;\n  top: 33%;\n  height: 520px;\n  background-size: 150%;\n  background-repeat: no-repeat;\n  filter: grayscale(80%) brightness(80%);\n}\n\n\n.left[_ngcontent-%COMP%] {\n  background-color: rgb(37, 37, 37);\n  position: absolute;\n  left: 0px;\n  height: 600px;\n  width: 50%;\n  padding: 12% 12% 0% 8%;\n  color: #fff;\n  text-align: center;\n}\n\n.footCorrect[_ngcontent-%COMP%] {\n  height: 600px;\n}\n\n.marieke[_ngcontent-%COMP%] {\n  position: absolute;\n  width: 360px;\n  top: 90px;\n  opacity: 100%;\n}\n\n\n@media only screen and (max-width: 2400px) and (min-width: 1200px) {\n  .marieke[_ngcontent-%COMP%] {\n    right: -300px;\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 50%;\n  }\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 900px) {\n  .marieke[_ngcontent-%COMP%] {\n    right: -480px;\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 45%;\n  }\n}\n\n@media only screen and (max-width: 900px) and (min-width: 540px) {\n  .marieke[_ngcontent-%COMP%] {\n    width: 70%;\n    top: 30%;\n    transform: translate(-50%, 0px);\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 100%;\n    text-align: center;\n    padding: 16% 18% 0% 18%;\n    height: 1200px;\n  }\n  .footCorrect[_ngcontent-%COMP%] {\n    height: 1000px;\n  }\n}\n\n@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\n\nh2[_ngcontent-%COMP%] {\n  font-family: titleFont;\n}\n\n@media only screen and (max-width: 540px) and (min-width: 300px) {\n  .marieke[_ngcontent-%COMP%] {\n    width: 70%;\n    top: 35%;\n    transform: translate(-50%, 0px);\n  }\n  .left[_ngcontent-%COMP%] {\n    width: 100%;\n    text-align: center;\n    padding: 14% 18% 0% 18%;\n    height: 1000px;\n  }\n  .right[_ngcontent-%COMP%] {\n    height: 1000px;\n  }\n  .footCorrect[_ngcontent-%COMP%] {\n    height: 800px;\n  }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_1__.fade]
     }
@@ -1893,14 +1893,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../animations */ 1757);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../environments/environment */ 553);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 5879);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 5879);
 /* harmony import */ var _services_seo_seo_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/seo/seo.service */ 4699);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ 5187);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/router */ 5187);
 /* harmony import */ var _items_items_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./items/items.service */ 5211);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 6223);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 6814);
-/* harmony import */ var _category_pipe__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./category.pipe */ 1614);
-/* harmony import */ var _safe_pipe__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./safe.pipe */ 7272);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 6223);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6814);
+/* harmony import */ var _safe_pipe__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./safe.pipe */ 7272);
 
 
 
@@ -1910,65 +1909,67 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-function talksComponent_div_202_div_1_Template(rf, ctx) {
+function talksComponent_div_2_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 27)(1, "div", 28)(2, "div", 13)(3, "div", 14)(4, "div", 29)(5, "a", 30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function talksComponent_div_202_div_1_Template_a_click_5_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r6);
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 14)(1, "div", 15)(2, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_2_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r6);
       const item_r3 = restoredCtx.$implicit;
-      const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r5.openTrailer(item_r3));
+      const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r5.openTrailer(item_r3));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](6, "img", 31);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "div", 13)(8, "div", 14)(9, "div", 32)(10, "a", 33);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function talksComponent_div_202_div_1_Template_a_click_10_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "img", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "div", 18)(5, "h5", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "p", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_9_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r6);
       const item_r3 = restoredCtx.$implicit;
-      const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r7.openTrailer(item_r3));
+      const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r7.openTrailer(item_r3));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](11, "i");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](12, "category");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10, "Watch");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     const item_r3 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵclassMapInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](12, 5, item_r3.category), " me-1");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](item_r3.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.body);
   }
 }
-function talksComponent_div_202_Template(rf, ctx) {
+function talksComponent_div_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, talksComponent_div_202_div_1_Template, 15, 7, "div", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 11, 3, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx_r0.items);
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r0.items);
   }
 }
-function talksComponent_div_212_Template(rf, ctx) {
+function talksComponent_div_118_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 34);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "iframe", 35);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](2, "safe");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "safe");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("src", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](2, 1, "https://www.youtube.com/embed/" + ctx_r1.player), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeResourceUrl"]);
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("src", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 1, "https://www.youtube.com/embed/" + ctx_r1.player), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeResourceUrl"]);
   }
 }
 class talksComponent {
@@ -2027,283 +2028,172 @@ class talksComponent {
     this.getItems();
   }
   static #_ = this.ɵfac = function talksComponent_Factory(t) {
-    return new (t || talksComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_services_seo_seo_service__WEBPACK_IMPORTED_MODULE_2__.SeoService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_items_items_service__WEBPACK_IMPORTED_MODULE_3__.ItemsService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_8__.FormBuilder));
+    return new (t || talksComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_services_seo_seo_service__WEBPACK_IMPORTED_MODULE_2__.SeoService), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_6__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_items_items_service__WEBPACK_IMPORTED_MODULE_3__.ItemsService), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormBuilder));
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
     type: talksComponent,
     selectors: [["app-talks"]],
-    decls: 217,
+    decls: 123,
     vars: 3,
-    consts: [[1, "container", "py-3"], [1, "card-columns"], [1, "card", "profile-card-5"], [1, "card-img-block"], ["src", "https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg", "alt", "Card Image", 1, "card-img-top"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], ["href", "#", 1, "btn", "btn-primary", "mt-auto", "align-self-start"], [1, "card"], ["src", "https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg", "alt", "Card Image", 1, "card-img-top"], ["src", "https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg", "alt", "Card Image", 1, "card-img-top"], [1, "dateTitle"], [1, "row"], [1, "col"], ["class", "row pt-4", 4, "ngIf"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "row", "pt-4"], ["class", "col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 px-2 mb-3", 4, "ngFor", "ngForOf"], [1, "col-6", "col-sm-6", "col-md-4", "col-lg-3", "col-xl-3", "px-2", "mb-3"], [1, "nga-card-movie"], [1, "card-movie-img"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", 3, "src"], [1, "card-movie-text"], [1, "waves-effect", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0)(1, "section")(2, "div", 1)(3, "div", 2)(4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](5, "img", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 5)(7, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8, "Porto Timoni Double Beach");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](11, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](12, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](14, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "div", 5)(16, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](17, "Tritons Fountain");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](18, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](19, "Located just outside the City Gate of Valletta,Located just outside the City Gate of Valletta, Malta. It consists of three bronze Trito Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](21, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](23, "img", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "div", 5)(25, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](26, "D\u014Dtonbori Canal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](28, "Is a manmade waterway dug in the early 1600's and now displays many landmark commercial locals and vivid neon signs.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](30, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](31, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "img", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "div", 5)(34, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](35, "Porto Timoni Double Beach");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](37, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](39, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](41, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 5)(43, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44, "Tritons Fountain");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](46, "Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](48, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](49, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](50, "img", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "div", 5)(52, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](53, "Porto Timoni Double Beach");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](54, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](55, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](56, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](57, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](58, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](59, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](60, "div", 5)(61, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](62, "Tritons Fountain");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](63, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](64, "Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](65, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](66, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](67, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](68, "img", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](69, "div", 5)(70, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](71, "D\u014Dtonbori Canal");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](72, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](73, "Is a manmade waterway dug in the early 1600's and now displays many landmark commercial locals and vivid neon signs.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](74, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](75, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](76, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](77, "img", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](78, "div", 5)(79, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](80, "Porto Timoni Double Beach");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](81, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](82, "Near Afionas village, on the west coast of Corfu island. The two beaches form two unique bays. The turquoise color of the sea contrasts to the high green hills surrounding it.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](83, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](84, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](85, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](86, "img", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](87, "div", 5)(88, "h5", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](89, "Tritons Fountain");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](90, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](91, "Located just outside the City Gate of Valletta, Malta. It consists of three bronze Tritons holding up a large basin, balanced on a concentric base built out of concrete and clad in travertine slabs.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](92, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](93, "Book now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](94, "section")(95, "p")(96, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](97, "Organization of Conferences and Workshops");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](98, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](99, "10/2021");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](100, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](101, " Annual Mathematical Physics Student Conference, 2nd edition");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](102, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](103, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](104, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](105, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](106, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](107, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](108, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](109, "03/2021");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](110, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](111, " Oxford Meets the Hologram, online group workshop on Holography with student, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](112, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](113, " postdoc and faculty engagement");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](114, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](115, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](116, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](117, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](118, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](119, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](120, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](121, "07/2020");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](122, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](123, " Annual Mathematical Physics Student Conference, co-founder");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](124, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](125, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](126, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](127, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](128, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](129, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](130, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](131, "09/2019");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](132, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](133, " Geometry and Strings Conference 2019");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](134, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](135, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](136, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](137, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](138, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](139, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](140, "p")(141, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](142, "Professional Responsibilities and Contributions");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](143, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](144, "2021 \u2014 current");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](145, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](146, " Referee for Journal of High Energy Physics (JHEP) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](147, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](148, "2020 \u2014 2022");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](149, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](150, " Co-organizer of the weekly Oxford String Theory Journal Club");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](151, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](152, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](153, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](154, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](155, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](156, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](157, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](158, "2020 \u2014 2022");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](159, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](160, " Student Representative for the Mathematical Physics DPhil students");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](161, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](162, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](163, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](164, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](165, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](166, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](167, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](168, "12/2020, 12/2021");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](169, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](170, " Undergraduate Admissions interviewer, respectively as junior interviewer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](171, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](172, " with James Sparks, subsequently as senior interviewer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](173, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](174, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](175, "Oriel College, University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](176, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](177, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](178, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](179, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](180, "09/2016");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](181, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](182, " Co-organizer of the Physics MSc social and academic introduction program");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](183, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](184, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](185, "Niels Bohr Institute, University of Copenhagen");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](186, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](187, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](188, "Copenhagen, DK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](189, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](190, "09/2013");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](191, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](192, " Co-organizer of the Physics BA social and academic introduction program");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](193, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](194, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](195, "Niels Bohr Institute, University of Copenhagen");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](196, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](197, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](198, "Copenhagen, DK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](199, "section")(200, "div", 13)(201, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](202, talksComponent_div_202_Template, 2, 1, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](203, "section")(204, "div", 16)(205, "div", 17)(206, "div", 18)(207, "div", 19)(208, "button", 20)(209, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](210, "Close");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](211, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](212, talksComponent_div_212_Template, 3, 3, "div", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](213, "div", 23)(214, "button", 24)(215, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](216, "Close");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "section");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_Template, 2, 1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "section")(4, "p")(5, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, "Organization of Conferences and Workshops");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8, "10/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10, " Annual Mathematical Physics Student Conference, 2nd edition");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](11, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](12, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](14, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](15, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "03/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](19, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](20, " Oxford Meets the Hologram, online group workshop on Holography with student, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](22, " postdoc and faculty engagement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](23, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](24, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](25, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](26, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](27, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](28, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](29, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](30, "07/2020");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](32, " Annual Mathematical Physics Student Conference, co-founder");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](34, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](35, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](36, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](37, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](38, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](39, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](40, "09/2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](41, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](42, " Geometry and Strings Conference 2019");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](43, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](44, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](45, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](46, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](47, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](48, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](49, "p")(50, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](51, "Professional Responsibilities and Contributions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](52, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](53, "2021 \u2014 current");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](54, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](55, " Referee for Journal of High Energy Physics (JHEP) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](56, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](57, "2020 \u2014 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](58, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](59, " Co-organizer of the weekly Oxford String Theory Journal Club");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](60, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](61, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](62, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](63, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](64, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](65, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](66, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](67, "2020 \u2014 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](68, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](69, " Student Representative for the Mathematical Physics DPhil students");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](70, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](71, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](72, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](73, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](74, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](75, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](76, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](77, "12/2020, 12/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](78, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](79, " Undergraduate Admissions interviewer, respectively as junior interviewer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](80, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](81, " with James Sparks, subsequently as senior interviewer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](82, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](83, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](84, "Oriel College, University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](85, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](86, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](87, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](88, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](89, "09/2016");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](90, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](91, " Co-organizer of the Physics MSc social and academic introduction program");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](92, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](93, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](94, "Niels Bohr Institute, University of Copenhagen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](95, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](96, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](97, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](98, "p", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](99, "09/2013");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](100, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](101, " Co-organizer of the Physics BA social and academic introduction program");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](102, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](103, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](104, "Niels Bohr Institute, University of Copenhagen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](105, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](106, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](107, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](108, "section")(109, "section")(110, "div", 3)(111, "div", 4)(112, "div", 5)(113, "div", 6)(114, "button", 7)(115, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](116, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](117, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](118, talksComponent_div_118_Template, 3, 3, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](119, "div", 10)(120, "button", 11)(121, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](122, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()()()()();
       }
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("@fade", undefined);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](202);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.loaded);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.playerLoaded);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("@fade", undefined);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.loaded);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.playerLoaded);
       }
     },
-    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _category_pipe__WEBPACK_IMPORTED_MODULE_4__.CategoryPipe, _safe_pipe__WEBPACK_IMPORTED_MODULE_5__.SafePipe],
-    styles: [".nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.9;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 4;\n  }\n}"],
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _safe_pipe__WEBPACK_IMPORTED_MODULE_4__.SafePipe],
+    styles: [".nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n  scale: 1.05;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 4;\n  }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
