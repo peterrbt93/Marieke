@@ -1909,71 +1909,126 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function talksComponent_div_2_div_1_img_3_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_2_img_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "img", 23);
   }
   if (rf & 2) {
-    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2).$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
   }
 }
-function talksComponent_div_2_div_1_img_4_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_2_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_2_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r13);
+      const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+      const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r11.openTrailer(item_r3, true));
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_a_2_img_1_Template, 1, 1, "img", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
+  }
+}
+function talksComponent_div_2_div_1_a_3_img_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "img", 23);
   }
   if (rf & 2) {
-    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2).$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate"]("src", item_r3.imagePath, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
+  }
+}
+function talksComponent_div_2_div_1_a_3_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_3_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r19);
+      const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+      const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r17.openTrailer(item_r3, false));
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_a_3_img_1_Template, 1, 1, "img", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null)("ngIfAnd", item_r3.Link != null);
+  }
+}
+function talksComponent_div_2_div_1_a_9_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_9_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r23);
+      const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+      const ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r21.openTrailer(item_r3, true));
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Watch");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+  }
+}
+function talksComponent_div_2_div_1_a_10_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_10_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r26);
+      const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+      const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r24.openTrailer(item_r3, false));
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Link to website");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
 }
 function talksComponent_div_2_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 14)(1, "div", 15)(2, "a", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_2_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r10);
-      const item_r3 = restoredCtx.$implicit;
-      const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r9.openTrailer(item_r3));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_img_3_Template, 1, 1, "img", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, talksComponent_div_2_div_1_img_4_Template, 1, 1, "img", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 14)(1, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_div_1_a_2_Template, 2, 1, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_a_3_Template, 2, 2, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "div", 17)(5, "h5", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "p", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](9, talksComponent_div_2_div_1_a_9_Template, 2, 0, "a", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](10, talksComponent_div_2_div_1_a_10_Template, 2, 0, "a", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "div", 19)(6, "h5", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](8, "p", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "a", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_Template_a_click_10_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r10);
-      const item_r3 = restoredCtx.$implicit;
-      const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r11.openTrailer(item_r3));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     const item_r3 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null)("ngIfAnd", item_r3.Link != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.body);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.youtubeLink ? "Watch" : "Link");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.link != null);
   }
 }
 function talksComponent_div_2_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 12, 6, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 11, 6, "div", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -1984,8 +2039,8 @@ function talksComponent_div_2_Template(rf, ctx) {
 }
 function talksComponent_div_118_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "safe");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
@@ -2026,8 +2081,8 @@ class talksComponent {
       this.loaded = true;
     });
   }
-  openTrailer(item) {
-    if (item.youtubeLink != null) {
+  openTrailer(item, isYoutube) {
+    if (isYoutube && item.youtubeLink != null) {
       this.player = item.youtubeLink;
       this.playerLoaded = true;
       if (this.modalPlayer === undefined) {
@@ -2039,7 +2094,7 @@ class talksComponent {
       }
       this.modalPlayer?.show();
     }
-    if (item.link != null) {
+    if (!isYoutube && item.link != null) {
       window.open(item.link, '_blank')?.focus();
     }
   }
@@ -2063,7 +2118,7 @@ class talksComponent {
     selectors: [["app-talks"]],
     decls: 123,
     vars: 3,
-    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf", "ngIfAnd"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "card-title"], [1, "card-text", "mb-4"], ["class", "btn btn-primary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf", "ngIfAnd"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "section");
@@ -2221,7 +2276,7 @@ class talksComponent {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _safe_pipe__WEBPACK_IMPORTED_MODULE_4__.SafePipe],
-    styles: [".nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n  scale: 1.05;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 4;\n  }\n}"],
+    styles: [".nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n  scale: 1.05;\n}\n\n.card-body[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  margin-bottom: 5px;\n  color: white !important;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 4;\n  }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }

@@ -4,9 +4,11 @@
     <div *ngIf="loaded" class="card-columns">
       <div *ngFor="let item of items; let i=index;" class="card profile-card-5">
         <div class="card-img-block">
-          <a (click)="openTrailer(item)">
+          <a *ngIf="item.youtubeLink != null" (click)="openTrailer(item, true)">
             <img *ngIf="item.youtubeLink != null" src="https://img.youtube.com/vi/{{ item.youtubeLink }}/mqdefault.jpg"
               class="img-fluid rounded z-depth-2 card-movie-img" alt="">
+          </a>
+          <a *ngIf="item.youtubeLink == null" (click)="openTrailer(item, false)">
             <img *ngIf="item.youtubeLink == null and item.Link != null" src="{{ item.imagePath }}"
               class="img-fluid rounded z-depth-2 card-movie-img" alt="">
           </a>
@@ -15,7 +17,8 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">{{item.name}}</h5>
           <p class="card-text mb-4">{{item.body}}</p>
-          <a (click)="openTrailer(item)" class="btn btn-primary mt-auto align-self-start">{{item.youtubeLink ? 'Watch' : 'Link'}}</a>
+          <a *ngIf="item.youtubeLink != null" (click)="openTrailer(item, true)" class="btn btn-primary mt-auto align-self-start">Watch</a>
+          <a *ngIf="item.link != null" (click)="openTrailer(item, false)" class="btn btn-primary mt-auto align-self-start">Link to website</a>
         </div>
       </div>
     </div>

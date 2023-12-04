@@ -75,8 +75,8 @@ export class talksComponent {
       );
   }
 
-  openTrailer(item: any) {
-    if (item.youtubeLink != null) {
+  openTrailer(item: any, isYoutube: boolean) {
+    if (isYoutube && item.youtubeLink != null) {
       this.player = item.youtubeLink;
       this.playerLoaded = true;
       if (this.modalPlayer === undefined) {
@@ -89,7 +89,7 @@ export class talksComponent {
       this.modalPlayer?.show();
     }
 
-    if (item.link != null) {
+    if (!isYoutube && item.link != null) {
       window.open(item.link, '_blank')?.focus();
     }
     

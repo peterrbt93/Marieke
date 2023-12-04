@@ -224,6 +224,11 @@
     opacity: 0.7;
     scale: 1.05;
   }
+
+  .card-body a {
+    margin-bottom: 5px;
+    color: white !important;
+  }
   
   .card-movie-text a {
     color: #3F729B;
