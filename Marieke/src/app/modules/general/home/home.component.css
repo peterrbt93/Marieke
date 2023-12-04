@@ -94,11 +94,11 @@
 
 .right {
   background-image: url(../../../../assets/params/images/home/galaxy.jpg);
-  width: 795px;
+  width: 815px;
   position: absolute;
   right: 0%;
-  top: 33%;
-  height: 520px;
+  /* top: 33%; */
+  height: 600px;
   background-size: 150%;
   background-repeat: no-repeat;
   filter: grayscale(80%) brightness(80%);
@@ -122,8 +122,8 @@
 
 .marieke {
   position: absolute;
-  width: 360px;
-  top: 90px;
+  width: 340px;
+  top: 40px;
   opacity: 100%;
 }
 
