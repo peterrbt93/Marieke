@@ -9,7 +9,11 @@ const routes: Routes = [
     path: '', component: outreachComponent, children: [
       //{ path: '', component: instagramComponent },
       { path: 'instagram', component: instagramComponent, },
-      { path: '', component: instagramComponent, },
+      {
+        path: '',
+        loadChildren: () => import(`../outreach/instagram/instagram.module`)
+          .then(mod => mod.InstagramModule)
+      },
       {
         path: 'mapping',
         loadChildren: () => import(`../outreach/mapping/mapping.module`)

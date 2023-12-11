@@ -1084,200 +1084,197 @@ class instagramComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: instagramComponent,
     selectors: [["app-instagram"]],
-    decls: 225,
+    decls: 230,
     vars: 1,
-    consts: [["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], [2, "padding", "16px"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], [2, "display", "flex", "flex-direction", "row", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "40px", "margin-right", "14px", "width", "40px"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "100px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "60px"], [2, "padding", "19% 0"], [2, "display", "block", "height", "50px", "margin", "0 auto 12px", "width", "50px"], ["width", "50px", "height", "50px", "viewBox", "0 0 60 60", "version", "1.1", "xmlns", "https://www.w3.org/2000/svg", 0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], ["stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["transform", "translate(-511.000000, -20.000000)", "fill", "#000000"], ["d", "M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"], [2, "padding-top", "8px"], [2, "color", "#3897f0", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "550", "line-height", "18px"], [2, "padding", "12.5% 0"], [2, "display", "flex", "flex-direction", "row", "margin-bottom", "14px", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(0px) translateY(7px)"], [2, "background-color", "#F4F4F4", "height", "12.5px", "transform", "rotate(-45deg) translateX(3px) translateY(1px)", "width", "12.5px", "flex-grow", "0", "margin-right", "14px", "margin-left", "2px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(9px) translateY(-18px)"], [2, "margin-left", "8px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "20px", "width", "20px"], [2, "width", "0", "height", "0", "border-top", "2px solid transparent", "border-left", "6px solid #f4f4f4", "border-bottom", "2px solid transparent", "transform", "translateX(16px) translateY(-4px) rotate(30deg)"], [2, "margin-left", "auto"], [2, "width", "0px", "border-top", "8px solid #F4F4F4", "border-right", "8px solid transparent", "transform", "translateY(16px)"], [2, "background-color", "#F4F4F4", "flex-grow", "0", "height", "12px", "width", "16px", "transform", "translateY(-4px)"], [2, "width", "0", "height", "0", "border-top", "8px solid #F4F4F4", "border-left", "8px solid transparent", "transform", "translateY(-4px) translateX(8px)"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center", "margin-bottom", "24px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "224px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "144px"], [2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "line-height", "17px", "margin-bottom", "0", "margin-top", "8px", "overflow", "hidden", "padding", "8px 0 7px", "text-align", "center", "text-overflow", "ellipsis", "white-space", "nowrap"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"]],
+    consts: [[1, "container", "py-2"], [1, "row"], [1, "col-12", "col-md-6", "col-xl-4"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], [2, "padding", "16px"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], [2, "display", "flex", "flex-direction", "row", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "40px", "margin-right", "14px", "width", "40px"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "100px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "60px"], [2, "padding", "19% 0"], [2, "display", "block", "height", "50px", "margin", "0 auto 12px", "width", "50px"], ["width", "50px", "height", "50px", "viewBox", "0 0 60 60", "version", "1.1", "xmlns", "https://www.w3.org/2000/svg", 0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], ["stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["transform", "translate(-511.000000, -20.000000)", "fill", "#000000"], ["d", "M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"], [2, "padding-top", "8px"], [2, "color", "#3897f0", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "550", "line-height", "18px"], [2, "padding", "12.5% 0"], [2, "display", "flex", "flex-direction", "row", "margin-bottom", "14px", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(0px) translateY(7px)"], [2, "background-color", "#F4F4F4", "height", "12.5px", "transform", "rotate(-45deg) translateX(3px) translateY(1px)", "width", "12.5px", "flex-grow", "0", "margin-right", "14px", "margin-left", "2px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(9px) translateY(-18px)"], [2, "margin-left", "8px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "20px", "width", "20px"], [2, "width", "0", "height", "0", "border-top", "2px solid transparent", "border-left", "6px solid #f4f4f4", "border-bottom", "2px solid transparent", "transform", "translateX(16px) translateY(-4px) rotate(30deg)"], [2, "margin-left", "auto"], [2, "width", "0px", "border-top", "8px solid #F4F4F4", "border-right", "8px solid transparent", "transform", "translateY(16px)"], [2, "background-color", "#F4F4F4", "flex-grow", "0", "height", "12px", "width", "16px", "transform", "translateY(-4px)"], [2, "width", "0", "height", "0", "border-top", "8px solid #F4F4F4", "border-left", "8px solid transparent", "transform", "translateY(-4px) translateX(8px)"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center", "margin-bottom", "24px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "224px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "144px"], [2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "line-height", "17px", "margin-bottom", "0", "margin-top", "8px", "overflow", "hidden", "padding", "8px 0 7px", "text-align", "center", "text-overflow", "ellipsis", "white-space", "nowrap"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"]],
     template: function instagramComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Post... ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "blockquote", 0)(4, "div", 1)(5, "a", 2)(6, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "div", 6)(10, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "blockquote", 3)(4, "div", 4)(5, "a", 5)(6, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "div", 9)(10, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](11, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](11, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "svg", 10)(14, "g", 11)(15, "g", 12)(16, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "svg", 13)(14, "g", 14)(15, "g", 15)(16, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "path", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "div", 14)(19, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "div", 17)(19, "div", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](21, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "div", 17)(23, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](24, "div", 18)(25, "div", 19)(26, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](21, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "div", 20)(23, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](24, "div", 21)(25, "div", 22)(26, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](28, "div", 22)(29, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](28, "div", 25)(29, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](31, "div", 25)(32, "div", 26)(33, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](31, "div", 28)(32, "div", 29)(33, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](35, "div", 29)(36, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](35, "div", 32)(36, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "p", 31)(38, "a", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "p", 34)(38, "a", 35);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "blockquote", 33)(41, "div", 1)(42, "a", 34)(43, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](44, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](46, "div", 6)(47, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "div", 2)(41, "blockquote", 36)(42, "div", 4)(43, "a", 37)(44, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](45, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "div", 9)(48, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](48, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](49, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](49, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "svg", 10)(51, "g", 11)(52, "g", 12)(53, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](54, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "svg", 13)(52, "g", 14)(53, "g", 15)(54, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](55, "path", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "div", 14)(56, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "div", 17)(57, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](58, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](59, "div", 17)(60, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](61, "div", 18)(62, "div", 19)(63, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](59, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "div", 20)(61, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](62, "div", 21)(63, "div", 22)(64, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](64, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](65, "div", 22)(66, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](65, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](66, "div", 25)(67, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](68, "div", 25)(69, "div", 26)(70, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](69, "div", 28)(70, "div", 29)(71, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](71, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](72, "div", 29)(73, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](72, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](73, "div", 32)(74, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](74, "p", 31)(75, "a", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](76, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](77, "blockquote", 36)(78, "div", 1)(79, "a", 37)(80, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](81, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](82, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](83, "div", 6)(84, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](75, "p", 34)(76, "a", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](77, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](78, "div", 2)(79, "blockquote", 39)(80, "div", 4)(81, "a", 40)(82, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](83, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](85, "div", 9)(86, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](85, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](86, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](87, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](88, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](87, "svg", 10)(88, "g", 11)(89, "g", 12)(90, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](91, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](89, "svg", 13)(90, "g", 14)(91, "g", 15)(92, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](93, "path", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](92, "div", 14)(93, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](94, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](94, "div", 17)(95, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](96, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](95, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](96, "div", 17)(97, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](98, "div", 18)(99, "div", 19)(100, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](97, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](98, "div", 20)(99, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](100, "div", 21)(101, "div", 22)(102, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](101, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](102, "div", 22)(103, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](104, "div", 25)(105, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](104, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](105, "div", 25)(106, "div", 26)(107, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](107, "div", 28)(108, "div", 29)(109, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](108, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](109, "div", 29)(110, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](110, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](111, "div", 32)(112, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](111, "p", 31)(112, "a", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](113, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](114, "blockquote", 39)(115, "div", 1)(116, "a", 40)(117, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](118, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](119, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](120, "div", 6)(121, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](113, "p", 34)(114, "a", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](115, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "div", 2)(117, "blockquote", 42)(118, "div", 4)(119, "a", 43)(120, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](121, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](122, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](123, "div", 9)(124, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](122, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](123, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](125, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](126, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](124, "svg", 10)(125, "g", 11)(126, "g", 12)(127, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](128, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](127, "svg", 13)(128, "g", 14)(129, "g", 15)(130, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](131, "path", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](129, "div", 14)(130, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](131, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](132, "div", 17)(133, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](134, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](132, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](133, "div", 17)(134, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](135, "div", 18)(136, "div", 19)(137, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](138, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](139, "div", 22)(140, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](135, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](136, "div", 20)(137, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](138, "div", 21)(139, "div", 22)(140, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](141, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](142, "div", 25)(143, "div", 26)(144, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](142, "div", 25)(143, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](144, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](145, "div", 28)(146, "div", 29)(147, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](145, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](146, "div", 29)(147, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](148, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](149, "div", 32)(150, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](148, "p", 31)(149, "a", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](150, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](151, "blockquote", 42)(152, "div", 1)(153, "a", 43)(154, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](155, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](156, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](157, "div", 6)(158, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](151, "p", 34)(152, "a", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](153, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](154, "div", 2)(155, "blockquote", 45)(156, "div", 4)(157, "a", 46)(158, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](159, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](161, "div", 9)(162, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](159, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](163, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](164, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](161, "svg", 10)(162, "g", 11)(163, "g", 12)(164, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](165, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](165, "svg", 13)(166, "g", 14)(167, "g", 15)(168, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](169, "path", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](166, "div", 14)(167, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](168, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](170, "div", 17)(171, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](172, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](169, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](170, "div", 17)(171, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](172, "div", 18)(173, "div", 19)(174, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](173, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](174, "div", 20)(175, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](176, "div", 21)(177, "div", 22)(178, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](175, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](176, "div", 22)(177, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](180, "div", 25)(181, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](178, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](179, "div", 25)(180, "div", 26)(181, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](182, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](183, "div", 28)(184, "div", 29)(185, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](182, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](183, "div", 29)(184, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](186, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](187, "div", 32)(188, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](185, "p", 31)(186, "a", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](187, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](188, "blockquote", 45)(189, "div", 1)(190, "a", 46)(191, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](192, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](193, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](194, "div", 6)(195, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](189, "p", 34)(190, "a", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](191, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](192, "div", 2)(193, "blockquote", 48)(194, "div", 4)(195, "a", 49)(196, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](197, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](198, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](199, "div", 9)(200, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](196, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](197, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](201, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](202, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](198, "svg", 10)(199, "g", 11)(200, "g", 12)(201, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](202, "path", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](203, "svg", 13)(204, "g", 14)(205, "g", 15)(206, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](207, "path", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](203, "div", 14)(204, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](205, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](208, "div", 17)(209, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](210, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](206, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](207, "div", 17)(208, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](209, "div", 18)(210, "div", 19)(211, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](211, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](212, "div", 20)(213, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](214, "div", 21)(215, "div", 22)(216, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](212, "div", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](213, "div", 22)(214, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](217, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](218, "div", 25)(219, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](215, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](216, "div", 25)(217, "div", 26)(218, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](220, "div", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](221, "div", 28)(222, "div", 29)(223, "div", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](219, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](220, "div", 29)(221, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](224, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](225, "div", 32)(226, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](222, "p", 31)(223, "a", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](224, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](227, "p", 34)(228, "a", 50);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](229, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
@@ -1358,7 +1355,7 @@ const routes = [{
     component: _instagram_instagram_component__WEBPACK_IMPORTED_MODULE_1__.instagramComponent
   }, {
     path: '',
-    component: _instagram_instagram_component__WEBPACK_IMPORTED_MODULE_1__.instagramComponent
+    loadChildren: () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! ../outreach/instagram/instagram.module */ 1178)).then(mod => mod.InstagramModule)
   }, {
     path: 'mapping',
     loadChildren: () => __webpack_require__.e(/*! import() */ 806).then(__webpack_require__.bind(__webpack_require__, /*! ../outreach/mapping/mapping.module */ 1806)).then(mod => mod.MappingModule)
@@ -1416,32 +1413,83 @@ class outreachComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: outreachComponent,
     selectors: [["app-outreach"]],
-    decls: 13,
+    decls: 60,
     vars: 1,
-    consts: [[1, "container", "py-2"], ["routerLink", "/outreach/instagram"], ["routerLink", "/outreach/mapping"]],
+    consts: [[1, "container", "py-5"], [1, "row"], [1, "col-12", "col-xl-4", "text-center"], ["href", "https://google.com", "target", "_blank"], [1, "flip-card"], [1, "flip-card-inner"], [1, "flip-card-front"], ["src", "../../../../assets/params/images/teaching/Teaching2.jpg", "alt", "", 1, "pic1"], [1, "flip-card-back1"], [1, "flip-card-back2"], [1, "flip-card-back3"]],
     template: function outreachComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "outreach workz!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "a", 3)(4, "div", 4)(5, "div", 5)(6, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "ul")(4, "li")(5, "a", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 8)(9, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, "John Doe");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, "Architect & Engineer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "We love that guy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, "Titel1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](18, "12th of May, 2023");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "li")(8, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "Mapping");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](11, "Child Routes Result");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "div", 2)(22, "a", 3)(23, "div", 4)(24, "div", 5)(25, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](26, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](12, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 9)(28, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](29, "John Doe");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "Architect & Engineer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "We love that guy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "Titel1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](37, "12th of May, 2023");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "div", 2)(41, "a", 3)(42, "div", 4)(43, "div", 5)(44, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](45, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 10)(47, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](48, "John Doe");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](49, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, "Architect & Engineer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, "We love that guy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](54, "Titel1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](56, "12th of May, 2023");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](57, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](59, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
       }
     },
-    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterOutlet, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink],
-    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}"],
+    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterOutlet],
+    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n.pic1[_ngcontent-%COMP%] {\n    width: 100%;\n}\n\n@media only screen and (max-width: 3000px) and (min-width: 1200px)  {\n    .flip-card[_ngcontent-%COMP%] { \n        width: 20vw;\n        height: 26.5vw;\n    }\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 800px)  {\n    .flip-card[_ngcontent-%COMP%] { \n        width: 40vw;\n        height: 53vw;\n    }\n}\n\n@media only screen and (max-width: 800px) and (min-width: 0px)  {\n    .flip-card[_ngcontent-%COMP%] { \n        width: 50vw;\n        height: 66.5vw;\n    }\n}\n\n\n\n\n.flip-card[_ngcontent-%COMP%] {\n    background-color: transparent;\n    text-align: center !important;\n    display: block;\n    margin: auto;\n    \n\n    perspective: 1000px; \n\n  }\n  \n  \n\n  .flip-card-inner[_ngcontent-%COMP%] {\n    position: relative;\n    width: 100%;\n    height: 100%;\n    text-align: center !important;\n    transition: transform 0.8s;\n    transform-style: preserve-3d;\n  }\n  \n  \n\n  .flip-card[_ngcontent-%COMP%]:hover   .flip-card-inner[_ngcontent-%COMP%] {\n    transform: rotateY(180deg);\n    text-align: center !important;\n  }\n  \n  \n\n  .flip-card-front[_ngcontent-%COMP%], .flip-card-back1[_ngcontent-%COMP%], .flip-card-back2[_ngcontent-%COMP%], .flip-card-back3[_ngcontent-%COMP%] {\n    position: absolute;\n    text-align: center !important;\n    width: 100%;\n    height: 100%; \n\n    backface-visibility: hidden;\n  }\n  \n  \n\n  .flip-card-front[_ngcontent-%COMP%] {\n    background-color: #bbb;\n    color: black;\n    text-align: center !important;\n  }\n  \n  \n\n  .flip-card-back1[_ngcontent-%COMP%] {\n    background-image: url('Teaching2opa.da3d7ea45955ba3f.jpg');\n    background-size: 100%;\n    transform: rotateY(180deg);\n    color: black;\n  }\n\n  .flip-card-back2[_ngcontent-%COMP%] {\n    background-image: url('Teaching2opa.da3d7ea45955ba3f.jpg');\n    background-size: 100%;\n    transform: rotateY(180deg);\n    color: black;\n  }\n\n  .flip-card-back3[_ngcontent-%COMP%] {\n    background-image: url('Teaching2opa.da3d7ea45955ba3f.jpg');\n    background-size: 100%;\n    transform: rotateY(180deg);\n    color: black;\n  }"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -1920,13 +1968,13 @@ function talksComponent_div_2_div_1_a_2_img_1_Template(rf, ctx) {
 }
 function talksComponent_div_2_div_1_a_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_2_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r14);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r11.openTrailer(item_r3, true));
+      const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r12.openTrailer(item_r3, true));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_a_2_img_1_Template, 1, 1, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -1948,13 +1996,13 @@ function talksComponent_div_2_div_1_a_3_img_1_Template(rf, ctx) {
 }
 function talksComponent_div_2_div_1_a_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r19 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_3_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r20);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r17.openTrailer(item_r3, false));
+      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r18.openTrailer(item_r3, false));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_a_3_img_1_Template, 1, 1, "img", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -1965,31 +2013,45 @@ function talksComponent_div_2_div_1_a_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null)("ngIfAnd", item_r3.Link != null);
   }
 }
-function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_10_Template(rf, ctx) {
   if (rf & 1) {
-    const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_11_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_10_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r24);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r21.openTrailer(item_r3, true));
+      const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r22.openTrailer(item_r3.youtubeLink, true));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Watch");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
 }
-function talksComponent_div_2_div_1_a_12_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
   if (rf & 1) {
-    const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_12_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_11_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r27);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r24.openTrailer(item_r3, false));
+      const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r25.openTrailer(item_r3.link, false));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Link to website");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+  }
+}
+function talksComponent_div_2_div_1_a_12_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r30 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_12_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r30);
+      const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
+      const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r28.openTrailer(item_r3.slides, false));
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Slides");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
 }
@@ -2005,9 +2067,8 @@ function talksComponent_div_2_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "h5", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "p", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](9, "p", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](10, talksComponent_div_2_div_1_a_10_Template, 2, 0, "a", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](11, talksComponent_div_2_div_1_a_11_Template, 2, 0, "a", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](12, talksComponent_div_2_div_1_a_12_Template, 2, 0, "a", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
@@ -2022,18 +2083,20 @@ function talksComponent_div_2_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.date);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.body);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("innerHTML", item_r3.body, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeHtml"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.link != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.slides != null);
   }
 }
 function talksComponent_div_2_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 13, 7, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 13, 8, "div", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -2086,9 +2149,9 @@ class talksComponent {
       this.loaded = true;
     });
   }
-  openTrailer(item, isYoutube) {
-    if (isYoutube && item.youtubeLink != null) {
-      this.player = item.youtubeLink;
+  openTrailer(link, isYoutube) {
+    if (isYoutube && link != null) {
+      this.player = link;
       this.playerLoaded = true;
       if (this.modalPlayer === undefined) {
         this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
@@ -2099,8 +2162,8 @@ class talksComponent {
       }
       this.modalPlayer?.show();
     }
-    if (!isYoutube && item.link != null) {
-      window.open(item.link, '_blank')?.focus();
+    if (!isYoutube && link != null) {
+      window.open(link, '_blank')?.focus();
     }
   }
   onCloseModal() {
@@ -2123,7 +2186,7 @@ class talksComponent {
     selectors: [["app-talks"]],
     decls: 123,
     vars: 3,
-    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "date"], [1, "card-title"], [1, "card-text", "mb-4"], ["class", "btn btn-primary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf", "ngIfAnd"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "date"], [1, "card-title"], [1, "card-text", "mb-4", 3, "innerHTML"], ["class", "btn btn-primary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf", "ngIfAnd"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "section");
@@ -2408,72 +2471,94 @@ class teachingComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: teachingComponent,
     selectors: [["app-teaching"]],
-    decls: 44,
+    decls: 62,
     vars: 1,
-    consts: [[1, "container", "py-2"]],
+    consts: [[1, "container", "py-2"], [1, "row", 2, "margin-top", "5vh"], [1, "col-12", "col-lg-6"], ["src", "../../../../assets/params/images/teaching/Teaching2.jpg", "alt", "", 1, "pic1"], [1, "col-12", "col-lg-6", "text1"], [1, "line"], [1, "row"], [1, "col-12", "col-lg-6", "text2"], ["src", "../../../../assets/params/images/teaching/Teaching3.jpg", "alt", "", 1, "pic1"]],
     template: function teachingComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "p")(2, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "Supervision Activities");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, " 05/2023 -- ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](5, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, "SCGP, Stony Brook U.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "div", 4)(5, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "Titel1");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, "Stony Brook, NY, USA");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](11, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, " Supervision of project on generalized symmetries in holography for first-year PhD student Shihab Fadda. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Teaching");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](15, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](17, "Mathematical Institute, University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](18, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, " RIGHT ALIGN 2020 -- 2022");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](22, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "ul")(24, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "String Theory I, class tutor, HT 2022.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](27, "String Theory II, TA, class tutor, TT 2020, TT 2021.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](29, "Supersymmetry and Supergravity, TA, HT 2019.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, " Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "Niels Bohr Institute, University of Copenhagen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "hr", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](32, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](33, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](34, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 6)(11, "div", 7)(12, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "Titel2");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, " 2016 -- 2018");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](36, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "ul")(38, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Introduction to Gauge/Gravity Duality, class tutor, block 4 2018.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, " Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "img", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "Analytical Mechanics, class tutor, block 1 2016.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](18, "hr", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "Supersymmetry and Supergravity, TA, HT 2019.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "p")(20, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, "Supervision Activities");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, " 05/2023 -- ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](23, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](24, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "SCGP, Stony Brook U.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](26, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](28, "Stony Brook, NY, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](29, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, " Supervision of project on generalized symmetries in holography for first-year PhD student Shihab Fadda. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](32, "Teaching");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "Mathematical Institute, University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](38, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, " RIGHT ALIGN 2020 -- 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](40, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "ul")(42, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "String Theory I, class tutor, HT 2022.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](44, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](45, "String Theory II, TA, class tutor, TT 2020, TT 2021.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](47, "Supersymmetry and Supergravity, TA, HT 2019.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](49, "Niels Bohr Institute, University of Copenhagen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](53, " 2016 -- 2018");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](54, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "ul")(56, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, "Introduction to Gauge/Gravity Duality, class tutor, block 4 2018.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](59, "Analytical Mechanics, class tutor, block 1 2016.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](61, "Supersymmetry and Supergravity, TA, HT 2019.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
       }
     },
-    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}"],
+    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n.pic1[_ngcontent-%COMP%] {\n    width: 60%;\n    margin-left: 20%;\n}\n\n.text1[_ngcontent-%COMP%] {\n    padding: 3vh 8vw 0vh 0vw;\n}\n\n.text2[_ngcontent-%COMP%] {\n    padding: 3vh 0vw 0vh 8vw;\n}\n\n.line[_ngcontent-%COMP%] {\n    border: 1px solid black;\n    transform: translate(139px, -70px);\n    width: 79%;\n    z-index: -1;\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 0px)  {\n    .line[_ngcontent-%COMP%] {\n        visibility: hidden;\n    }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }

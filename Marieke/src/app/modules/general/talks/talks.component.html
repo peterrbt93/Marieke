@@ -17,9 +17,10 @@
         <div class="card-body d-flex flex-column">
           <h5 class="date">{{item.date}}</h5>
           <h5 class="card-title">{{item.name}}</h5>
-          <p class="card-text mb-4">{{item.body}}</p>
-          <a *ngIf="item.youtubeLink != null" (click)="openTrailer(item, true)" class="btn btn-primary mt-auto align-self-start">Watch</a>
-          <a *ngIf="item.link != null" (click)="openTrailer(item, false)" class="btn btn-primary mt-auto align-self-start">Link to website</a>
+          <p class="card-text mb-4" [innerHTML]="item.body"></p>
+          <a *ngIf="item.youtubeLink != null" (click)="openTrailer(item.youtubeLink, true)" class="btn btn-primary mt-auto align-self-start">Watch</a>
+          <a *ngIf="item.link != null" (click)="openTrailer(item.link, false)" class="btn btn-primary mt-auto align-self-start">Link to website</a>
+          <a *ngIf="item.slides != null" (click)="openTrailer(item.slides, false)" class="btn btn-primary mt-auto align-self-start">Slides</a>
         </div>
       </div>
     </div>

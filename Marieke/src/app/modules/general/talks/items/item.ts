@@ -4,6 +4,7 @@ export class Item {
   body:string;
   youtubeLink: string;
   link: string;
+  slides: string;
   imagePath: string;
   date: string;
 
@@ -13,6 +14,7 @@ export class Item {
     this.body = '';
     this.youtubeLink = '';
     this.link = '';
+    this.slides = '';
     this.imagePath = '';
     this.date = ''
   }

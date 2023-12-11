@@ -10,3 +10,29 @@
         height: 250px; 
     }
 }
+
+.pic1 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.text1 {
+    padding: 3vh 8vw 0vh 0vw;
+}
+
+.text2 {
+    padding: 3vh 0vw 0vh 8vw;
+}
+
+.line {
+    border: 1px solid black;
+    transform: translate(139px, -70px);
+    width: 79%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 0px)  {
+    .line {
+        visibility: hidden;
+    }
+}

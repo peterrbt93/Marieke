@@ -75,9 +75,9 @@ export class talksComponent {
       );
   }
 
-  openTrailer(item: any, isYoutube: boolean) {
-    if (isYoutube && item.youtubeLink != null) {
-      this.player = item.youtubeLink;
+  openTrailer(link: any, isYoutube: boolean) {
+    if (isYoutube && link != null) {
+      this.player = link;
       this.playerLoaded = true;
       if (this.modalPlayer === undefined) {
         this.modalPlayer = new bootstrap.Modal(document.getElementById('newsModal'), {
@@ -89,8 +89,8 @@ export class talksComponent {
       this.modalPlayer?.show();
     }
 
-    if (!isYoutube && item.link != null) {
-      window.open(item.link, '_blank')?.focus();
+    if (!isYoutube && link != null) {
+      window.open(link, '_blank')?.focus();
     }
     
   }
