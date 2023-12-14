@@ -1084,202 +1084,206 @@ class instagramComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: instagramComponent,
     selectors: [["app-instagram"]],
-    decls: 230,
+    decls: 232,
     vars: 1,
-    consts: [[1, "container", "py-2"], [1, "row"], [1, "col-12", "col-md-6", "col-xl-4"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], [2, "padding", "16px"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], [2, "display", "flex", "flex-direction", "row", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "40px", "margin-right", "14px", "width", "40px"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "100px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "60px"], [2, "padding", "19% 0"], [2, "display", "block", "height", "50px", "margin", "0 auto 12px", "width", "50px"], ["width", "50px", "height", "50px", "viewBox", "0 0 60 60", "version", "1.1", "xmlns", "https://www.w3.org/2000/svg", 0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], ["stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["transform", "translate(-511.000000, -20.000000)", "fill", "#000000"], ["d", "M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"], [2, "padding-top", "8px"], [2, "color", "#3897f0", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "550", "line-height", "18px"], [2, "padding", "12.5% 0"], [2, "display", "flex", "flex-direction", "row", "margin-bottom", "14px", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(0px) translateY(7px)"], [2, "background-color", "#F4F4F4", "height", "12.5px", "transform", "rotate(-45deg) translateX(3px) translateY(1px)", "width", "12.5px", "flex-grow", "0", "margin-right", "14px", "margin-left", "2px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(9px) translateY(-18px)"], [2, "margin-left", "8px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "20px", "width", "20px"], [2, "width", "0", "height", "0", "border-top", "2px solid transparent", "border-left", "6px solid #f4f4f4", "border-bottom", "2px solid transparent", "transform", "translateX(16px) translateY(-4px) rotate(30deg)"], [2, "margin-left", "auto"], [2, "width", "0px", "border-top", "8px solid #F4F4F4", "border-right", "8px solid transparent", "transform", "translateY(16px)"], [2, "background-color", "#F4F4F4", "flex-grow", "0", "height", "12px", "width", "16px", "transform", "translateY(-4px)"], [2, "width", "0", "height", "0", "border-top", "8px solid #F4F4F4", "border-left", "8px solid transparent", "transform", "translateY(-4px) translateX(8px)"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center", "margin-bottom", "24px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "224px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "144px"], [2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "line-height", "17px", "margin-bottom", "0", "margin-top", "8px", "overflow", "hidden", "padding", "8px 0 7px", "text-align", "center", "text-overflow", "ellipsis", "white-space", "nowrap"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"]],
+    consts: [[1, "container", "py-2"], [2, "text-align", "center", "margin-top", "40px"], [1, "row"], [1, "col-12", "col-md-6", "col-xl-4"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], [2, "padding", "16px"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], [2, "display", "flex", "flex-direction", "row", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "40px", "margin-right", "14px", "width", "40px"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "100px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "60px"], [2, "padding", "19% 0"], [2, "display", "block", "height", "50px", "margin", "0 auto 12px", "width", "50px"], ["width", "50px", "height", "50px", "viewBox", "0 0 60 60", "version", "1.1", "xmlns", "https://www.w3.org/2000/svg", 0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], ["stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["transform", "translate(-511.000000, -20.000000)", "fill", "#000000"], ["d", "M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"], [2, "padding-top", "8px"], [2, "color", "#3897f0", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "550", "line-height", "18px"], [2, "padding", "12.5% 0"], [2, "display", "flex", "flex-direction", "row", "margin-bottom", "14px", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(0px) translateY(7px)"], [2, "background-color", "#F4F4F4", "height", "12.5px", "transform", "rotate(-45deg) translateX(3px) translateY(1px)", "width", "12.5px", "flex-grow", "0", "margin-right", "14px", "margin-left", "2px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(9px) translateY(-18px)"], [2, "margin-left", "8px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "20px", "width", "20px"], [2, "width", "0", "height", "0", "border-top", "2px solid transparent", "border-left", "6px solid #f4f4f4", "border-bottom", "2px solid transparent", "transform", "translateX(16px) translateY(-4px) rotate(30deg)"], [2, "margin-left", "auto"], [2, "width", "0px", "border-top", "8px solid #F4F4F4", "border-right", "8px solid transparent", "transform", "translateY(16px)"], [2, "background-color", "#F4F4F4", "flex-grow", "0", "height", "12px", "width", "16px", "transform", "translateY(-4px)"], [2, "width", "0", "height", "0", "border-top", "8px solid #F4F4F4", "border-left", "8px solid transparent", "transform", "translateY(-4px) translateX(8px)"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center", "margin-bottom", "24px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "224px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "144px"], [2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "line-height", "17px", "margin-bottom", "0", "margin-top", "8px", "overflow", "hidden", "padding", "8px 0 7px", "text-align", "center", "text-overflow", "ellipsis", "white-space", "nowrap"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"]],
     template: function instagramComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "blockquote", 3)(4, "div", 4)(5, "a", 5)(6, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "div", 9)(10, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "h2", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Instagram Takeover for Women in Physics Denmark ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "div", 2)(4, "div", 3)(5, "blockquote", 4)(6, "div", 5)(7, "a", 6)(8, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](11, "div", 10)(12, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](11, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](13, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "svg", 13)(14, "g", 14)(15, "g", 15)(16, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "path", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "svg", 14)(16, "g", 15)(17, "g", 16)(18, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](19, "path", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "div", 17)(19, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "div", 18)(21, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](21, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "div", 20)(23, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](24, "div", 21)(25, "div", 22)(26, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](23, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](24, "div", 21)(25, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](26, "div", 22)(27, "div", 23)(28, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](28, "div", 25)(29, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](30, "div", 26)(31, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](31, "div", 28)(32, "div", 29)(33, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](33, "div", 29)(34, "div", 30)(35, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](35, "div", 32)(36, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](37, "div", 33)(38, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "p", 34)(38, "a", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](39, "p", 35)(40, "a", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "div", 2)(41, "blockquote", 36)(42, "div", 4)(43, "a", 37)(44, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](45, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "div", 9)(48, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "div", 3)(43, "blockquote", 37)(44, "div", 5)(45, "a", 38)(46, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](49, "div", 10)(50, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](49, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](51, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](52, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "svg", 13)(52, "g", 14)(53, "g", 15)(54, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](55, "path", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "svg", 14)(54, "g", 15)(55, "g", 16)(56, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](57, "path", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "div", 17)(57, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "div", 18)(59, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](60, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](59, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "div", 20)(61, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](62, "div", 21)(63, "div", 22)(64, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](61, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](62, "div", 21)(63, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](64, "div", 22)(65, "div", 23)(66, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](65, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](66, "div", 25)(67, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](68, "div", 26)(69, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](69, "div", 28)(70, "div", 29)(71, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](70, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](71, "div", 29)(72, "div", 30)(73, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](72, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](73, "div", 32)(74, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](74, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](75, "div", 33)(76, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](75, "p", 34)(76, "a", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](77, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](77, "p", 35)(78, "a", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](79, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](78, "div", 2)(79, "blockquote", 39)(80, "div", 4)(81, "a", 40)(82, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](83, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](85, "div", 9)(86, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](80, "div", 3)(81, "blockquote", 40)(82, "div", 5)(83, "a", 41)(84, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](85, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](86, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](87, "div", 10)(88, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](87, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](88, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](89, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](90, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](89, "svg", 13)(90, "g", 14)(91, "g", 15)(92, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](93, "path", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](91, "svg", 14)(92, "g", 15)(93, "g", 16)(94, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](95, "path", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](94, "div", 17)(95, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](96, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](96, "div", 18)(97, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](98, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](97, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](98, "div", 20)(99, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](100, "div", 21)(101, "div", 22)(102, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](99, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](100, "div", 21)(101, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](102, "div", 22)(103, "div", 23)(104, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](104, "div", 25)(105, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](105, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](106, "div", 26)(107, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](107, "div", 28)(108, "div", 29)(109, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](108, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](109, "div", 29)(110, "div", 30)(111, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](110, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](111, "div", 32)(112, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](112, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](113, "div", 33)(114, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](113, "p", 34)(114, "a", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](115, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](115, "p", 35)(116, "a", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](117, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "div", 2)(117, "blockquote", 42)(118, "div", 4)(119, "a", 43)(120, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](121, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](122, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](123, "div", 9)(124, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](118, "div", 3)(119, "blockquote", 43)(120, "div", 5)(121, "a", 44)(122, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](123, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](124, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](125, "div", 10)(126, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](125, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](126, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](127, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](128, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](127, "svg", 13)(128, "g", 14)(129, "g", 15)(130, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](131, "path", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](129, "svg", 14)(130, "g", 15)(131, "g", 16)(132, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](133, "path", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](132, "div", 17)(133, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](134, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](134, "div", 18)(135, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](136, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](135, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](136, "div", 20)(137, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](138, "div", 21)(139, "div", 22)(140, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](137, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](138, "div", 21)(139, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](140, "div", 22)(141, "div", 23)(142, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](141, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](142, "div", 25)(143, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](143, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](144, "div", 26)(145, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](144, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](145, "div", 28)(146, "div", 29)(147, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](146, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](147, "div", 29)(148, "div", 30)(149, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](148, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](149, "div", 32)(150, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](150, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](151, "div", 33)(152, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](151, "p", 34)(152, "a", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](153, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](153, "p", 35)(154, "a", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](155, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](154, "div", 2)(155, "blockquote", 45)(156, "div", 4)(157, "a", 46)(158, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](159, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](161, "div", 9)(162, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](156, "div", 3)(157, "blockquote", 46)(158, "div", 5)(159, "a", 47)(160, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](161, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](162, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](163, "div", 10)(164, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](163, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](164, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](165, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](166, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](165, "svg", 13)(166, "g", 14)(167, "g", 15)(168, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](169, "path", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](167, "svg", 14)(168, "g", 15)(169, "g", 16)(170, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](171, "path", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](170, "div", 17)(171, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](172, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](172, "div", 18)(173, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](174, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](173, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](174, "div", 20)(175, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](176, "div", 21)(177, "div", 22)(178, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](175, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](176, "div", 21)(177, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](178, "div", 22)(179, "div", 23)(180, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](180, "div", 25)(181, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](181, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](182, "div", 26)(183, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](182, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](183, "div", 28)(184, "div", 29)(185, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](184, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](185, "div", 29)(186, "div", 30)(187, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](186, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](187, "div", 32)(188, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](188, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](189, "div", 33)(190, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](189, "p", 34)(190, "a", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](191, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](191, "p", 35)(192, "a", 48);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](193, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](192, "div", 2)(193, "blockquote", 48)(194, "div", 4)(195, "a", 49)(196, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](197, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](198, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](199, "div", 9)(200, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](194, "div", 3)(195, "blockquote", 49)(196, "div", 5)(197, "a", 50)(198, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](199, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](200, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](201, "div", 10)(202, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](201, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](202, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](203, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](204, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](203, "svg", 13)(204, "g", 14)(205, "g", 15)(206, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](207, "path", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](205, "svg", 14)(206, "g", 15)(207, "g", 16)(208, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](209, "path", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](208, "div", 17)(209, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](210, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](210, "div", 18)(211, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](212, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](211, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](212, "div", 20)(213, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](214, "div", 21)(215, "div", 22)(216, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](213, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](214, "div", 21)(215, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](216, "div", 22)(217, "div", 23)(218, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](217, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](218, "div", 25)(219, "div", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](219, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](220, "div", 26)(221, "div", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](220, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](221, "div", 28)(222, "div", 29)(223, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](222, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](223, "div", 29)(224, "div", 30)(225, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](224, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](225, "div", 32)(226, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](226, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](227, "div", 33)(228, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](227, "p", 34)(228, "a", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](229, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](229, "p", 35)(230, "a", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](231, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
       }
     },
+    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\nh2[_ngcontent-%COMP%] {\n  font-family: titleFont;\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -1413,7 +1417,7 @@ class outreachComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: outreachComponent,
     selectors: [["app-outreach"]],
-    decls: 60,
+    decls: 48,
     vars: 1,
     consts: [[1, "container", "py-5"], [1, "row"], [1, "col-12", "col-xl-4", "text-center"], ["href", "https://google.com", "target", "_blank"], [1, "flip-card"], [1, "flip-card-inner"], [1, "flip-card-front"], ["src", "../../../../assets/params/images/teaching/Teaching2.jpg", "alt", "", 1, "pic1"], [1, "flip-card-back1"], [1, "flip-card-back2"], [1, "flip-card-back3"]],
     template: function outreachComponent_Template(rf, ctx) {
@@ -1422,66 +1426,48 @@ class outreachComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 8)(9, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, "John Doe");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, "Architect & Engineer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "We love that guy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, "Go to content");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, "Titel1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, "Titel1");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "h6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](18, "12th of May, 2023");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](13, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "12th of May, 2023");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "div", 2)(22, "a", 3)(23, "div", 4)(24, "div", 5)(25, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](26, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "div", 2)(18, "a", 3)(19, "div", 4)(20, "div", 5)(21, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](22, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 9)(28, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](29, "John Doe");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "div", 9)(24, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "Go to content");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](27, "Titel2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](29, "12th of May, 2023");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "Architect & Engineer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "We love that guy");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "Titel1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "h6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](37, "12th of May, 2023");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "div", 2)(41, "a", 3)(42, "div", 4)(43, "div", 5)(44, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](45, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "div", 2)(33, "a", 3)(34, "div", 4)(35, "div", 5)(36, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](37, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 10)(47, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](48, "John Doe");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](49, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, "Architect & Engineer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, "We love that guy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "div", 10)(39, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](40, "Go to content");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](54, "Titel1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](42, "Titel3");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "h6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](56, "12th of May, 2023");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](44, "12th of May, 2023");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](57, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](46, "Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](59, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
@@ -1699,7 +1685,7 @@ class publicationsComponent {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf],
-    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n#accordion[_ngcontent-%COMP%]   .panel[_ngcontent-%COMP%]{\n    border: none;\n    border-radius: 5px;\n    box-shadow: none;\n    margin-bottom: 10px;\n    background: transparent;\n}\n#accordion[_ngcontent-%COMP%]   .panel-heading[_ngcontent-%COMP%]{\n    padding: 0;\n    border: none;\n    border-radius: 5px;\n    background: transparent;\n    position: relative;\n}\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]{\n    display: block;\n    padding: 15px 45px 0.5px 25px;\n    margin-bottom: 0px;\n    margin-top: 18px;\n    background: rgba(0,0,0,0.15);\n    color: rgba(0,0,0,1);\n    letter-spacing: 1px;\n    border: none;\n    border-radius: 3px;\n    position: relative;\n    text-decoration: none;\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]{ border: none; }\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]:before, .panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    content: \"\\f107\";\n    width: 30px;\n    height: 30px;\n    line-height: 27px;\n    text-align: center;\n    position: absolute;\n    top: 15px;\n    right: 30px;\n    transform: rotate(180deg);\n    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 30px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    color: rgba(255,255,255,0.5);\n    transform: rotate(0deg);\n}\n\n#accordion[_ngcontent-%COMP%]   .panel-title[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-size: 18px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n#accordion[_ngcontent-%COMP%]   .panel-body[_ngcontent-%COMP%]{\n    padding: 20px 30px;\n    background: rgba(0,0,0,0.6);\n    font-size: 15px;\n    color: #fff;\n    line-height: 28px;\n    letter-spacing: 1px;\n    border-top: none;\n    border-radius: 3px;\n}\n\n.authors[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 500;\n    font-size: 14px;\n    \n\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%] {\n    background-color: rgb(217,217,217);\n    position: relative;\n    z-index: 1;\n    display: inline-block;\n    padding: 0;\n    margin: 10px;\n    overflow: hidden;\n    vertical-align: middle;\n    cursor: pointer;\n    border-radius: 50%;\n    \n\n\n    transition: all 0.4s ease-in-out;\n    width: 45px;\n    height: 45px\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%]:hover {\nbackground-color: rgb(112,0,0);\n}\n\n.arxiv[_ngcontent-%COMP%] {\n    width: 1.5em;\n    margin-top: 9px;\n    margin-left: 11.5px;\n    filter: invert(12%) sepia(48%) saturate(4591%) hue-rotate(350deg) brightness(84%) contrast(119%);\n}\n\n.arxiv[_ngcontent-%COMP%]:hover {\nfilter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);\n}\n\n.number[_ngcontent-%COMP%]{\n    bottom: -3px;\n    right: 28px;\n    position: absolute;\n}"],
+    styles: ["@font-face {\n    font-family: titleFont;\n    src: url('Mediga.7a4c8259a47c569a.woff');\n  }\n\nh3[_ngcontent-%COMP%] {\n    font-family: titleFont;\n}\n\n@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n#accordion[_ngcontent-%COMP%]   .panel[_ngcontent-%COMP%]{\n    border: none;\n    border-radius: 5px;\n    box-shadow: none;\n    margin-bottom: 10px;\n    background: transparent;\n}\n#accordion[_ngcontent-%COMP%]   .panel-heading[_ngcontent-%COMP%]{\n    padding: 0;\n    border: none;\n    border-radius: 5px;\n    background: transparent;\n    position: relative;\n}\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]{\n    display: block;\n    padding: 15px 45px 0.5px 25px;\n    margin-bottom: 0px;\n    margin-top: 18px;\n    background: rgba(0,0,0,0.15);\n    color: rgba(0,0,0,1);\n    letter-spacing: 1px;\n    border: none;\n    border-radius: 3px;\n    position: relative;\n    text-decoration: none;\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]{ border: none; }\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]:before, .panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    content: \"\\f107\";\n    width: 30px;\n    height: 30px;\n    line-height: 27px;\n    text-align: center;\n    position: absolute;\n    top: 15px;\n    right: 30px;\n    transform: rotate(180deg);\n    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 30px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    color: rgba(255,255,255,0.5);\n    transform: rotate(0deg);\n}\n\n#accordion[_ngcontent-%COMP%]   .panel-title[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-size: 18px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n#accordion[_ngcontent-%COMP%]   .panel-body[_ngcontent-%COMP%]{\n    padding: 20px 30px;\n    background: rgba(0,0,0,0.6);\n    font-size: 15px;\n    color: #fff;\n    line-height: 28px;\n    letter-spacing: 1px;\n    border-top: none;\n    border-radius: 3px;\n}\n\n.authors[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 500;\n    font-size: 14px;\n    \n\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%] {\n    background-color: rgb(217,217,217);\n    position: relative;\n    z-index: 1;\n    display: inline-block;\n    padding: 0;\n    margin: 10px;\n    overflow: hidden;\n    vertical-align: middle;\n    cursor: pointer;\n    border-radius: 50%;\n    \n\n\n    transition: all 0.4s ease-in-out;\n    width: 45px;\n    height: 45px\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%]:hover {\nbackground-color: rgb(112,0,0);\n}\n\n.arxiv[_ngcontent-%COMP%] {\n    width: 1.5em;\n    margin-top: 9px;\n    margin-left: 11.5px;\n    filter: invert(12%) sepia(48%) saturate(4591%) hue-rotate(350deg) brightness(84%) contrast(119%);\n}\n\n.arxiv[_ngcontent-%COMP%]:hover {\nfilter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);\n}\n\n.number[_ngcontent-%COMP%]{\n    bottom: -3px;\n    right: 28px;\n    position: absolute;\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -1957,71 +1943,53 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function talksComponent_div_2_div_1_a_2_img_1_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "img", 24);
-  }
-  if (rf & 2) {
-    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2).$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
-  }
-}
 function talksComponent_div_2_div_1_a_2_Template(rf, ctx) {
   if (rf & 1) {
-    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_2_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r12);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r12.openTrailer(item_r3, true));
+      const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r10.openTrailer(item_r3.youtubeLink, true));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_a_2_img_1_Template, 1, 1, "img", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
-  }
-}
-function talksComponent_div_2_div_1_a_3_img_1_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "img", 24);
-  }
-  if (rf & 2) {
-    const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2).$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate"]("src", item_r3.imagePath, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate1"]("src", "https://img.youtube.com/vi/", item_r3.youtubeLink, "/mqdefault.jpg", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
   }
 }
 function talksComponent_div_2_div_1_a_3_Template(rf, ctx) {
   if (rf & 1) {
-    const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    const _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_3_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r16);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r18.openTrailer(item_r3, false));
+      const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r14.openTrailer(item_r3.link, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_a_3_img_1_Template, 1, 1, "img", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null)("ngIfAnd", item_r3.Link != null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate"]("src", item_r3.imagePath, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
   }
 }
 function talksComponent_div_2_div_1_a_10_Template(rf, ctx) {
   if (rf & 1) {
-    const _r24 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 26);
+    const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_10_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r20);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r22.openTrailer(item_r3.youtubeLink, true));
+      const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r18.openTrailer(item_r3.youtubeLink, true));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Watch");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -2029,13 +1997,13 @@ function talksComponent_div_2_div_1_a_10_Template(rf, ctx) {
 }
 function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
   if (rf & 1) {
-    const _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 26);
+    const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_11_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r23);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r25.openTrailer(item_r3.link, false));
+      const ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r21.openTrailer(item_r3.link, false));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Link to website");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -2043,13 +2011,13 @@ function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
 }
 function talksComponent_div_2_div_1_a_12_Template(rf, ctx) {
   if (rf & 1) {
-    const _r30 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 26);
+    const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_12_Template_a_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r26);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
-      const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r28.openTrailer(item_r3.slides, false));
+      const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵresetView"](ctx_r24.openTrailer(item_r3.slides, false));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, "Slides");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -2059,7 +2027,7 @@ function talksComponent_div_2_div_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 14)(1, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_div_1_a_2_Template, 2, 1, "a", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_a_3_Template, 2, 2, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_a_3_Template, 2, 1, "a", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "div", 17)(5, "h5", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
@@ -2078,7 +2046,7 @@ function talksComponent_div_2_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink == null && item_r3.link != null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.date);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
@@ -2105,10 +2073,10 @@ function talksComponent_div_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r0.items);
   }
 }
-function talksComponent_div_118_Template(rf, ctx) {
+function talksComponent_div_168_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "safe");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
@@ -2184,167 +2152,204 @@ class talksComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
     type: talksComponent,
     selectors: [["app-talks"]],
-    decls: 123,
+    decls: 173,
     vars: 3,
-    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [1, "dateTitle"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "date"], [1, "card-title"], [1, "card-text", "mb-4", 3, "innerHTML"], ["class", "btn btn-primary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], ["class", "img-fluid rounded z-depth-2 card-movie-img", "alt", "", 3, "src", 4, "ngIf", "ngIfAnd"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [2, "text-align", "center"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "date"], [1, "card-title"], [1, "card-text", "mb-4", 3, "innerHTML"], ["class", "btn btn-primary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_Template, 2, 1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "section")(4, "p")(5, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, "Organization of Conferences and Workshops");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8, "10/2021");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "section", 2)(4, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](5, "Invited Plenary Talks");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](10, " Annual Mathematical Physics Student Conference, 2nd edition");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](11, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](12, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, "University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](6, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8, "Oct 2023 | Symmetry Seminar");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](14, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](15, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "03/2021");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](19, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](20, " Oxford Meets the Hologram, online group workshop on Holography with student, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](21, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](22, " postdoc and faculty engagement");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](23, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](24, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](25, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](26, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](27, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](28, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](29, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](30, "07/2020");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](31, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](32, " Annual Mathematical Physics Student Conference, co-founder");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](33, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](34, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](35, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](36, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](37, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](38, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](39, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](40, "09/2019");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](41, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](42, " Geometry and Strings Conference 2019");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](43, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](44, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](45, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](46, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](47, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](48, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](49, "p")(50, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](51, "Professional Responsibilities and Contributions");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](52, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](53, "2021 \u2014 current");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](54, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](55, " Referee for Journal of High Energy Physics (JHEP) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](56, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](57, "2020 \u2014 2022");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](58, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](59, " Co-organizer of the weekly Oxford String Theory Journal Club");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](60, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](61, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](62, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](63, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](64, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](65, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](66, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](67, "2020 \u2014 2022");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](68, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](69, " Student Representative for the Mathematical Physics DPhil students");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](70, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](71, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](72, "University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](73, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](74, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](75, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](76, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](77, "12/2020, 12/2021");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](78, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](79, " Undergraduate Admissions interviewer, respectively as junior interviewer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](80, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](81, " with James Sparks, subsequently as senior interviewer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](82, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](83, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](84, "Oriel College, University of Oxford");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](85, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](86, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](87, "Oxford, UK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](88, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](89, "09/2016");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](90, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](91, " Co-organizer of the Physics MSc social and academic introduction program");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](92, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](93, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](94, "Niels Bohr Institute, University of Copenhagen");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](95, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](96, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](97, "Copenhagen, DK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](98, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](99, "09/2013");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](100, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](101, " Co-organizer of the Physics BA social and academic introduction program");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](102, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](103, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](104, "Niels Bohr Institute, University of Copenhagen");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](105, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](106, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](107, "Copenhagen, DK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "p")(10, "i")(11, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](12, "Online Seminar Series");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](108, "section")(109, "section")(110, "div", 3)(111, "div", 4)(112, "div", 5)(113, "div", 6)(114, "button", 7)(115, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](116, "Close");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](117, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](118, talksComponent_div_118_Template, 3, 3, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](13, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](15, "Sep 2023 | Intersections of String Theory and QFT IV");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](119, "div", 10)(120, "button", 11)(121, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](122, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](16, "p")(17, "i")(18, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](19, "University of Birmingham");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](20, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](21, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](22, "Birmingham, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](23, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](24, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](25, "Jul 2023 | String Math 2023");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](26, "p")(27, "i")(28, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](29, "University of Melbourne");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](30, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](31, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](32, "Melbourne, Australia");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](33, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](34, "Oct 2022 | 5d N=1 SCFTs and Gauge Theories on Brane Webs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](35, "p")(36, "i")(37, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](38, "SCGP, Stony Brook U.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](39, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](40, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](41, "Stony Brook, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](42, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](43, "Aug 2022 | Engineering in the Landscape: Geometry, Symmetries and Anomalies");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](44, "p")(45, "i")(46, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](47, "Uppsala U.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](48, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](49, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](50, "Uppsala, Sweden");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](51, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](52, "Jul 2022 | XII Workshop on Geometric Correspondences of Gauge Theories");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](53, "p")(54, "i")(55, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](56, "SISSA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](57, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](58, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](59, "Trieste, Italy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](60, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](61, "May 2022 | Higher form symmetries, defects, and boundaries in QFT");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](62, "p")(63, "i")(64, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](65, "Technion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](66, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](67, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](68, "Haifa, Israel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](69, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](70, "Dec 2021 | NL Seminar Series");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](71, "p")(72, "i")(73, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](74, "Online Seminar Series on Non-Lorentzian Geometries");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](75, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](76, "Nov 2021 | INFN Strings Young Days");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](77, "p")(78, "i")(79, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](80, "Online Conference");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](81, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](82, "Sep 2021 | String-Pheno Seminars");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](83, "p")(84, "i")(85, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](86, "Online Seminar Series");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](87, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](88, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](89, "Invited Seminars at other Institutions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](90, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](91, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](92, "Sep 2023 | Monopoles, Scattering, and Generalized Symmetries");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](93, "p")(94, "i")(95, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](96, "Nordita");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](97, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](98, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](99, "Stockholm, Sweden");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](100, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](101, "Jul 2023 | Monopoles, Scattering, and Generalized Symmetries");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](102, "p")(103, "i")(104, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](105, "CMSA, Harvard");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](106, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](107, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](108, "Online");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](109, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](110, "Mar 2023 | Symmetry TFT for 3d Quantum Field Theories in M-theory");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](111, "p")(112, "i")(113, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](114, "City College at the City University of New York");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](115, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](116, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](117, "New York City, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](118, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](119, "Jan 2023 | Symmetries of 3d QFTs from M-theory");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](120, "p")(121, "i")(122, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](123, "University of Pennsylvania");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](124, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](125, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](126, "Philadelphia, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](127, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](128, "Mar 2022 | Higgs Branches of 5d Superconformal Field Theories");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](129, "p")(130, "i")(131, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](132, "University of Birmingham");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](133, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](134, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](135, "Birmingham, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](136, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](137, "Sep 2020 | Leaves and Branches in the Polynesian Tropical Rain Forest");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](138, "p")(139, "i")(140, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](141, "Quiver Meeting, Imperial College London");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](142, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](143, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](144, "Online");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](145, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](146, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](147, "Invited Lectures at International Schools");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](148, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](149, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](150, "Dec 2022 | SUSY QFTs in various dimensions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](151, "p")(152, "i")(153, "b");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](154, "Avogadro Meeting ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](155, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](156, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](157, "Turin, Italy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](158, "section")(159, "section")(160, "div", 3)(161, "div", 4)(162, "div", 5)(163, "div", 6)(164, "button", 7)(165, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](166, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](167, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](168, talksComponent_div_168_Template, 3, 3, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](169, "div", 10)(170, "button", 11)(171, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](172, "Close");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("@fade", undefined);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.loaded);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](166);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.playerLoaded);
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _safe_pipe__WEBPACK_IMPORTED_MODULE_4__.SafePipe],
-    styles: [".nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n  scale: 1.05;\n}\n\n.card-body[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  margin-bottom: 5px;\n  color: white !important;\n}\n\n.card-body[_ngcontent-%COMP%] {\n  padding-top: 0px;\n}\n\n.date[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 15px;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 4;\n  }\n}"],
+    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\nh2[_ngcontent-%COMP%] {\n  font-family: titleFont;\n}\n\n.nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n  scale: 1.05;\n}\n\n.card-body[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  margin-bottom: 5px;\n  color: white !important;\n}\n\n.card-body[_ngcontent-%COMP%] {\n  padding-top: 0px;\n}\n\n.date[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 15px;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 100%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -2471,94 +2476,79 @@ class teachingComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: teachingComponent,
     selectors: [["app-teaching"]],
-    decls: 62,
+    decls: 51,
     vars: 1,
-    consts: [[1, "container", "py-2"], [1, "row", 2, "margin-top", "5vh"], [1, "col-12", "col-lg-6"], ["src", "../../../../assets/params/images/teaching/Teaching2.jpg", "alt", "", 1, "pic1"], [1, "col-12", "col-lg-6", "text1"], [1, "line"], [1, "row"], [1, "col-12", "col-lg-6", "text2"], ["src", "../../../../assets/params/images/teaching/Teaching3.jpg", "alt", "", 1, "pic1"]],
+    consts: [[1, "container", "py-2"], [1, "row", 2, "margin-top", "5vh"], [1, "col-12", "col-lg-5"], ["src", "../../../../assets/params/images/teaching/Teaching2.jpg", "alt", "", 1, "pic1"], [1, "col-12", "col-lg-7", "text1"], [1, "line"], [1, "row"], [1, "col-12", "col-lg-7", "text2"], ["src", "../../../../assets/params/images/teaching/Teaching3.jpg", "alt", "", 1, "pic1"]],
     template: function teachingComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "div", 4)(5, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "Titel1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "Supervision Activities");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, " Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "p")(8, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "SCGP, Stony Brook U.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, " | ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, "Stony Brook, NY, USA, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, " 05/2023 \u2013 current ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, " Supervision of project on generalized symmetries in holography for first-year PhD student Shihab Fadda. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "hr", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](16, "hr", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 6)(11, "div", 7)(12, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, "Titel2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "div", 6)(18, "div", 7)(19, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "Teaching");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, " Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, Text about me, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "Mathematical Institute, University of Oxford");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](18, "hr", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "p")(20, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, "Supervision Activities");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, " 05/2023 -- ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](23, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](23, " | ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](24, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "SCGP, Stony Brook U.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "Oxford, UK, 2020 \u2013 2022");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](26, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](28, "Stony Brook, NY, USA");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "ul")(28, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](29, "String Theory I, class tutor, HT 2022.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](29, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, " Supervision of project on generalized symmetries in holography for first-year PhD student Shihab Fadda. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "String Theory II, TA, class tutor, TT 2020, TT 2021.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "b");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](32, "Teaching");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "Supersymmetry and Supergravity, TA, HT 2019.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "Mathematical Institute, University of Oxford");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "Niels Bohr Institute, University of Copenhagen");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, " | ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](38, "Oxford, UK");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](38, "Copenhagen, DK, ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, " RIGHT ALIGN 2020 -- 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, " 2016 \u2013 2018");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](40, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "ul")(42, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "String Theory I, class tutor, HT 2022.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "Introduction to Gauge/Gravity Duality, class tutor, block 4 2018.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](44, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](45, "String Theory II, TA, class tutor, TT 2020, TT 2021.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](45, "Analytical Mechanics, class tutor, block 1 2016.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](47, "Supersymmetry and Supergravity, TA, HT 2019.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](49, "Niels Bohr Institute, University of Copenhagen");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, "Copenhagen, DK");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](53, " 2016 -- 2018");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](54, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "ul")(56, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, "Introduction to Gauge/Gravity Duality, class tutor, block 4 2018.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](59, "Analytical Mechanics, class tutor, block 1 2016.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](61, "Supersymmetry and Supergravity, TA, HT 2019.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](49, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](50, "hr", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
       }
     },
-    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n.pic1[_ngcontent-%COMP%] {\n    width: 60%;\n    margin-left: 20%;\n}\n\n.text1[_ngcontent-%COMP%] {\n    padding: 3vh 8vw 0vh 0vw;\n}\n\n.text2[_ngcontent-%COMP%] {\n    padding: 3vh 0vw 0vh 8vw;\n}\n\n.line[_ngcontent-%COMP%] {\n    border: 1px solid black;\n    transform: translate(139px, -70px);\n    width: 79%;\n    z-index: -1;\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 0px)  {\n    .line[_ngcontent-%COMP%] {\n        visibility: hidden;\n    }\n}"],
+    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n\n    .text1[_ngcontent-%COMP%] {\n        padding: 3vh 7vw 0vh 0vw;\n    }\n    \n    .text2[_ngcontent-%COMP%] {\n        padding: 3vh 0vw 0vh 7vw;\n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n\n    .text1[_ngcontent-%COMP%] {\n        padding: 2vh 7vw 0vh 7vw;\n    }\n    \n    .text2[_ngcontent-%COMP%] {\n        padding: 2vh 7vw 0vh 7vw;\n    }\n}\n\n.pic1[_ngcontent-%COMP%] {\n    width: 60%;\n    margin-left: 20%;\n}\n\n\n\n.line[_ngcontent-%COMP%] {\n    border: 1px solid black;\n    transform: translate(139px, -40px);\n    width: 79%;\n    z-index: -1;\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 0px)  {\n    .line[_ngcontent-%COMP%] {\n        visibility: hidden;\n    }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }

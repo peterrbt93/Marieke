@@ -8,7 +8,7 @@ import { fade } from '../../../../animations';
 @Component({
   selector: 'app-instagram',
   templateUrl: './instagram.component.html',
-  styleUrls: ['./instagram.component.css'],
+  styleUrls: ['./instagram.component.scss'],
   animations: [
     fade
   ]

@@ -3,11 +3,27 @@
         clear: both; 
         height: 0px; 
     }
+
+    .text1 {
+        padding: 3vh 7vw 0vh 0vw;
+    }
+    
+    .text2 {
+        padding: 3vh 0vw 0vh 7vw;
+    }
 }
 @media only screen and (max-width: 981px) and (min-width: 292px)  {
     .clear { 
         clear: both; 
         height: 250px; 
+    }
+
+    .text1 {
+        padding: 2vh 7vw 0vh 7vw;
+    }
+    
+    .text2 {
+        padding: 2vh 7vw 0vh 7vw;
     }
 }
 
@@ -16,17 +32,11 @@
     margin-left: 20%;
 }
 
-.text1 {
-    padding: 3vh 8vw 0vh 0vw;
-}
 
-.text2 {
-    padding: 3vh 0vw 0vh 8vw;
-}
 
 .line {
     border: 1px solid black;
-    transform: translate(139px, -70px);
+    transform: translate(139px, -40px);
     width: 79%;
     z-index: -1;
 }

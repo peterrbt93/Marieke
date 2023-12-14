@@ -4,12 +4,12 @@
     <div *ngIf="loaded" class="card-columns">
       <div *ngFor="let item of items; let i=index;" class="card profile-card-5">
         <div class="card-img-block">
-          <a *ngIf="item.youtubeLink != null" (click)="openTrailer(item, true)">
-            <img *ngIf="item.youtubeLink != null" src="https://img.youtube.com/vi/{{ item.youtubeLink }}/mqdefault.jpg"
+          <a *ngIf="item.youtubeLink != null" (click)="openTrailer(item.youtubeLink, true)">
+            <img src="https://img.youtube.com/vi/{{ item.youtubeLink }}/mqdefault.jpg"
               class="img-fluid rounded z-depth-2 card-movie-img" alt="">
           </a>
-          <a *ngIf="item.youtubeLink == null" (click)="openTrailer(item, false)">
-            <img *ngIf="item.youtubeLink == null and item.Link != null" src="{{ item.imagePath }}"
+          <a *ngIf="item.youtubeLink == null && item.link != null" (click)="openTrailer(item.link, false)">
+            <img src="{{ item.imagePath }}"
               class="img-fluid rounded z-depth-2 card-movie-img" alt="">
           </a>
         </div>
@@ -28,63 +28,106 @@
 
   
 
-  <section>
+  <section style="text-align: center;">
+  
+    <h2>Invited Plenary Talks</h2>
+    <br>
+
+    <h5>Oct 2023 | Symmetry Seminar</h5>
     <p>
-      <b>Organization of Conferences and Workshops</b>
+      <i><b>Online Seminar Series</b></i>
     </p>
-    <p class="dateTitle">10/2021</p>
+
+    <hr>  
+    
+    <h5>Sep 2023 | Intersections of String Theory and QFT IV</h5>
     <p>
-      Annual Mathematical Physics Student Conference, 2nd edition<br>
-      <i>University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>University of Birmingham</b></i> | <i>Birmingham, UK</i>
     </p>
-    <p class="dateTitle">03/2021</p>
+
+    <hr>
+    
+    <h5>Jul 2023 | String Math 2023</h5>
     <p>
-      Oxford Meets the Hologram, online group workshop on Holography with student, <br>
-      postdoc and faculty engagement<br>
-      <i>University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>University of Melbourne</b></i> | <i>Melbourne, Australia</i>
     </p>
-    <p class="dateTitle">07/2020</p>
+
+    <h5>Oct 2022 | 5d N=1 SCFTs and Gauge Theories on Brane Webs</h5>
     <p>
-      Annual Mathematical Physics Student Conference, co-founder<br>
-      <i>University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>SCGP, Stony Brook U.</b></i> | <i>Stony Brook, USA</i>
     </p>
-    <p class="dateTitle">09/2019</p>
+
+    <h5>Aug 2022 | Engineering in the Landscape: Geometry, Symmetries and Anomalies</h5>
     <p>
-      Geometry and Strings Conference 2019<br>
-      <i>University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>Uppsala U.</b></i> | <i>Uppsala, Sweden</i>
     </p>
+
+    <h5>Jul 2022 | XII Workshop on Geometric Correspondences of Gauge Theories</h5>
     <p>
-    <b>Professional Responsibilities and Contributions</b>
+      <i><b>SISSA</b></i> | <i>Trieste, Italy</i>
     </p>
-    <p class="dateTitle">2021 &mdash; current</p>
+
+    <h5>May 2022 | Higher form symmetries, defects, and boundaries in QFT</h5>
     <p>
-      Referee for Journal of High Energy Physics (JHEP)
+      <i><b>Technion</b></i> | <i>Haifa, Israel</i>
     </p>
-    <p class="dateTitle">2020 &mdash; 2022</p>
+
+    <h5>Dec 2021 | NL Seminar Series</h5>
     <p>
-      Co-organizer of the weekly Oxford String Theory Journal Club<br>
-      <i>University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>Online Seminar Series on Non-Lorentzian Geometries</b></i>
     </p>
-    <p class="dateTitle">2020 &mdash; 2022</p>
+
+    <h5>Nov 2021  | INFN Strings Young Days</h5>
     <p>
-      Student Representative for the Mathematical Physics DPhil students<br>
-      <i>University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>Online Conference</b></i>
     </p>
-    <p class="dateTitle">12/2020, 12/2021</p>
+
+    <h5>Sep 2021 | String-Pheno Seminars</h5>
     <p>
-      Undergraduate Admissions interviewer, respectively as junior interviewer<br>
-      with James Sparks, subsequently as senior interviewer<br>
-      <i>Oriel College, University of Oxford</i> | <i>Oxford, UK</i>
+      <i><b>Online Seminar Series</b></i>
     </p>
-    <p class="dateTitle">09/2016</p>
+
+    <br>
+    <h2>Invited Seminars at other Institutions</h2>
+    <br>
+
+    <h5>Sep 2023 | Monopoles, Scattering, and Generalized Symmetries</h5>
     <p>
-    Co-organizer of the Physics MSc social and academic introduction program<br>
-    <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
+      <i><b>Nordita</b></i> | <i>Stockholm, Sweden</i>
     </p>
-    <p class="dateTitle">09/2013</p>
+
+    <h5>Jul 2023 | Monopoles, Scattering, and Generalized Symmetries</h5>
     <p>
-    Co-organizer of the Physics BA social and academic introduction program<br>
-    <i>Niels Bohr Institute, University of Copenhagen</i> | <i>Copenhagen, DK</i>
+      <i><b>CMSA, Harvard</b></i> | <i>Online</i>
+    </p>
+
+    <h5>Mar 2023 | Symmetry TFT for 3d Quantum Field Theories in M-theory</h5>
+    <p>
+      <i><b>City College at the City University of New York</b></i> | <i>New York City, USA</i>
+    </p>
+
+    <h5>Jan 2023 | Symmetries of 3d QFTs from M-theory</h5>
+    <p>
+      <i><b>University of Pennsylvania</b></i> | <i>Philadelphia, USA</i>
+    </p>
+
+    <h5>Mar 2022 | Higgs Branches of 5d Superconformal Field Theories</h5>
+    <p>
+      <i><b>University of Birmingham</b></i> | <i>Birmingham, UK</i>
+    </p>
+
+    <h5>Sep 2020 | Leaves and Branches in the Polynesian Tropical Rain Forest</h5>
+    <p>
+      <i><b>Quiver Meeting, Imperial College London</b></i> | <i>Online</i>
+    </p>
+
+    <br>
+    <h2>Invited Lectures at International Schools</h2>
+    <br>
+
+    <h5>Dec 2022 | SUSY QFTs in various dimensions</h5>
+    <p>
+      <i><b>Avogadro Meeting </b></i> | <i>Turin, Italy</i>
     </p>
   </section>
 

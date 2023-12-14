@@ -1,3 +1,12 @@
+@font-face {
+    font-family: titleFont;
+    src: url(../../../../assets/params/css/Mediga.woff);
+  }
+
+h3 {
+    font-family: titleFont;
+}
+
 @media (min-width: 982px) {
     .clear { 
         clear: both; 
