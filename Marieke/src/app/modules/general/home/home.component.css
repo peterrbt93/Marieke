@@ -111,7 +111,7 @@
   left: 0px;
   height: 600px;
   width: 50%;
-  padding: 12% 12% 0% 8%;
+  padding: 11% 10% 0% 8%;
   color: #fff;
   text-align: center;
 }
@@ -170,6 +170,7 @@
 
 h2 {
   font-family: titleFont;
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 540px) and (min-width: 300px) {

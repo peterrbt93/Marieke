@@ -35,6 +35,22 @@ export class publicationsComponent {
     this.publications = [
 
       new Publication(
+        "Fermion-Monopole Scattering in the Standard Model", 
+        "https://arxiv.org/abs/2312.17746",
+        "We study the scattering of fermions off 't Hooft lines in the Standard Model. A long-standing paradox suggests that the outgoing fermions necessarily carry fractional quantum numbers. In a previous paper, we resolved this paradox in the context of a number of toy models where we showed that the outgoing radiation is created by operators that are attached to a co-dimension 1 topological surface. This shifts the quantum numbers of the outgoing states associated to non-anomalous symmetries to be integer valued as required, while the quantum numbers associated to anomalous symmetries are fractional. Here we apply these ideas to the Standard Model.",
+        this.getAuthorString( 
+        [
+          new Author("Marieke van Beest", "Stony Brook U., New York, SCGP"), 
+          new Author("Philip Boyle Smith", "Tokyo U., IPMU"),
+          new Author("Diego Delmastro", "Stony Brook U., New York, SCGP"), 
+          new Author("Rishi Mouland", "Cambridge U., DAMTP"),
+          new Author("David Tong", "Cambridge U., DAMTP")
+        ]),
+        "(Dec 29, 2023)",
+        "e-Print: 2312.17746 [hep-th]"
+        ),
+
+      new Publication(
         "Monopoles, Scattering, and Generalized Symmetries", 
         "https://arxiv.org/abs/2306.07318",
         "We reconsider the problem of electrically charged, massless fermions scattering off magnetic monopoles. The interpretation of the outgoing states has long been a puzzle as, in certain circumstances, they necessarily carry fractional quantum numbers. We argue that consistency requires such outgoing particles to be attached to a topological co-dimension 1 surface, which ends on the monopole. This surface cannot participate in a 2-group with the magnetic 1-form symmetry and is often non-invertible. Equivalently, the outgoing radiation lies in a twisted sector and not in the original Fock space. The outgoing radiation therefore not only carries unconventional flavor quantum numbers, but is often trailed by a topological field theory. We exemplify these ideas in the 1+1 dimensional, chiral 3450 model which shares many of the same features. We comment on the effects of gauge field fluctuations on the lowest angular momentum fermion scattering states in the presence of a magnetic monopole. While, to leading order, these zero modes can penetrate into the monopole core, in the full theory some of the zero modes are lifted and develop a small centrifugal barrier. The dynamics of the zero modes is that of a multi-flavor Schwinger model with a space-dependent gauge coupling. Symmetries and anomalies constrain the fate of the pseudo-zero modes.",

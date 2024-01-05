@@ -132,8 +132,8 @@ export class aboutmeComponent {
           </p>
           <p class="dateTitle">03/2021</p>
           <p>
-            Oxford Meets the Hologram, online group workshop on Holography with student, <br>
-            postdoc and faculty engagement<br>
+            Oxford Meets the Hologram, online group workshop on Holography with <br>
+            student, postdoc and faculty engagement<br>
             <i>University of Oxford</i> | <i>Oxford, UK</i>
           </p>
           <p class="dateTitle">07/2020</p>
@@ -165,8 +165,8 @@ export class aboutmeComponent {
           </p>
           <p class="dateTitle">12/2020, 12/2021</p>
           <p>
-            Undergraduate Admissions interviewer, respectively as junior interviewer<br>
-            with James Sparks, subsequently as senior interviewer<br>
+            Undergraduate Admissions interviewer, respectively as junior <br>
+            interviewer with James Sparks, subsequently as senior interviewer<br>
             <i>Oriel College, University of Oxford</i> | <i>Oxford, UK</i>
           </p>
           <p class="dateTitle">09/2016</p>
@@ -184,3 +184,4 @@ export class aboutmeComponent {
     ]
   }
 }
+
