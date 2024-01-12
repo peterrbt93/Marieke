@@ -3,38 +3,38 @@
     "date": "Oct 2023",
     "youtubeLink": "ZzCoab_e918",
     "name": "Symmetry Seminar",
-    "body": "Online Seminar Series"
+    "body": "Monopoles, Scattering, and Generalized Symmetries"
+  },
+  {
+    "date": "Oct 2022",
+    "link": "https://scgp.stonybrook.edu/video/video.php?id=5518",
+    "imagePath":"../../../../assets/params/images/talks/simons.png",
+    "name": "Simons Workshop on 5d N=1 SCFTs",
+    "body": "SCGP, Stony Brook U. <br><br> RG-Flow Trees of Magnetic Quivers from GTPs"
   },
   {
     "date": "Jul 2023",
     "link": "https://echo360.net.au/media/b7d0c2d6-4b03-4090-aa49-5dcd35e068ab/public",
     "imagePath":"../../../../assets/params/images/talks/melbourne.png",
     "name": "String Math 2023",
-    "body": "<i><b>University of Melbourne</b></i> | <i>Melbourne, Australia</i>"
-  },
-  {
-    "date": "Oct 2022",
-    "link": "https://scgp.stonybrook.edu/video/video.php?id=5518",
-    "imagePath":"../../../../assets/params/images/talks/simons.png",
-    "name": "5d N=1 SCFTs and Gauge Theories on Brane Webs",
-    "body": "<i><b>SCGP, Stony Brook U.</b></i> | <i>Stony Brook, USA</i>"
+    "body": "University of Melbourne"
   },
   {
     "date": "Sep 2021",
     "youtubeLink": "NUv3yAIYtYA",
-    "name": "String-Pheno Seminars",
-    "body": "Online Seminar Series"
+    "name": "String-Pheno Seminar",
+    "body": "Holography, 1-Form Symmetries, and Confinement"
   },
   {
     "date": "Jul 2023",
     "youtubeLink": "ByQP_cJOkfo",
-    "name": "Monopoles, Scattering, and Generalized Symmetries",
-    "body": "<i><b>CMSA, Harvard</b></i> | <i>Online</i>"
+    "name": "CMSA, Harvard",
+    "body": "Monopoles, Scattering, and Generalized Symmetries"
   },
   {
     "date": "Sep 2020",
-    "youtubeLink": "mangler",
-    "name": "Leaves and Branches in the Polynesian Tropical Rain Forest",
-    "body": "<i><b>Quiver Meeting, Imperial College London</b></i> | <i>Online</i>"
+    "youtubeLink": "RrSW8vp4ENs",
+    "name": "Quiver Meeting",
+    "body": "Imperial College London <br> <br> Leaves and Branches in the Tropical Rain Forest"
   }
 ]

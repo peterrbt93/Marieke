@@ -927,7 +927,7 @@ class HomeComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
     type: HomeComponent,
     selectors: [["app-home"]],
-    decls: 17,
+    decls: 15,
     vars: 1,
     consts: [[1, "container", "py-2"], [1, "right"], [1, "left"], ["src", "../../../../assets/params/images/home/marieke.jpg", 1, "marieke"], [1, "footCorrect"]],
     template: function HomeComponent_Template(rf, ctx) {
@@ -943,13 +943,11 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](8, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](9, " I am a Danish theoretical physicist ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](10, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](11, " currently living in Long Island, New York, USA. I am a postdoc at the Simons Center for Geometry and Physics. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](11, " currently living in Long Island, New York, USA. I am a Research Assistant Professor at the Simons Center for Geometry and Physics. My research centers on problems in quantum field ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](12, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, " My research centers on problems in quantum field ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](14, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](15, " theory and string theory. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, " theory and string theory. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](16, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](14, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
       }
       if (rf & 2) {
@@ -1090,6 +1088,7 @@ class instagramComponent {
   }
   ngOnInit() {
     this.instagram.processEmbeddedInstagramPosts();
+    window.twttr.widgets.load();
   }
   static #_ = this.ɵfac = function instagramComponent_Factory(t) {
     return new (t || instagramComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_instagram_dom_service__WEBPACK_IMPORTED_MODULE_1__.InstagramDOMService));
@@ -1097,9 +1096,9 @@ class instagramComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
     type: instagramComponent,
     selectors: [["app-instagram"]],
-    decls: 258,
+    decls: 260,
     vars: 1,
-    consts: [[1, "container", "py-2"], [2, "text-align", "center", "margin-top", "40px"], [2, "text-align", "center"], [1, "row"], [2, "width", "25vw"], [1, "twitter-tweet"], ["lang", "en", "dir", "ltr"], ["href", "https://t.co/TWmafkuc0H"], ["href", "https://twitter.com/hashtag/WomenInScience?src=hash&ref_src=twsrc%5Etfw"], ["href", "https://t.co/14EHtpqPs6"], ["href", "https://twitter.com/OxUniMaths/status/1492128906480132105?ref_src=twsrc%5Etfw"], [1, "col-12", "col-md-6", "col-xl-4"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], [2, "padding", "16px"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], [2, "display", "flex", "flex-direction", "row", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "40px", "margin-right", "14px", "width", "40px"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "100px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "60px"], [2, "padding", "19% 0"], [2, "display", "block", "height", "50px", "margin", "0 auto 12px", "width", "50px"], ["width", "50px", "height", "50px", "viewBox", "0 0 60 60", "version", "1.1", "xmlns", "https://www.w3.org/2000/svg", 0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], ["stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["transform", "translate(-511.000000, -20.000000)", "fill", "#000000"], ["d", "M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"], [2, "padding-top", "8px"], [2, "color", "#3897f0", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "550", "line-height", "18px"], [2, "padding", "12.5% 0"], [2, "display", "flex", "flex-direction", "row", "margin-bottom", "14px", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(0px) translateY(7px)"], [2, "background-color", "#F4F4F4", "height", "12.5px", "transform", "rotate(-45deg) translateX(3px) translateY(1px)", "width", "12.5px", "flex-grow", "0", "margin-right", "14px", "margin-left", "2px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(9px) translateY(-18px)"], [2, "margin-left", "8px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "20px", "width", "20px"], [2, "width", "0", "height", "0", "border-top", "2px solid transparent", "border-left", "6px solid #f4f4f4", "border-bottom", "2px solid transparent", "transform", "translateX(16px) translateY(-4px) rotate(30deg)"], [2, "margin-left", "auto"], [2, "width", "0px", "border-top", "8px solid #F4F4F4", "border-right", "8px solid transparent", "transform", "translateY(16px)"], [2, "background-color", "#F4F4F4", "flex-grow", "0", "height", "12px", "width", "16px", "transform", "translateY(-4px)"], [2, "width", "0", "height", "0", "border-top", "8px solid #F4F4F4", "border-left", "8px solid transparent", "transform", "translateY(-4px) translateX(8px)"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center", "margin-bottom", "24px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "224px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "144px"], [2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "line-height", "17px", "margin-bottom", "0", "margin-top", "8px", "overflow", "hidden", "padding", "8px 0 7px", "text-align", "center", "text-overflow", "ellipsis", "white-space", "nowrap"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"]],
+    consts: [[1, "container", "py-2"], [2, "text-align", "center", "margin-top", "40px"], [2, "text-align", "center"], [1, "row"], [1, "col-", "col-md-2", "col-xl-3"], [1, "col-12", "col-md-8", "col-xl-6", "tweet"], [1, "twitter-tweet", "tw-align-center"], ["lang", "en", "dir", "ltr"], ["href", "https://t.co/TWmafkuc0H"], ["href", "https://twitter.com/hashtag/WomenInScience?src=hash&ref_src=twsrc%5Etfw"], ["href", "https://t.co/14EHtpqPs6"], ["href", "https://twitter.com/OxUniMaths/status/1492128906480132105?ref_src=twsrc%5Etfw"], [1, "col-0", "col-md-2", "col-xl-3"], [1, "col-12", "col-md-6", "col-xl-4"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], [2, "padding", "16px"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], [2, "display", "flex", "flex-direction", "row", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "40px", "margin-right", "14px", "width", "40px"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "100px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "60px"], [2, "padding", "19% 0"], [2, "display", "block", "height", "50px", "margin", "0 auto 12px", "width", "50px"], ["width", "50px", "height", "50px", "viewBox", "0 0 60 60", "version", "1.1", "xmlns", "https://www.w3.org/2000/svg", 0, "xmlns", "xlink", "https://www.w3.org/1999/xlink"], ["stroke", "none", "stroke-width", "1", "fill", "none", "fill-rule", "evenodd"], ["transform", "translate(-511.000000, -20.000000)", "fill", "#000000"], ["d", "M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"], [2, "padding-top", "8px"], [2, "color", "#3897f0", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "550", "line-height", "18px"], [2, "padding", "12.5% 0"], [2, "display", "flex", "flex-direction", "row", "margin-bottom", "14px", "align-items", "center"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(0px) translateY(7px)"], [2, "background-color", "#F4F4F4", "height", "12.5px", "transform", "rotate(-45deg) translateX(3px) translateY(1px)", "width", "12.5px", "flex-grow", "0", "margin-right", "14px", "margin-left", "2px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "height", "12.5px", "width", "12.5px", "transform", "translateX(9px) translateY(-18px)"], [2, "margin-left", "8px"], [2, "background-color", "#F4F4F4", "border-radius", "50%", "flex-grow", "0", "height", "20px", "width", "20px"], [2, "width", "0", "height", "0", "border-top", "2px solid transparent", "border-left", "6px solid #f4f4f4", "border-bottom", "2px solid transparent", "transform", "translateX(16px) translateY(-4px) rotate(30deg)"], [2, "margin-left", "auto"], [2, "width", "0px", "border-top", "8px solid #F4F4F4", "border-right", "8px solid transparent", "transform", "translateY(16px)"], [2, "background-color", "#F4F4F4", "flex-grow", "0", "height", "12px", "width", "16px", "transform", "translateY(-4px)"], [2, "width", "0", "height", "0", "border-top", "8px solid #F4F4F4", "border-left", "8px solid transparent", "transform", "translateY(-4px) translateX(8px)"], [2, "display", "flex", "flex-direction", "column", "flex-grow", "1", "justify-content", "center", "margin-bottom", "24px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "margin-bottom", "6px", "width", "224px"], [2, "background-color", "#F4F4F4", "border-radius", "4px", "flex-grow", "0", "height", "14px", "width", "144px"], [2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "line-height", "17px", "margin-bottom", "0", "margin-top", "8px", "overflow", "hidden", "padding", "8px 0 7px", "text-align", "center", "text-overflow", "ellipsis", "white-space", "nowrap"], ["href", "https://www.instagram.com/p/CGhUzd9huhD/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGjtPpGBAJz/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGmMi-nhiq4/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0H8FBmtj/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGrY96bhrJL/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"], ["data-instgrm-captioned", "", "data-instgrm-permalink", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "data-instgrm-version", "14", 1, "instagram-media", 2, "background", "#FFF", "border", "0", "border-radius", "3px", "box-shadow", "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)", "margin", "1px", "max-width", "540px", "min-width", "326px", "padding", "0", "width", "99.375%", "width", "-webkit-calc(100% - 2px)", "width", "calc(100% - 2px)"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "background", "#FFFFFF", "line-height", "0", "padding", "0 0", "text-align", "center", "text-decoration", "none", "width", "100%"], ["href", "https://www.instagram.com/p/CGo0KS_hDzy/?utm_source=ig_embed&utm_campaign=loading", "target", "_blank", 2, "color", "#c9c8cd", "font-family", "Arial,sans-serif", "font-size", "14px", "font-style", "normal", "font-weight", "normal", "line-height", "17px", "text-decoration", "none"]],
     template: function instagramComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "h3", 1);
@@ -1111,214 +1110,217 @@ class instagramComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "h4");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "Oxford case study short video");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "div", 3)(8, "div", 4)(9, "blockquote", 5)(10, "p", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](11, "Perturbation theory, finding a small quantity in a physical system & using it to expand equations describing the system, has produced insights into much of theoretical physics.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](12, "br")(13, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "But sometimes it's useless. Marieke explains.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](15, "br")(16, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](17, "Full story: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, "https://t.co/TWmafkuc0H");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](8, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "div", 5)(10, "blockquote", 6)(11, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, "Perturbation theory, finding a small quantity in a physical system & using it to expand equations describing the system, has produced insights into much of theoretical physics.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](13, "br")(14, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, "But sometimes it's useless. Marieke explains.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](16, "br")(17, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](18, "Full story: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "https://t.co/TWmafkuc0H");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, "#WomenInScience");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "#WomenInScience");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](23, "pic.twitter.com/14EHtpqPs6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](24, "pic.twitter.com/14EHtpqPs6");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](24, "\u2014 Oxford Mathematics (@OxUniMaths) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](25, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](26, "February 11, 2022");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](28, "Instagram Takeover for Women in Physics Denmark ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "\u2014 Oxford Mathematics (@OxUniMaths) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](27, "February 11, 2022");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](28, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, "Instagram Takeover for Women in Physics Denmark ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "div", 3)(30, "div", 11)(31, "blockquote", 12)(32, "div", 13)(33, "a", 14)(34, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](35, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](37, "div", 18)(38, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "div", 3)(32, "div", 13)(33, "blockquote", 14)(34, "div", 15)(35, "a", 16)(36, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](37, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](39, "div", 20)(40, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](39, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](41, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "svg", 22)(42, "g", 23)(43, "g", 24)(44, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](45, "path", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "svg", 24)(44, "g", 25)(45, "g", 26)(46, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](47, "path", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 26)(47, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](48, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "div", 28)(49, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](49, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "div", 29)(51, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](52, "div", 30)(53, "div", 31)(54, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](51, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](52, "div", 31)(53, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](54, "div", 32)(55, "div", 33)(56, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](56, "div", 34)(57, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](57, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](58, "div", 36)(59, "div", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](59, "div", 37)(60, "div", 38)(61, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](60, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](61, "div", 39)(62, "div", 40)(63, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](62, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](63, "div", 41)(64, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](64, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](65, "div", 43)(66, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](65, "p", 43)(66, "a", 44);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](67, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "p", 45)(68, "a", 46);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "div", 11)(69, "blockquote", 45)(70, "div", 13)(71, "a", 46)(72, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](73, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](74, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](75, "div", 18)(76, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](70, "div", 13)(71, "blockquote", 47)(72, "div", 15)(73, "a", 48)(74, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](75, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](76, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](77, "div", 20)(78, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](77, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](78, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](79, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](80, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](79, "svg", 22)(80, "g", 23)(81, "g", 24)(82, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](83, "path", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](81, "svg", 24)(82, "g", 25)(83, "g", 26)(84, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](85, "path", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "div", 26)(85, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](86, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](86, "div", 28)(87, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](88, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](87, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](88, "div", 29)(89, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](90, "div", 30)(91, "div", 31)(92, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](89, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](90, "div", 31)(91, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](92, "div", 32)(93, "div", 33)(94, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](93, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](94, "div", 34)(95, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](95, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](96, "div", 36)(97, "div", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](96, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](97, "div", 37)(98, "div", 38)(99, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](98, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](99, "div", 39)(100, "div", 40)(101, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](100, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](101, "div", 41)(102, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](102, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](103, "div", 43)(104, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "p", 43)(104, "a", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](105, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](105, "p", 45)(106, "a", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](107, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](106, "div", 11)(107, "blockquote", 48)(108, "div", 13)(109, "a", 49)(110, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](111, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](112, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](113, "div", 18)(114, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](108, "div", 13)(109, "blockquote", 50)(110, "div", 15)(111, "a", 51)(112, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](113, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](114, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](115, "div", 20)(116, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](115, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](117, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](118, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](117, "svg", 22)(118, "g", 23)(119, "g", 24)(120, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](121, "path", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](119, "svg", 24)(120, "g", 25)(121, "g", 26)(122, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](123, "path", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](122, "div", 26)(123, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](124, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](124, "div", 28)(125, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](126, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](125, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](126, "div", 29)(127, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](128, "div", 30)(129, "div", 31)(130, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](127, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](128, "div", 31)(129, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](130, "div", 32)(131, "div", 33)(132, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](131, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](132, "div", 34)(133, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](133, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](134, "div", 36)(135, "div", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](134, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](135, "div", 37)(136, "div", 38)(137, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](136, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](137, "div", 39)(138, "div", 40)(139, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](138, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](139, "div", 41)(140, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](140, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](141, "div", 43)(142, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](141, "p", 43)(142, "a", 50);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](143, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](143, "p", 45)(144, "a", 52);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](145, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](144, "div", 11)(145, "blockquote", 51)(146, "div", 13)(147, "a", 52)(148, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](149, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](150, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](151, "div", 18)(152, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](146, "div", 13)(147, "blockquote", 53)(148, "div", 15)(149, "a", 54)(150, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](151, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](152, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](153, "div", 20)(154, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](153, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](154, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](155, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](156, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](155, "svg", 22)(156, "g", 23)(157, "g", 24)(158, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](159, "path", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](157, "svg", 24)(158, "g", 25)(159, "g", 26)(160, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](161, "path", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "div", 26)(161, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](162, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](162, "div", 28)(163, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](164, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](163, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](164, "div", 29)(165, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](166, "div", 30)(167, "div", 31)(168, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](165, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](166, "div", 31)(167, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](168, "div", 32)(169, "div", 33)(170, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](169, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](170, "div", 34)(171, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](172, "div", 36)(173, "div", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](172, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](173, "div", 37)(174, "div", 38)(175, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](174, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](175, "div", 39)(176, "div", 40)(177, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](176, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](177, "div", 41)(178, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](178, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](179, "div", 43)(180, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "p", 43)(180, "a", 53);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](181, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](181, "p", 45)(182, "a", 55);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](183, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](182, "div", 11)(183, "blockquote", 54)(184, "div", 13)(185, "a", 55)(186, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](187, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](188, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](189, "div", 18)(190, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](184, "div", 13)(185, "blockquote", 56)(186, "div", 15)(187, "a", 57)(188, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](189, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](190, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](191, "div", 20)(192, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](191, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](192, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](193, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](194, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](193, "svg", 22)(194, "g", 23)(195, "g", 24)(196, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](197, "path", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](195, "svg", 24)(196, "g", 25)(197, "g", 26)(198, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](199, "path", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](198, "div", 26)(199, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](200, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](200, "div", 28)(201, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](202, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](201, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](202, "div", 29)(203, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](204, "div", 30)(205, "div", 31)(206, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](203, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](204, "div", 31)(205, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](206, "div", 32)(207, "div", 33)(208, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](207, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](208, "div", 34)(209, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](209, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](210, "div", 36)(211, "div", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](210, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](211, "div", 37)(212, "div", 38)(213, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](212, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](213, "div", 39)(214, "div", 40)(215, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](214, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](215, "div", 41)(216, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](216, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](217, "div", 43)(218, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](217, "p", 43)(218, "a", 56);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](219, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](219, "p", 45)(220, "a", 58);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](221, "A post shared by Kvinder I Fysik (@kvinderifysik)");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](220, "div", 11)(221, "blockquote", 57)(222, "div", 13)(223, "a", 58)(224, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](225, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](226, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](227, "div", 18)(228, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](222, "div", 13)(223, "blockquote", 59)(224, "div", 15)(225, "a", 60)(226, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](227, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](228, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](229, "div", 20)(230, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](229, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](230, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](231, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](232, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceSVG"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](231, "svg", 22)(232, "g", 23)(233, "g", 24)(234, "g");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](235, "path", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](233, "svg", 24)(234, "g", 25)(235, "g", 26)(236, "g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](237, "path", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnamespaceHTML"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](236, "div", 26)(237, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](238, "View this post on Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](238, "div", 28)(239, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](240, "View this post on Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](239, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](240, "div", 29)(241, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](242, "div", 30)(243, "div", 31)(244, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](241, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](242, "div", 31)(243, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](244, "div", 32)(245, "div", 33)(246, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](245, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](246, "div", 34)(247, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](247, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](248, "div", 36)(249, "div", 37);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](248, "div", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](249, "div", 37)(250, "div", 38)(251, "div", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](250, "div", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](251, "div", 39)(252, "div", 40)(253, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](252, "div", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](253, "div", 41)(254, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](254, "div", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](255, "div", 43)(256, "div", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](255, "p", 43)(256, "a", 59);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](257, "A post shared by Kvinder I Fysik (@kvinderifysik)");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](257, "p", 45)(258, "a", 61);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](259, "A post shared by Kvinder I Fysik (@kvinderifysik)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
@@ -1657,8 +1659,8 @@ function publicationsComponent_div_15_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](20, " Abstract: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](21, "br")(22, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](23, "div", 3)(24, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](25, "img", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](23, "div", 21)(24, "a", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](25, "img", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](26, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](27);
@@ -1712,7 +1714,7 @@ class publicationsComponent {
     selectors: [["app-publications"]],
     decls: 16,
     vars: 2,
-    consts: [[1, "container", "py-2"], [1, "container"], [1, "row"], [1, "col-1"], [1, "col-10"], [1, "col-1", "col-md-1"], [1, "col-12", "col-md-10"], ["id", "accordion", "role", "tablist", 1, "panel-group", "accordion"], ["class", "panel panel-default", 4, "ngFor", "ngForOf"], [1, "panel", "panel-default"], ["role", "tab", 1, "panel-heading"], ["id", "collapse", "type", "button", "data-bs-toggle", "collapse", 1, "collapsed"], [1, "panel-title"], [1, "authors"], [1, "col-9"], [1, "col-3"], [1, "number"], ["role", "tabpanel", 1, "panel-collapse", "collapse", "in"], [1, "panel-body"], [1, "col-9", "col-md-11"], [2, "margin-top", "20px"], ["target", "_blank", "type", "button", 1, "nga-btn-arxiv"], ["src", "../../../../assets/icons/arxiv.svg", 1, "arxiv"]],
+    consts: [[1, "container", "py-2"], [1, "container"], [1, "row"], [1, "col-1"], [1, "col-10"], [1, "col-1", "col-md-1"], [1, "col-12", "col-md-10"], ["id", "accordion", "role", "tablist", 1, "panel-group", "accordion"], ["class", "panel panel-default", 4, "ngFor", "ngForOf"], [1, "panel", "panel-default"], ["role", "tab", 1, "panel-heading"], ["id", "collapse", "type", "button", "data-bs-toggle", "collapse", 1, "collapsed"], [1, "panel-title"], [1, "authors"], [1, "col-9"], [1, "col-3"], [1, "number"], ["role", "tabpanel", 1, "panel-collapse", "collapse", "in"], [1, "panel-body"], [1, "col-10", "col-lg-11"], [2, "margin-top", "20px"], [1, "col-2", "col-lg-1"], ["target", "_blank", "type", "button", 1, "nga-btn-arxiv"], ["src", "../../../../assets/icons/arxiv.svg", 1, "arxiv"]],
     template: function publicationsComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div")(2, "div", 1)(3, "div", 2);
@@ -1737,7 +1739,7 @@ class publicationsComponent {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf],
-    styles: ["@font-face {\n    font-family: titleFont;\n    src: url('Mediga.7a4c8259a47c569a.woff');\n  }\n\nh3[_ngcontent-%COMP%] {\n    font-family: titleFont;\n}\n\n@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n#accordion[_ngcontent-%COMP%]   .panel[_ngcontent-%COMP%]{\n    border: none;\n    border-radius: 5px;\n    box-shadow: none;\n    margin-bottom: 10px;\n    background: transparent;\n}\n#accordion[_ngcontent-%COMP%]   .panel-heading[_ngcontent-%COMP%]{\n    padding: 0;\n    border: none;\n    border-radius: 5px;\n    background: transparent;\n    position: relative;\n}\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]{\n    display: block;\n    padding: 15px 45px 0.5px 25px;\n    margin-bottom: 0px;\n    margin-top: 18px;\n    background: rgba(0,0,0,0.15);\n    color: rgba(0,0,0,1);\n    letter-spacing: 1px;\n    border: none;\n    border-radius: 3px;\n    position: relative;\n    text-decoration: none;\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]{ border: none; }\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]:before, .panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    content: \"\\f107\";\n    width: 30px;\n    height: 30px;\n    line-height: 27px;\n    text-align: center;\n    position: absolute;\n    top: 15px;\n    right: 30px;\n    transform: rotate(180deg);\n    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 30px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    color: rgba(255,255,255,0.5);\n    transform: rotate(0deg);\n}\n\n#accordion[_ngcontent-%COMP%]   .panel-title[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-size: 18px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n#accordion[_ngcontent-%COMP%]   .panel-body[_ngcontent-%COMP%]{\n    padding: 20px 30px;\n    background: rgba(0,0,0,0.6);\n    font-size: 15px;\n    color: #fff;\n    line-height: 28px;\n    letter-spacing: 1px;\n    border-top: none;\n    border-radius: 3px;\n}\n\n.authors[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 500;\n    font-size: 14px;\n    \n\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%] {\n    background-color: rgb(217,217,217);\n    position: relative;\n    z-index: 1;\n    display: inline-block;\n    padding: 0;\n    margin: 10px;\n    overflow: hidden;\n    vertical-align: middle;\n    cursor: pointer;\n    border-radius: 50%;\n    \n\n\n    transition: all 0.4s ease-in-out;\n    width: 45px;\n    height: 45px\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%]:hover {\nbackground-color: rgb(112,0,0);\n}\n\n.arxiv[_ngcontent-%COMP%] {\n    width: 1.5em;\n    margin-top: 9px;\n    margin-left: 11.5px;\n    filter: invert(12%) sepia(48%) saturate(4591%) hue-rotate(350deg) brightness(84%) contrast(119%);\n}\n\n.arxiv[_ngcontent-%COMP%]:hover {\nfilter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);\n}\n\n.number[_ngcontent-%COMP%]{\n    bottom: -3px;\n    right: 28px;\n    position: absolute;\n}"],
+    styles: ["@font-face {\n    font-family: titleFont;\n    src: url('Mediga.7a4c8259a47c569a.woff');\n  }\n\nh3[_ngcontent-%COMP%] {\n    font-family: titleFont;\n}\n\n@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n}\n\n#accordion[_ngcontent-%COMP%]   .panel[_ngcontent-%COMP%]{\n    border: none;\n    border-radius: 5px;\n    box-shadow: none;\n    margin-bottom: 10px;\n    background: transparent;\n}\n#accordion[_ngcontent-%COMP%]   .panel-heading[_ngcontent-%COMP%]{\n    padding: 0;\n    border: none;\n    border-radius: 5px;\n    background: transparent;\n    position: relative;\n}\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]{\n    display: block;\n    padding: 15px 45px 0.5px 25px;\n    margin-bottom: 0px;\n    margin-top: 18px;\n    background: rgba(0,0,0,0.15);\n    color: rgba(0,0,0,1);\n    letter-spacing: 1px;\n    border: none;\n    border-radius: 3px;\n    position: relative;\n    text-decoration: none;\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]{ border: none; }\n.panel-heading[_ngcontent-%COMP%]    > a[_ngcontent-%COMP%]:before, .panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    content: \"\\f107\";\n    width: 30px;\n    height: 30px;\n    line-height: 27px;\n    text-align: center;\n    position: absolute;\n    top: 15px;\n    right: 30px;\n    transform: rotate(180deg);\n    transition: all .4s cubic-bezier(0.080, 1.090, 0.320, 1.275);\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 30px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n.panel-heading[_ngcontent-%COMP%]    > a.collapsed[_ngcontent-%COMP%]:before{\n    color: rgba(255,255,255,0.5);\n    transform: rotate(0deg);\n}\n\n#accordion[_ngcontent-%COMP%]   .panel-title[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-size: 18px;\n    font-weight: 900;\n    color: rgba(37, 37, 37);\n}\n#accordion[_ngcontent-%COMP%]   .panel-body[_ngcontent-%COMP%]{\n    padding: 20px 30px;\n    background: rgba(0,0,0,0.6);\n    font-size: 15px;\n    color: #fff;\n    line-height: 28px;\n    letter-spacing: 1px;\n    border-top: none;\n    border-radius: 3px;\n}\n\n.authors[_ngcontent-%COMP%]{\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 500;\n    font-size: 14px;\n    \n\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%] {\n    background-color: rgb(217,217,217);\n    position: relative;\n    z-index: 1;\n    display: inline-block;\n    padding: 0;\n    margin-top: 10px;\n    overflow: hidden;\n    vertical-align: middle;\n    cursor: pointer;\n    border-radius: 50%;\n    \n\n\n    transition: all 0.4s ease-in-out;\n    width: 45px;\n    height: 45px\n}\n\n.nga-btn-arxiv[_ngcontent-%COMP%]:hover {\nbackground-color: rgb(112,0,0);\n}\n\n.arxiv[_ngcontent-%COMP%] {\n    width: 1.5em;\n    margin-top: 9px;\n    margin-left: 11.5px;\n    filter: invert(12%) sepia(48%) saturate(4591%) hue-rotate(350deg) brightness(84%) contrast(119%);\n}\n\n.arxiv[_ngcontent-%COMP%]:hover {\nfilter: invert(100%) sepia(0%) saturate(0%) hue-rotate(163deg) brightness(110%) contrast(101%);\n}\n\n.number[_ngcontent-%COMP%]{\n    bottom: -3px;\n    right: 28px;\n    position: absolute;\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -2033,11 +2035,11 @@ function talksComponent_div_2_div_1_a_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate"]("src", item_r3.imagePath, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
   }
 }
-function talksComponent_div_2_div_1_a_10_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
   if (rf & 1) {
     const _r20 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_10_Template_a_click_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_11_Template_a_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r20);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
       const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
@@ -2047,11 +2049,11 @@ function talksComponent_div_2_div_1_a_10_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
 }
-function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_12_Template(rf, ctx) {
   if (rf & 1) {
     const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_11_Template_a_click_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_12_Template_a_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r23);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
       const ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
@@ -2061,11 +2063,11 @@ function talksComponent_div_2_div_1_a_11_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
 }
-function talksComponent_div_2_div_1_a_12_Template(rf, ctx) {
+function talksComponent_div_2_div_1_a_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r26 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "a", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_12_Template_a_click_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function talksComponent_div_2_div_1_a_13_Template_a_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrestoreView"](_r26);
       const item_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]().$implicit;
       const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"](2);
@@ -2077,21 +2079,22 @@ function talksComponent_div_2_div_1_a_12_Template(rf, ctx) {
 }
 function talksComponent_div_2_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 14)(1, "div", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_div_1_a_2_Template, 2, 1, "a", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_a_3_Template, 2, 1, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 13)(1, "div", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_div_1_a_2_Template, 2, 1, "a", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](3, talksComponent_div_2_div_1_a_3_Template, 2, 1, "a", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "div", 17)(5, "h5", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](4, "div", 16)(5, "h5", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "h5", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "h3", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](9, "p", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](10, talksComponent_div_2_div_1_a_10_Template, 2, 0, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](9, "p", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](11, talksComponent_div_2_div_1_a_11_Template, 2, 0, "a", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](12, talksComponent_div_2_div_1_a_12_Template, 2, 0, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](13, talksComponent_div_2_div_1_a_13_Template, 2, 0, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     const item_r3 = ctx.$implicit;
@@ -2105,7 +2108,7 @@ function talksComponent_div_2_div_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](item_r3.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("innerHTML", item_r3.body, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeHtml"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.youtubeLink != null);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", item_r3.link != null);
@@ -2115,8 +2118,8 @@ function talksComponent_div_2_div_1_Template(rf, ctx) {
 }
 function talksComponent_div_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 13, 8, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, talksComponent_div_2_div_1_Template, 14, 8, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -2125,7 +2128,7 @@ function talksComponent_div_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r0.items);
   }
 }
-function talksComponent_div_190_Template(rf, ctx) {
+function talksComponent_div_186_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "iframe", 26);
@@ -2204,15 +2207,15 @@ class talksComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
     type: talksComponent,
     selectors: [["app-talks"]],
-    decls: 195,
+    decls: 191,
     vars: 3,
-    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [2, "text-align", "center"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header", "clearfix", "d-block", "d-sm-none", "d-flex", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-sm", "btn-outline-primary", "btn-rounded", "btn-md", "ml-4"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-primary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "date"], [1, "card-title"], [1, "card-text", "mb-4", 3, "innerHTML"], ["class", "btn btn-primary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "btn", "btn-primary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
+    consts: [[1, "container", "py-3"], ["class", "card-columns", 4, "ngIf"], [2, "text-align", "center"], [2, "margin-top", "35px"], ["id", "newsModal", "role", "dialog", "tabindex", "-1", "aria-labelledby", "youtube Player", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-body"], ["class", "nga-embed nga-embed-youtube nga-z-depth", 4, "ngIf"], [1, "modal-footer", "justify-content-center"], ["type", "button", "data-bs-dismiss", "modal", 1, "clearfix", "d-none", "d-sm-inline-block", "d-md-inline-block", "d-lg-inline-block", "d-xl-inline-block", "btn", "btn-outline-secondary", "btn-sm", "btn-rounded", "btn-md"], [1, "card-columns"], ["class", "card profile-card-5", 4, "ngFor", "ngForOf"], [1, "card", "profile-card-5"], [1, "card-img-block"], [3, "click", 4, "ngIf"], [1, "card-body", "d-flex", "flex-column"], [1, "date"], [1, "card-title"], [1, "card-text", "mb-4", 3, "innerHTML"], [1, "text-center"], ["class", "btn btn-secondary mt-auto align-self-start", 3, "click", 4, "ngIf"], [3, "click"], ["alt", "", 1, "img-fluid", "rounded", "z-depth-2", "card-movie-img", 3, "src"], [1, "btn", "btn-secondary", "mt-auto", "align-self-start", 3, "click"], [1, "nga-embed", "nga-embed-youtube", "nga-z-depth"], ["allowfullscreen", "", 1, "nga-embed-item", 3, "src"]],
     template: function talksComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](2, talksComponent_div_2_Template, 2, 1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "section", 2)(4, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](3, "section", 2)(4, "h3", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](5, "Invited Plenary Talks");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](6, "br");
@@ -2410,26 +2413,23 @@ class talksComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](178, "i");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](179, "Turin, Italy");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](180, "section")(181, "section")(182, "div", 3)(183, "div", 4)(184, "div", 5)(185, "div", 6)(186, "button", 7)(187, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](188, "Close");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](189, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](190, talksComponent_div_190_Template, 3, 3, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](180, "section")(181, "section")(182, "div", 4)(183, "div", 5)(184, "div", 6)(185, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](186, talksComponent_div_186_Template, 3, 3, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](191, "div", 10)(192, "button", 11)(193, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](194, "Close");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](187, "div", 9)(188, "button", 10)(189, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](190, "Close");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("@fade", undefined);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.loaded);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](188);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](184);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.playerLoaded);
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _safe_pipe__WEBPACK_IMPORTED_MODULE_4__.SafePipe],
-    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\nh2[_ngcontent-%COMP%] {\n  font-family: titleFont;\n}\n\nh3[_ngcontent-%COMP%] {\n  font-family: titleFont;\n  font-size: 22px;\n}\n\n.nga-btn[_ngcontent-%COMP%] {\n  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);\n  padding: 0.5rem 0.5rem 0.5rem 0.5rem;\n  font-size: 0.82rem;\n  border-radius: 0.125rem;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%] {\n  display: inline-block;\n  padding: 0 12px;\n  margin-right: 1rem;\n  margin-bottom: 1rem;\n  font-size: 13px;\n  color: rgba(0, 0, 0, 0.6);\n  cursor: pointer;\n  background-color: #eceff1;\n  border-radius: 16px;\n  transition: all 0.3s linear;\n}\n\n.nga-badge[_ngcontent-%COMP%]:hover {\n  background-color: #e0e0e0;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .close[_ngcontent-%COMP%] {\n  padding-left: 10px;\n  line-height: 32px;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-film[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-desktop[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-volume-up[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-playstation[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-badge[_ngcontent-%COMP%]   .fa-photo-video[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n  border-radius: 0.25rem;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 2px;\n  transition: all 0.2s ease-in-out;\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  border-radius: 0.25rem;\n  transition: all 0.2s ease-in-out;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n  scale: 1.05;\n}\n\n.card-body[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  margin-bottom: 5px;\n  color: white !important;\n}\n\n.card-body[_ngcontent-%COMP%] {\n  padding-top: 0px;\n}\n\n.date[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 15px;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 95%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  margin-bottom: 20px;\n  border: none;\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n  .container[_ngcontent-%COMP%] {\n    max-width: 850px;\n  }\n}"],
+    styles: ["@font-face {\n  font-family: titleFont;\n  src: url('Mediga.7a4c8259a47c569a.woff');\n}\nh2[_ngcontent-%COMP%] {\n  font-family: titleFont;\n}\n\nh3[_ngcontent-%COMP%] {\n  font-family: titleFont;\n  font-size: 22px;\n}\n\n.nga-btn[_ngcontent-%COMP%]:hover, .nga-btn[_ngcontent-%COMP%]:active, .nga-btn[_ngcontent-%COMP%]:focus {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);\n  outline: 0;\n}\n\n.nga-btn-primary[_ngcontent-%COMP%] {\n  border: 2px solid #4285f4 !important;\n  color: #4285f4 !important;\n  background-color: transparent !important;\n}\n\n.nga-form-control[_ngcontent-%COMP%] {\n  border: 1.2px solid #dfe3e7;\n  background-color: #fff;\n  border: 1.9px solid #dfe3e7;\n}\n\n.nga-form-control[_ngcontent-%COMP%]:focus {\n  color: #555252;\n  background-color: #fff;\n  border-color: #5a8dee;\n  border: 1.9px solid #5a8dee;\n  outline: 0;\n  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);\n}\n\n.form-check[_ngcontent-%COMP%]   .nga-form-check-label[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: grey;\n}\n\n.nga-card-movie[_ngcontent-%COMP%] {\n  padding: 5px 5px 5px 5px;\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 0px solid #dfe3e7;\n}\n\n.nga-card[_ngcontent-%COMP%] {\n  display: block;\n  background-color: rgba(255, 255, 255, 0.8);\n  margin-top: 20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 91%;\n  margin: 0 auto;\n  position: relative;\n  top: -20px;\n}\n\n.nga-card[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%]   .nga-card-img[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.nga-player[_ngcontent-%COMP%] {\n  opacity: 0.8;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n}\n\n.nga-player[_ngcontent-%COMP%]:hover {\n  opacity: 0.4;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: transparent;\n  cursor: pointer;\n}\n\n.nga-embed[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nga-embed[_ngcontent-%COMP%]::before {\n  display: block;\n  content: \"\";\n}\n\n.nga-embed[_ngcontent-%COMP%]   .nga-embed-item[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   embed[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   object[_ngcontent-%COMP%], .nga-embed[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 0;\n}\n\n.nga-embed-youtube[_ngcontent-%COMP%]::before {\n  padding-top: 56.25%;\n}\n\n.nga-z-depth[_ngcontent-%COMP%] {\n  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;\n}\n\n.card-movie[_ngcontent-%COMP%] {\n  position: relative;\n  background-color: #fff;\n  font-size: 24px;\n  color: black;\n  font-weight: bold;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: gray;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n}\n\n.card-movie-date[_ngcontent-%COMP%] {\n  padding: 0px 10px 0px 0px;\n  position: relative;\n  font-size: 9px;\n  border: 0px solid #ddd;\n  color: gray;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  background-color: transparent;\n}\n\n.card-movie-date[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n  text-decoration: underline;\n}\n\n.card-movie-img[_ngcontent-%COMP%] {\n  opacity: 1;\n  cursor: pointer;\n  text-align: center;\n  margin: auto;\n  display: flex;\n}\n\n.card-movie-img[_ngcontent-%COMP%]:hover {\n  opacity: 0.7;\n}\n\n.card-body[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  margin-bottom: 5px;\n  color: rgb(255, 255, 255) !important;\n}\n\n.card-body[_ngcontent-%COMP%] {\n  padding-top: 0px;\n  text-align: center;\n}\n\n.date[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 15px;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: #3F729B;\n  font-weight: 700;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects;\n  cursor: pointer;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  color: #0d6efd;\n  font-weight: 700;\n}\n\n.card-movie-text[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: black;\n}\n\n.card-movie-text[_ngcontent-%COMP%] {\n  padding: 7px 4px 0px 0px;\n  display: block;\n  font-size: 0.8rem;\n  display: -webkit-box;\n  max-width: 400px;\n  margin: 0 auto;\n  line-height: 1.4;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.nga-bd-blue-200[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #9ec5fe;\n}\n\n.nga-bd-blue-300[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #6ea8fe;\n}\n\n.nga-bd-blue-400[_ngcontent-%COMP%] {\n  color: #000;\n  background-color: #3d8bfd;\n}\n\n.nga-bd-blue-500[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0d6efd;\n}\n\n.nga-bd-blue-600[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #0a58ca;\n}\n\n.nga-bd-blue-700[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #084298;\n}\n\n.nga-bd-blue-800[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #052c65;\n}\n\n.card-columns[_ngcontent-%COMP%]   .card[_ngcontent-%COMP%] {\n  display: inline-block;\n  width: 95%;\n}\n\n.profile-card-5[_ngcontent-%COMP%]   .card-img-block[_ngcontent-%COMP%] {\n  width: 90%;\n  margin: 0 auto;\n  position: relative;\n  margin-bottom: 10px;\n  margin-top: 10px;\n}\n\n.profile-card-5[_ngcontent-%COMP%] {\n  margin-top: 20px;\n}\n\n.card[_ngcontent-%COMP%] {\n  margin-bottom: 20px;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: initial;\n}\n.card[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  text-decoration: initial;\n}\n.card[_ngcontent-%COMP%]   .text-muted[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  margin: 0 10px;\n}\n\n@media (min-width: 356px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 1;\n  }\n}\n@media (min-width: 576px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 768px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 2;\n  }\n}\n@media (min-width: 992px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n}\n@media (min-width: 1200px) {\n  .card-columns[_ngcontent-%COMP%] {\n    column-count: 3;\n  }\n  .container[_ngcontent-%COMP%] {\n    max-width: 850px;\n  }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -2632,7 +2632,7 @@ class teachingComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("@fade", undefined);
       }
     },
-    styles: ["@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n\n    .text1[_ngcontent-%COMP%] {\n        padding: 3vh 8vw 0vh 0vw;\n    }\n    \n    .text2[_ngcontent-%COMP%] {\n        padding: 9vh 0vw 0vh 15vw;\n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n\n    .text1[_ngcontent-%COMP%] {\n        padding: 2vh 7vw 0vh 7vw;\n    }\n    \n    .text2[_ngcontent-%COMP%] {\n        padding: 2vh 7vw 0vh 7vw;\n    }\n}\n\n.pic1[_ngcontent-%COMP%] {\n    width: 60%;\n    margin-left: 20%;\n}\n\n\n\n.line[_ngcontent-%COMP%] {\n    border: 1px solid black;\n    transform: translate(139px, -40px);\n    width: 79%;\n    z-index: -1;\n}\n\n@media only screen and (max-width: 1200px) and (min-width: 0px)  {\n    .line[_ngcontent-%COMP%] {\n        visibility: hidden;\n    }\n}"],
+    styles: ["@font-face {\n    font-family: titleFont;\n    src: url('Mediga.7a4c8259a47c569a.woff');\n  }\n\nh3[_ngcontent-%COMP%] {\n    font-family: titleFont;\n}\n\n@media (min-width: 982px) {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 0px; \n    }\n\n    .text1[_ngcontent-%COMP%] {\n        padding: 3vh 8vw 0vh 0vw;\n    }\n    \n    .text2[_ngcontent-%COMP%] {\n        padding: 9vh 0vw 0vh 15vw;\n    }\n}\n@media only screen and (max-width: 981px) and (min-width: 292px)  {\n    .clear[_ngcontent-%COMP%] { \n        clear: both; \n        height: 250px; \n    }\n\n    .text1[_ngcontent-%COMP%] {\n        padding: 2vh 7vw 0vh 7vw;\n    }\n    \n    .text2[_ngcontent-%COMP%] {\n        padding: 2vh 7vw 0vh 7vw;\n    }\n}\n\n.pic1[_ngcontent-%COMP%] {\n    width: 60%;\n    margin-left: 20%;\n}\n\n\n\n.line[_ngcontent-%COMP%] {\n    border: 1px solid black;\n    transform: translate(139px, -40px);\n    width: 79%;\n    z-index: -1;\n}\n\n@media only screen and (max-width: 1400px) and (min-width: 0px)  {\n    .line[_ngcontent-%COMP%] {\n        visibility: hidden;\n    }\n}"],
     data: {
       animation: [_animations__WEBPACK_IMPORTED_MODULE_0__.fade]
     }
@@ -6653,7 +6653,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵPRE_STYLE": () => (/* binding */ ɵPRE_STYLE)
 /* harmony export */ });
 /**
- * @license Angular v16.2.12
+ * @license Angular v16.2.9
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7907,7 +7907,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/animations */ 6825);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 5879);
 /**
- * @license Angular v16.2.12
+ * @license Angular v16.2.9
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -11942,14 +11942,7 @@ class WebAnimationsPlayer {
     // @ts-expect-error overwriting a readonly property
     this.domPlayer = this._triggerWebAnimation(this.element, keyframes, this.options);
     this._finalKeyframe = keyframes.length ? keyframes[keyframes.length - 1] : new Map();
-    const onFinish = () => this._onFinish();
-    this.domPlayer.addEventListener('finish', onFinish);
-    this.onDestroy(() => {
-      // We must remove the `finish` event listener once an animation has completed all its
-      // iterations. This action is necessary to prevent a memory leak since the listener captures
-      // `this`, creating a closure that prevents `this` from being garbage collected.
-      this.domPlayer.removeEventListener('finish', onFinish);
-    });
+    this.domPlayer.addEventListener('finish', () => this._onFinish());
   }
   _preparePlayerBeforeStart() {
     // this is required so that the player doesn't start to animate right away
@@ -13738,11 +13731,13 @@ class ConfigurableFocusTrapFactory {
 /** Gets whether an event could be a faked `mousedown` event dispatched by a screen reader. */
 function isFakeMousedownFromScreenReader(event) {
   // Some screen readers will dispatch a fake `mousedown` event when pressing enter or space on
-  // a clickable element. We can distinguish these events when `event.buttons` is zero, or
-  // `event.detail` is zero depending on the browser:
+  // a clickable element. We can distinguish these events when both `offsetX` and `offsetY` are
+  // zero or `event.buttons` is zero, depending on the browser:
   // - `event.buttons` works on Firefox, but fails on Chrome.
-  // - `detail` works on Chrome, but fails on Firefox.
-  return event.buttons === 0 || event.detail === 0;
+  // - `offsetX` and `offsetY` work on Chrome, but fail on Firefox.
+  // Note that there's an edge case where the user could click the 0x0 spot of the
+  // screen themselves, but that is unlikely to contain interactive elements.
+  return event.buttons === 0 || event.offsetX === 0 && event.offsetY === 0;
 }
 /** Gets whether an event could be a faked `touchstart` event dispatched by a screen reader. */
 function isFakeTouchstartFromScreenReader(event) {
@@ -15028,7 +15023,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /** Current version of the Angular Component Development Kit. */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
 
 //# sourceMappingURL=cdk.mjs.map
 
@@ -23660,7 +23655,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵHttpInterceptorHandler": () => (/* binding */ HttpInterceptorHandler),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
+/* harmony import */ var C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 5879);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 2096);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 5592);
@@ -25112,7 +25107,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -25166,7 +25161,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -66427,7 +66422,7 @@ function MatOption_span_6_Template(rf, ctx) {
 }
 const _c3 = [[["mat-icon"]], "*"];
 const _c4 = ["mat-icon", "*"];
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
 
 /** @docs-private */
 class AnimationCurves {

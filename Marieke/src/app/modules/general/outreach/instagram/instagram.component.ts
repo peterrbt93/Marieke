@@ -18,6 +18,7 @@ export class instagramComponent implements OnInit  {
 
   ngOnInit() {
     this.instagram.processEmbeddedInstagramPosts();
+    (<any>window).twttr.widgets.load();
   }
 
 }

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: titleFont;
+    src: url(../../../../assets/params/css/Mediga.woff);
+  }
+
+h3 {
+    font-family: titleFont;
+}
+
 @media (min-width: 982px) {
     .clear { 
         clear: both; 
@@ -41,7 +50,7 @@
     z-index: -1;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 0px)  {
+@media only screen and (max-width: 1400px) and (min-width: 0px)  {
     .line {
         visibility: hidden;
     }
