@@ -3,10 +3,15 @@
   src: url(../../../assets/params/css/Mediga.woff);
 }
 
-
-.container {
-  max-width: 1600px;
+@media (max-width: 576px) {
+  nav > .container {
+      margin-left: 0;
+      margin-right: 0;
+  }
 }
+  .container {
+    max-width: 1600px;
+  }
 @media (max-width: 991px) {
   .nga-btn-linkedin {
     margin-left: 34vw !important;

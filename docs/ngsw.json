@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1705027871467,
+  "timestamp": 1705110052537,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/806.d192c297f35f8216.js",
         "/favicon.ico",
         "/index.html",
-        "/main.10ef5b6c14ba2c6c.js",
+        "/main.98e46928bca33c50.js",
         "/manifest.webmanifest",
         "/polyfills.0059e066db1327e3.js",
         "/runtime.8862461801724c54.js",
@@ -731,8 +731,8 @@
     "/assets/params/images/teaching/Teaching1.jpg": "b858507ed094535463538f79d674ef850ccd14bd",
     "/assets/params/images/teaching/Teaching2.jpg": "982b50e6441c1d85c86133b39707fe9f89573112",
     "/assets/params/images/teaching/Teaching2opa.jpg": "a76b63aa36fbbe60fe500fdbc736a2d877fcc1d4",
-    "/assets/params/images/teaching/Teaching3.jpg": "15de1e8891bc0dfe49644c1b0f7d09c82dcef25e",
-    "/assets/params/images/teaching/Teaching4.png": "635a5abcd102724c19b87c3ceac26dfac90d9909",
+    "/assets/params/images/teaching/Teaching3.jpg": "00184225d5120e9b45cd5fa528a4969ace302234",
+    "/assets/params/images/teaching/Teaching4.png": "64253b949494efb25383d77c7c901ce06dda4f48",
     "/assets/params/js/popovers.js": "50115a13cf9854ac39e7fe4d5caa332e1368fa7f",
     "/assets/params/js/toasts.js": "259f691cf7f3a3b8d73629e314d98da4b25feed6",
     "/assets/params/js/tooltips.js": "99bdb8880f6449bfa89a9fc9fd5b46edf54952d2",
@@ -747,8 +747,8 @@
     "/fa-v4compatibility.e4efb16c858fae78.ttf": "321d89c65f1746f111341556bc62c7e217ad2544",
     "/favicon.ico": "aa946198fdee9e2e86c5948491e55f24a3afdf1d",
     "/galaxy.594040f47a4ccf44.jpg": "dbcbb33b83d69e56f115a97d980671e3ab8b8276",
-    "/index.html": "16b650de2bfe599350132c76275c04ef56bec1fd",
-    "/main.10ef5b6c14ba2c6c.js": "a4e49b127067eed658f072b79907d00ad9d2621f",
+    "/index.html": "195fb1cc0e6e406e1aa89830a6b635254f3b8249",
+    "/main.98e46928bca33c50.js": "04a6e3ba6a506455c4e5d29c87e16ffce7ab6698",
     "/manifest.webmanifest": "42d6bf3d053014883d0a5f54cdf7276995a15bce",
     "/polyfills.0059e066db1327e3.js": "1a9169700207f945648b7f3401814fd004b5c0fd",
     "/runtime.8862461801724c54.js": "a8d856d832ab188f8a974b3dcacc37793ef55330",
