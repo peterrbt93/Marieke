@@ -649,7 +649,7 @@ class aboutmeComponent {
           </p>
           <p>
             I am currently employed as a <i>Research Assistant Professor</i> at the <i>Simons Center for Geometry and Physics</i>.
-          </p> 
+          </p>  
         `), new _models_about__WEBPACK_IMPORTED_MODULE_1__.About("Positions", ` 
         <p class="dateTitle">09/2022 &mdash; current</p>
           <p>
@@ -6638,7 +6638,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵPRE_STYLE": () => (/* binding */ ɵPRE_STYLE)
 /* harmony export */ });
 /**
- * @license Angular v16.2.9
+ * @license Angular v16.2.12
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7892,7 +7892,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/animations */ 6825);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 5879);
 /**
- * @license Angular v16.2.9
+ * @license Angular v16.2.12
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -11927,7 +11927,14 @@ class WebAnimationsPlayer {
     // @ts-expect-error overwriting a readonly property
     this.domPlayer = this._triggerWebAnimation(this.element, keyframes, this.options);
     this._finalKeyframe = keyframes.length ? keyframes[keyframes.length - 1] : new Map();
-    this.domPlayer.addEventListener('finish', () => this._onFinish());
+    const onFinish = () => this._onFinish();
+    this.domPlayer.addEventListener('finish', onFinish);
+    this.onDestroy(() => {
+      // We must remove the `finish` event listener once an animation has completed all its
+      // iterations. This action is necessary to prevent a memory leak since the listener captures
+      // `this`, creating a closure that prevents `this` from being garbage collected.
+      this.domPlayer.removeEventListener('finish', onFinish);
+    });
   }
   _preparePlayerBeforeStart() {
     // this is required so that the player doesn't start to animate right away
@@ -13716,13 +13723,11 @@ class ConfigurableFocusTrapFactory {
 /** Gets whether an event could be a faked `mousedown` event dispatched by a screen reader. */
 function isFakeMousedownFromScreenReader(event) {
   // Some screen readers will dispatch a fake `mousedown` event when pressing enter or space on
-  // a clickable element. We can distinguish these events when both `offsetX` and `offsetY` are
-  // zero or `event.buttons` is zero, depending on the browser:
+  // a clickable element. We can distinguish these events when `event.buttons` is zero, or
+  // `event.detail` is zero depending on the browser:
   // - `event.buttons` works on Firefox, but fails on Chrome.
-  // - `offsetX` and `offsetY` work on Chrome, but fail on Firefox.
-  // Note that there's an edge case where the user could click the 0x0 spot of the
-  // screen themselves, but that is unlikely to contain interactive elements.
-  return event.buttons === 0 || event.offsetX === 0 && event.offsetY === 0;
+  // - `detail` works on Chrome, but fails on Firefox.
+  return event.buttons === 0 || event.detail === 0;
 }
 /** Gets whether an event could be a faked `touchstart` event dispatched by a screen reader. */
 function isFakeTouchstartFromScreenReader(event) {
@@ -15008,7 +15013,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /** Current version of the Angular Component Development Kit. */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
 
 //# sourceMappingURL=cdk.mjs.map
 
@@ -23640,7 +23645,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵHttpInterceptorHandler": () => (/* binding */ HttpInterceptorHandler),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
+/* harmony import */ var C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 5861);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 5879);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 2096);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 5592);
@@ -25092,7 +25097,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -25146,7 +25151,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_MariekeSite_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_GitProjects_peterrbt93_github_io_Marieke_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -66407,7 +66412,7 @@ function MatOption_span_6_Template(rf, ctx) {
 }
 const _c3 = [[["mat-icon"]], "*"];
 const _c4 = ["mat-icon", "*"];
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.10');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.Version('16.2.12');
 
 /** @docs-private */
 class AnimationCurves {

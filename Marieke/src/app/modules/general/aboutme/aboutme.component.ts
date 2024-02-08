@@ -44,7 +44,7 @@ export class aboutmeComponent {
           </p>
           <p>
             I am currently employed as a <i>Research Assistant Professor</i> at the <i>Simons Center for Geometry and Physics</i>.
-          </p> 
+          </p>  
         `
       ),
 
