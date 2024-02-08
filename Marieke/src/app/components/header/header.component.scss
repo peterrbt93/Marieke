@@ -3,6 +3,11 @@
   src: url(../../../assets/params/css/Mediga.woff);
 }
 
+@font-face {
+  font-family: nameFont;
+  src: url(../../../assets/params/css/Zeyada-Regular.ttf);
+}
+
 @media (max-width: 576px) {
   nav > .container {
       margin-left: 0;
@@ -146,7 +151,7 @@
 
 .nga-logo {
   font-weight: 500;
-  font-family: 'DatalegreyaThin';
+  font-family: 'nameFont';
   color: rgb(37, 37, 37);
   font-style: normal; 
   font-size: 52px;
