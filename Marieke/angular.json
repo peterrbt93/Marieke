@@ -25,7 +25,8 @@
               "src/assets",
               "src/manifest.webmanifest",
               "src/sitemap.xml",
-              "src/robots.txt"
+              "src/robots.txt",
+              "src/routes.json"
             ],
             "styles": [
               "@angular/material/prebuilt-themes/deeppurple-amber.css",
