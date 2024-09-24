@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1727191064559,
+  "timestamp": 1727191776759,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -88,6 +88,7 @@
         "/assets/params/js/toasts.js",
         "/assets/params/js/tooltips.js",
         "/assets/params/json/mock/talks.json",
+        "/assets/staticwebapp.config.json",
         "/fa-brands-400.1342812213307936.ttf",
         "/fa-brands-400.60e5c9d38b143ff0.woff2",
         "/fa-regular-400.6f7d0aec71887524.woff2",
@@ -161,6 +162,7 @@
     "/assets/params/js/toasts.js": "259f691cf7f3a3b8d73629e314d98da4b25feed6",
     "/assets/params/js/tooltips.js": "99bdb8880f6449bfa89a9fc9fd5b46edf54952d2",
     "/assets/params/json/mock/talks.json": "af79e99d5169b03ead826d7e5df44f923eee81ea",
+    "/assets/staticwebapp.config.json": "73e00d2c581fa68533807a850ec88b117ec5714b",
     "/fa-brands-400.1342812213307936.ttf": "7ce89c71d5a51ac65b159c71422783dd86529c66",
     "/fa-brands-400.60e5c9d38b143ff0.woff2": "e948290773216dc1b50c2121314a8cf918c22b54",
     "/fa-regular-400.6f7d0aec71887524.woff2": "46e272db3db1072791628679bc469112c8e41017",
