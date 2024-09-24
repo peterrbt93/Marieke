@@ -1016,7 +1016,7 @@ class HomeComponent {
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](7, "br");
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](8, "p");
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](9, " I am a Danish theoretical physicist currently living in Long Island, New York, USA. I am a Research Assistant Professor at the Simons Center for Geometry and Physics. My research centers on problems in quantum field theory and string theory. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](9, " I am a Danish theoretical physicist currently living in Long Island, New York, USA. I am a Research Assistant Professor at the Simons Center for Geometry and Physics. My research centers on problems in Quantum Field Theory and String Theory. ");
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](10, "div", 4);
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
